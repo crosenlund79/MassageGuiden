@@ -1,0 +1,2221 @@
+[
+  {
+    "id": "ben-1",
+    "program": "ben",
+    "step": "1",
+    "region": "ben-bagside",
+    "name": "Effleurage af benets bagside",
+    "type": "effleurage",
+    "tools": [
+      "hænder"
+    ],
+    "description": "Lange, glidende strygninger over hele benets bagside.",
+    "position": null,
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 3,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.41.jpg",
+      "caption": "1. Effleurage af bagside af ben."
+    },
+    "order": 1
+  },
+  {
+    "id": "ben-2",
+    "program": "ben",
+    "step": "2",
+    "region": "ben-bagside",
+    "name": "”Løft” af lægmusklen",
+    "type": "løft",
+    "tools": [
+      "hænder"
+    ],
+    "description": "Lægmusklen løftes med hænderne.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "gastrocnemius",
+        "basis": "afledt",
+        "note": "”lægmusklen”"
+      },
+      {
+        "id": "soleus",
+        "basis": "afledt",
+        "note": "”lægmusklen”"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [
+      {
+        "text": "”skiftevis” (skrevet på fotoet)",
+        "certain": false
+      }
+    ],
+    "reviewNotes": [],
+    "status": "til-gennemsyn",
+    "source": {
+      "page": 3,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.41.jpg",
+      "caption": "2. ”Løft” lægmusklen."
+    },
+    "order": 2
+  },
+  {
+    "id": "ben-3",
+    "program": "ben",
+    "step": "3",
+    "region": "ben-bagside",
+    "name": "Tommelfingerfriktion langs gastrocnemius",
+    "type": "friktion",
+    "tools": [
+      "tommelfingre"
+    ],
+    "description": "Tommelfingerfriktioner langs m. gastrocnemius – både medialt og lateralt – op til over knæet.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "gastrocnemius",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [
+      "Kilden staver ”gastronecmius”; tolket som m. gastrocnemius."
+    ],
+    "status": "til-gennemsyn",
+    "source": {
+      "page": 3,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.41.jpg",
+      "caption": "3. Tommelfingerfriktion langs gastronecmius. (medialt som lateralt) til over knæet."
+    },
+    "order": 3
+  },
+  {
+    "id": "ben-4",
+    "program": "ben",
+    "step": "4",
+    "region": "ben-bagside",
+    "name": "Petrissage af akillessenen",
+    "type": "petrissage",
+    "tools": [
+      "fingre"
+    ],
+    "description": "Æltning af området omkring akillessenen.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "tendo-calcaneus",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 3,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.41.jpg",
+      "caption": "4. Petrissage af achillessene."
+    },
+    "order": 4
+  },
+  {
+    "id": "ben-5",
+    "program": "ben",
+    "step": "5",
+    "region": "ben-bagside",
+    "name": "Skil lægmusklen",
+    "type": "friktion",
+    "tools": [
+      "tommelfingre"
+    ],
+    "description": "Lægmusklen skilles med tommelfingrene.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "gastrocnemius",
+        "basis": "afledt",
+        "note": "”lægmusklen”"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [
+      {
+        "text": "”Bevæger vævet”",
+        "certain": false
+      }
+    ],
+    "reviewNotes": [],
+    "status": "til-gennemsyn",
+    "source": {
+      "page": 3,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.41.jpg",
+      "caption": "5. Skil lægmusklen med tommelfingre."
+    },
+    "order": 5
+  },
+  {
+    "id": "ben-6",
+    "program": "ben",
+    "step": "6",
+    "region": "ben-bagside",
+    "name": "Tommelfingerfriktioner langs haserne",
+    "type": "friktion",
+    "tools": [
+      "tommelfingre"
+    ],
+    "description": "Tommelfingerfriktioner langs hasemusklerne op til tuber ischii. Start under knæet.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "biceps-femoris",
+        "basis": "kilde",
+        "note": "”haserne”"
+      },
+      {
+        "id": "semitendinosus",
+        "basis": "kilde",
+        "note": "”haserne”"
+      },
+      {
+        "id": "semimembranosus",
+        "basis": "kilde",
+        "note": "”haserne”"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 4,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.39.jpg",
+      "caption": "6. Tommelfingerfriktioner langs haserne til tuber ischii (begynd under knæet)"
+    },
+    "order": 6
+  },
+  {
+    "id": "ben-7",
+    "program": "ben",
+    "step": "7",
+    "region": "ben-bagside",
+    "name": "Skil hasemusklerne",
+    "type": "friktion",
+    "tools": [
+      "tommelfingre"
+    ],
+    "description": "Hasemusklerne skilles fra hinanden med tommelfingrene.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "biceps-femoris",
+        "basis": "kilde",
+        "note": "”hasemusklerne”"
+      },
+      {
+        "id": "semitendinosus",
+        "basis": "kilde",
+        "note": "”hasemusklerne”"
+      },
+      {
+        "id": "semimembranosus",
+        "basis": "kilde",
+        "note": "”hasemusklerne”"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 4,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.39.jpg",
+      "caption": "7. Skil hasemusklerne med tommelfingrene."
+    },
+    "order": 7
+  },
+  {
+    "id": "ben-8",
+    "program": "ben",
+    "step": "8",
+    "region": "ben-bagside",
+    "name": "Knofriktion af tuber ischii-området",
+    "type": "friktion",
+    "tools": [
+      "knoer"
+    ],
+    "description": "Knofriktioner omkring sædebensknuden (tuber ischii).",
+    "position": null,
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 4,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.39.jpg",
+      "caption": "8. Knofriktion af tuber ischii området."
+    },
+    "order": 8
+  },
+  {
+    "id": "ben-9",
+    "program": "ben",
+    "step": "9",
+    "region": "ben-bagside",
+    "name": "Friktioner af gluteus maximus",
+    "type": "friktion",
+    "tools": [
+      "tommelfingre",
+      "knoer"
+    ],
+    "description": "Tommelfingerfriktioner over m. gluteus maximus, derefter knofriktioner.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "gluteus-maximus",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 4,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.39.jpg",
+      "caption": "9. Tommelfingerfriktioner af m. Gluteus Maximus, efterfulgt af knofriktioner."
+    },
+    "order": 9
+  },
+  {
+    "id": "ben-10",
+    "program": "ben",
+    "step": "10",
+    "region": "ben-bagside",
+    "name": "Effleurage af benets bagside",
+    "type": "effleurage",
+    "tools": [
+      "hænder"
+    ],
+    "description": "Afsluttende strygninger over benets bagside.",
+    "position": null,
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 4,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.39.jpg",
+      "caption": "10. Effleurage af bagside af ben."
+    },
+    "order": 10
+  },
+  {
+    "id": "ben-11",
+    "program": "ben",
+    "step": "11",
+    "region": "ben-bagside",
+    "gap": true,
+    "reason": "Side 5 er for sløret til at kunne læses. Billedtekster og eventuelt sideskift (vending til rygleje) kan ikke bestemmes.",
+    "source": {
+      "page": 5,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.37.jpg",
+      "caption": null
+    },
+    "order": 11
+  },
+  {
+    "id": "ben-12",
+    "program": "ben",
+    "step": "12",
+    "region": "ben-bagside",
+    "gap": true,
+    "reason": "Side 5 er for sløret til at kunne læses. Billedtekster og eventuelt sideskift (vending til rygleje) kan ikke bestemmes.",
+    "source": {
+      "page": 5,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.37.jpg",
+      "caption": null
+    },
+    "order": 12
+  },
+  {
+    "id": "ben-13",
+    "program": "ben",
+    "step": "13",
+    "region": "ben-bagside",
+    "gap": true,
+    "reason": "Side 5 er for sløret til at kunne læses. Billedtekster og eventuelt sideskift (vending til rygleje) kan ikke bestemmes.",
+    "source": {
+      "page": 5,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.37.jpg",
+      "caption": null
+    },
+    "order": 13
+  },
+  {
+    "id": "ben-14",
+    "program": "ben",
+    "step": "14",
+    "region": "ben-bagside",
+    "gap": true,
+    "reason": "Side 5 er for sløret til at kunne læses. Billedtekster og eventuelt sideskift (vending til rygleje) kan ikke bestemmes.",
+    "source": {
+      "page": 5,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.37.jpg",
+      "caption": null
+    },
+    "order": 14
+  },
+  {
+    "id": "ben-15",
+    "program": "ben",
+    "step": "15",
+    "region": "ben-forside",
+    "name": "Tommelfingerfriktioner lateralt for tibia",
+    "type": "friktion",
+    "tools": [
+      "tommelfingre"
+    ],
+    "description": "Tommelfingerfriktioner langs underbenets forside, på ydersiden af skinnebenet.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "tibialis-anterior",
+        "basis": "afledt"
+      }
+    ],
+    "precautions": [
+      {
+        "text": "Ikke over knæleddet.",
+        "basis": "kilde"
+      }
+    ],
+    "handwrittenNotes": [
+      {
+        "text": "”(Dorsalfleksion.)” – usikker læsning",
+        "certain": false
+      }
+    ],
+    "reviewNotes": [],
+    "status": "til-gennemsyn",
+    "source": {
+      "page": 6,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.34.jpg",
+      "caption": "15. Tommelfingerfriktioner langs underbenet på laterale side af tibia (ikke over knæled)."
+    },
+    "order": 15
+  },
+  {
+    "id": "ben-16",
+    "program": "ben",
+    "step": "16",
+    "region": "ben-forside",
+    "name": "Forsigtige friktioner langs tibia",
+    "type": "friktion",
+    "tools": [
+      "fingre"
+    ],
+    "description": "Forsigtige friktioner langs skinnebenet, især ved tuberositas tibiae.",
+    "position": null,
+    "muscles": [],
+    "precautions": [
+      {
+        "text": "Udføres forsigtigt (direkte over knoglen).",
+        "basis": "kilde"
+      }
+    ],
+    "handwrittenNotes": [],
+    "reviewNotes": [
+      "Kilden skriver ”tuberosita tibia”; korrekt latin er tuberositas tibiae."
+    ],
+    "status": "til-gennemsyn",
+    "source": {
+      "page": 6,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.34.jpg",
+      "caption": "16. Forsigtige friktioner langs tibia, især tuberosita tibia."
+    },
+    "order": 16
+  },
+  {
+    "id": "ben-17",
+    "program": "ben",
+    "step": "17",
+    "region": "ben-forside",
+    "name": "Friktioner langs vastus medialis og lateralis",
+    "type": "friktion",
+    "tools": [
+      "tommelfingre"
+    ],
+    "description": "Tommelfingerfriktioner langs m. vastus medialis og m. vastus lateralis.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "vastus-medialis",
+        "basis": "kilde"
+      },
+      {
+        "id": "vastus-lateralis",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [
+      {
+        "text": "”Tommel”",
+        "certain": false
+      },
+      {
+        "text": "”3 baner”",
+        "certain": false
+      },
+      {
+        "text": "”Effleurage på lår” (øverst på siden)",
+        "certain": false
+      }
+    ],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 7,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.32.jpg",
+      "caption": "17. Tommelfingerfriktioner langs m. Vastus medialis samt m. Vastus lateralis"
+    },
+    "order": 17
+  },
+  {
+    "id": "ben-18",
+    "program": "ben",
+    "step": "18",
+    "region": "ben-forside",
+    "name": "Knofriktion af rectus femoris",
+    "type": "friktion",
+    "tools": [
+      "knoer"
+    ],
+    "description": "Knofriktioner langs m. rectus femoris.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "rectus-femoris",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [
+      {
+        "text": "”Kno”",
+        "certain": false
+      },
+      {
+        "text": "”3 baner”",
+        "certain": false
+      }
+    ],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 7,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.32.jpg",
+      "caption": "18. Knofriktion af m. Rectus Femoris."
+    },
+    "order": 18
+  },
+  {
+    "id": "ben-19",
+    "program": "ben",
+    "step": "19",
+    "region": "ben-forside",
+    "name": "Tommelfingerfriktioner langs sartorius",
+    "type": "friktion",
+    "tools": [
+      "tommelfingre"
+    ],
+    "description": "Tommelfingerfriktioner langs m. sartorius.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "sartorius",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [
+      {
+        "text": "”Bukke ind mod mig.”",
+        "certain": false
+      }
+    ],
+    "reviewNotes": [
+      "Kilden staver ”Satorius”; tolket som m. sartorius."
+    ],
+    "status": "til-gennemsyn",
+    "source": {
+      "page": 7,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.32.jpg",
+      "caption": "19. Tommelfingerfriktioner langs m. Satorius."
+    },
+    "order": 19
+  },
+  {
+    "id": "ben-20",
+    "program": "ben",
+    "step": "20",
+    "region": "ben-forside",
+    "name": "Tommelfingerfriktioner langs gracilis",
+    "type": "friktion",
+    "tools": [
+      "tommelfingre"
+    ],
+    "description": "Tommelfingerfriktioner langs m. gracilis på lårets inderside.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "gracilis",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [
+      {
+        "text": "”løft benet”",
+        "certain": false
+      }
+    ],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 8,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.31.jpg",
+      "caption": "20. Tommelfingerfriktioner langs m. Gracilis."
+    },
+    "order": 20
+  },
+  {
+    "id": "ben-21",
+    "program": "ben",
+    "step": "21",
+    "region": "ben-forside",
+    "name": "Knofriktioner langs adduktorerne",
+    "type": "friktion",
+    "tools": [
+      "knoer"
+    ],
+    "description": "Knofriktioner langs lårets adduktorer.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "adductores",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [
+      {
+        "text": "”tryk ned” – usikker læsning",
+        "certain": false
+      }
+    ],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 8,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.31.jpg",
+      "caption": "21. Knofriktioner langs lårets adduktorer."
+    },
+    "order": 21
+  },
+  {
+    "id": "ben-22",
+    "program": "ben",
+    "step": "22",
+    "region": "ben-forside",
+    "name": "Knofriktion langs tractus iliotibialis",
+    "type": "friktion",
+    "tools": [
+      "knoer"
+    ],
+    "description": "Knofriktioner langs tractus iliotibialis på lårets yderside.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "tractus-iliotibialis",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 8,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.31.jpg",
+      "caption": "22. Knofriktion langs lårets Tractus Iliotibialis."
+    },
+    "order": 22
+  },
+  {
+    "id": "ben-23",
+    "program": "ben",
+    "step": "23",
+    "region": "ben-forside",
+    "name": "Fingerfriktioner på nederste del af tractus iliotibialis",
+    "type": "friktion",
+    "tools": [
+      "fingre"
+    ],
+    "description": "Fingerfriktioner langs den nederste del af tractus iliotibialis.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "tractus-iliotibialis",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [
+      {
+        "text": "”vend mod patienten”",
+        "certain": false
+      }
+    ],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 8,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.31.jpg",
+      "caption": "23. Fingerfriktioner langs det sidste stykke af Tractus Iliotibiales."
+    },
+    "order": 23
+  },
+  {
+    "id": "ben-24",
+    "program": "ben",
+    "step": "24",
+    "region": "ben-forside",
+    "name": "Effleurage",
+    "type": "effleurage",
+    "tools": [
+      "hænder"
+    ],
+    "description": "Afsluttende strygninger over benet.",
+    "position": null,
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [
+      "Kilden angiver ikke hvilket område; fotoet viser benet."
+    ],
+    "status": "til-gennemsyn",
+    "source": {
+      "page": 8,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.31.jpg",
+      "caption": "24. Effleurage."
+    },
+    "order": 24
+  },
+  {
+    "id": "ryg-1",
+    "program": "ryg",
+    "step": "1",
+    "region": "ryg-nakke-skuldre",
+    "name": "Effleurage af hele ryggen",
+    "type": "effleurage",
+    "tools": [
+      "hænder"
+    ],
+    "description": "Lange, glidende strygninger over hele ryggen.",
+    "position": null,
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [
+      {
+        "text": "Håndskrevet note ved billedet – ulæselig",
+        "certain": false
+      }
+    ],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 10,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.29.jpg",
+      "caption": "1. Effleurage af hele ryggen."
+    },
+    "order": 25
+  },
+  {
+    "id": "ryg-2",
+    "program": "ryg",
+    "step": "2",
+    "region": "ryg-nakke-skuldre",
+    "name": "Petrissage af øvre trapezius",
+    "type": "petrissage",
+    "tools": [
+      "hænder"
+    ],
+    "description": "Æltning af den øvre del af m. trapezius.",
+    "position": "Stå på modsatte side af briksen.",
+    "muscles": [
+      {
+        "id": "trapezius",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 10,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.29.jpg",
+      "caption": "2. Petrissage af øvre Trapezius (stå på modsatte side af briksen)."
+    },
+    "order": 26
+  },
+  {
+    "id": "ryg-3",
+    "program": "ryg",
+    "step": "3",
+    "region": "ryg-nakke-skuldre",
+    "name": "Friktion af levator scapulae",
+    "type": "friktion",
+    "tools": [
+      "fingre"
+    ],
+    "description": "Friktioner over m. levator scapulae.",
+    "position": "Stå på modsatte side af briksen.",
+    "muscles": [
+      {
+        "id": "levator-scapulae",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [
+      "Kilden skriver ”Levator Scapula”; korrekt latin er m. levator scapulae."
+    ],
+    "status": "til-gennemsyn",
+    "source": {
+      "page": 10,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.29.jpg",
+      "caption": "3. Friktion af m. Levator Scapula (stå på modsatte side af briksen)."
+    },
+    "order": 27
+  },
+  {
+    "id": "ryg-4a",
+    "program": "ryg",
+    "step": "4a",
+    "region": "ryg-nakke-skuldre",
+    "name": "Friktion langs trapezius' øvre kant",
+    "type": "friktion",
+    "tools": [
+      "fingre"
+    ],
+    "description": "Friktioner langs den øvre kant af m. trapezius.",
+    "position": "Stå for enden af briksen.",
+    "muscles": [
+      {
+        "id": "trapezius",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [
+      {
+        "text": "”frem og tilbage v. hovedets side” – usikker læsning",
+        "certain": false
+      }
+    ],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 10,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.29.jpg",
+      "caption": "4a. Friktion langs m. Trapezius' superiore kant (Stå for enden af briksen)."
+    },
+    "order": 28
+  },
+  {
+    "id": "ryg-4b",
+    "program": "ryg",
+    "step": "4b",
+    "region": "ryg-nakke-skuldre",
+    "name": "Massage langs scapulas øvre kant",
+    "type": "friktion",
+    "tools": [
+      "fingre"
+    ],
+    "description": "Massage langs skulderbladets øvre kant.",
+    "position": null,
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [
+      {
+        "text": "”og m. knoer”",
+        "certain": false
+      }
+    ],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 11,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.28.jpg",
+      "caption": "4b. Massage langs Scapulas superiore kant."
+    },
+    "order": 29
+  },
+  {
+    "id": "ryg-5",
+    "program": "ryg",
+    "step": "5",
+    "region": "ryg-nakke-skuldre",
+    "name": "Tommelfingerfriktion langs scapulas mediale kant",
+    "type": "friktion",
+    "tools": [
+      "tommelfingre"
+    ],
+    "description": "Friktioner med tommelfingrene langs skulderbladets inderste kant.",
+    "position": "Gøres bedst med armen liggende på ryggen.",
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [
+      {
+        "text": "”PUDE”",
+        "certain": false
+      },
+      {
+        "text": "”hånd v. trussen” – usikker læsning",
+        "certain": false
+      }
+    ],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 11,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.28.jpg",
+      "caption": "5. Friktion langs Scapulas mediale kant med tommelfingrene (gøres bedst med armen liggende på ryggen."
+    },
+    "order": 30
+  },
+  {
+    "id": "ryg-6",
+    "program": "ryg",
+    "step": "6",
+    "region": "ryg-nakke-skuldre",
+    "name": "Knofriktion langs scapulas mediale kant",
+    "type": "friktion",
+    "tools": [
+      "knoer"
+    ],
+    "description": "Knofriktioner langs skulderbladets inderste kant.",
+    "position": null,
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 11,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.28.jpg",
+      "caption": "6. Friktion langs Scapulas mediale kant med knofriktioner."
+    },
+    "order": 31
+  },
+  {
+    "id": "ryg-7",
+    "program": "ryg",
+    "step": "7",
+    "region": "ryg-nakke-skuldre",
+    "name": "Knofriktioner ind mod nakke og rygsøjle",
+    "type": "friktion",
+    "tools": [
+      "knoer"
+    ],
+    "description": "Knofriktioner der arbejder indad mod nakken og rygsøjlen.",
+    "position": null,
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [
+      {
+        "text": "”håndrod imellem, lille bevægelse” – usikker læsning",
+        "certain": false
+      }
+    ],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 12,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.26.jpg",
+      "caption": "7. Knofriktioner indad mod nakke og rygsøjle."
+    },
+    "order": 32
+  },
+  {
+    "id": "ryg-8",
+    "program": "ryg",
+    "step": "8",
+    "region": "ryg-nakke-skuldre",
+    "name": "Cirkulær håndrodsfriktion på scapula",
+    "type": "friktion",
+    "tools": [
+      "håndrod"
+    ],
+    "description": "Cirkulære friktioner med håndroden over skulderbladet.",
+    "position": null,
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [
+      {
+        "text": "”over knoklen”",
+        "certain": false
+      },
+      {
+        "text": "”stå oppe” – usikker læsning",
+        "certain": false
+      }
+    ],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 12,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.26.jpg",
+      "caption": "8. Friktion i cirkler med håndroden på Scapula."
+    },
+    "order": 33
+  },
+  {
+    "id": "ryg-9",
+    "program": "ryg",
+    "step": "9",
+    "region": "ryg-nakke-skuldre",
+    "name": "Tommelfingerfriktioner på infraspinatus",
+    "type": "friktion",
+    "tools": [
+      "tommelfingre"
+    ],
+    "description": "Tommelfingerfriktioner over m. infraspinatus på skulderbladet. Derefter lægges armen op over hovedet.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "infraspinatus",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 12,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.26.jpg",
+      "caption": "9. Tommelfingerfriktioner på m. Infraspinatus på Scapula. Herefter lægges armen op over hovedet."
+    },
+    "order": 34
+  },
+  {
+    "id": "ryg-10",
+    "program": "ryg",
+    "step": "10",
+    "region": "ryg-nakke-skuldre",
+    "name": "Knofriktioner langs triceps' udspring",
+    "type": "friktion",
+    "tools": [
+      "knoer"
+    ],
+    "description": "Knofriktioner langs udspringet af m. triceps brachii ved armhulens yderside.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "triceps-brachii",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [
+      {
+        "text": "”glat hånd over scapula” – usikker læsning",
+        "certain": false
+      }
+    ],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 12,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.26.jpg",
+      "caption": "10. Knofriktioner langs tricepsudspring udvendig armhule."
+    },
+    "order": 35
+  },
+  {
+    "id": "ryg-11",
+    "program": "ryg",
+    "step": "11",
+    "region": "ryg-nakke-skuldre",
+    "name": "Tommelfingerfriktioner langs scapulas laterale kant",
+    "type": "friktion",
+    "tools": [
+      "tommelfingre"
+    ],
+    "description": "Tommelfingerfriktioner langs skulderbladets yderste kant.",
+    "position": null,
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [
+      {
+        "text": "”Effleurage m. og uden håndklæde” – usikker læsning",
+        "certain": false
+      }
+    ],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 13,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.23.jpg",
+      "caption": "11. Tommelfingerfriktioner langs Scapulas laterale kant."
+    },
+    "order": 36
+  },
+  {
+    "id": "ryg-12",
+    "program": "ryg",
+    "step": "12",
+    "region": "ryg-nakke-skuldre",
+    "name": "Petrissage af nakkemusklerne",
+    "type": "petrissage",
+    "tools": [
+      "hænder"
+    ],
+    "description": "Æltning af nakkemusklerne.",
+    "position": "Stå på siden af briksen.",
+    "muscles": [
+      {
+        "id": "trapezius",
+        "basis": "afledt",
+        "note": "”nakkemuskler”"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [
+      {
+        "text": "”frem og tilbage, ’vippe’” – usikker læsning",
+        "certain": false
+      }
+    ],
+    "reviewNotes": [],
+    "status": "til-gennemsyn",
+    "source": {
+      "page": 13,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.23.jpg",
+      "caption": "12. Petrissage af nakkemuskler (stå på siden af briksen)."
+    },
+    "order": 37
+  },
+  {
+    "id": "ryg-13",
+    "program": "ryg",
+    "step": "13",
+    "region": "ryg-nakke-skuldre",
+    "name": "Træk fra skuldrene og tryk ved kraniekanten",
+    "type": "tryk",
+    "tools": [
+      "fingre"
+    ],
+    "description": "Træk tilbage fra skuldrene, og tryk derefter langs kraniekanten over den suboccipitale muskulatur.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "suboccipitales",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 13,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.23.jpg",
+      "caption": "13. Træk tilbage fra skuldre, og tryk langs suboccipitale muskulatur (kraniekanten)."
+    },
+    "order": 38
+  },
+  {
+    "id": "ryg-14",
+    "program": "ryg",
+    "step": "14",
+    "region": "ryg-nakke-skuldre",
+    "name": "Knofriktion af nakke og øvre trapezius",
+    "type": "friktion",
+    "tools": [
+      "knoer"
+    ],
+    "description": "Knofriktioner over nakkemusklerne og den øvre del af m. trapezius.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "trapezius",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [
+      {
+        "text": "”Tommelfinger friktion i kraniekanten”",
+        "certain": false
+      }
+    ],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 13,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.23.jpg",
+      "caption": "14. Knofriktion af nakkemuskler samt øvre m. Trapezius."
+    },
+    "order": 39
+  },
+  {
+    "id": "ryg-15",
+    "program": "ryg",
+    "step": "15",
+    "region": "ryg-nakke-skuldre",
+    "name": "Cirkulære tommelfingerfriktioner langs rygsøjlen",
+    "type": "friktion",
+    "tools": [
+      "tommelfingre"
+    ],
+    "description": "Cirkulære friktioner med tommelfingrene langs rygsøjlen ned til den øverste kant af ballerne.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "erector-spinae",
+        "basis": "afledt"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "til-gennemsyn",
+    "source": {
+      "page": 14,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.21.jpg",
+      "caption": "15. Cirkulære friktioner med tommelfingre langs rygsøjlen til øverste ballekant."
+    },
+    "order": 40
+  },
+  {
+    "id": "ryg-16",
+    "program": "ryg",
+    "step": "16",
+    "region": "ryg-nakke-skuldre",
+    "name": "Cirkulære håndrodsfriktioner langs rygstrækkeren",
+    "type": "friktion",
+    "tools": [
+      "håndrod"
+    ],
+    "description": "Cirkulære friktioner med håndroden langs rygstrækkeren i den ene side.",
+    "position": "Stå på modsatte side.",
+    "muscles": [
+      {
+        "id": "erector-spinae",
+        "basis": "kilde",
+        "note": "”rygstrækkeren”"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 14,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.21.jpg",
+      "caption": "16. Cirkulære håndrodsfriktioner langs ene side af rygstrækkeren (stå på modsatte side)."
+    },
+    "order": 41
+  },
+  {
+    "id": "ryg-17",
+    "program": "ryg",
+    "step": "17",
+    "region": "ryg-nakke-skuldre",
+    "name": "Petrissage af lænden",
+    "type": "petrissage",
+    "tools": [
+      "hænder"
+    ],
+    "description": "Æltning af lænden med begge hænder.",
+    "position": null,
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [
+      {
+        "text": "”Ned skråt”",
+        "certain": false
+      }
+    ],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 14,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.21.jpg",
+      "caption": "17. Petrissage af lænden med begge hænder."
+    },
+    "order": 42
+  },
+  {
+    "id": "ryg-18",
+    "program": "ryg",
+    "step": "18",
+    "region": "ryg-nakke-skuldre",
+    "name": "Friktion mellem hofteskål og nederste ribben",
+    "type": "friktion",
+    "tools": [
+      "håndkant"
+    ],
+    "description": "Friktioner med håndkanten i området mellem hoftekammen og de nederste ribben.",
+    "position": null,
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [
+      {
+        "text": "”kniven”",
+        "certain": false
+      },
+      {
+        "text": "”QL musklen” (m. quadratus lumborum?) – usikker læsning, ikke koblet",
+        "certain": false
+      }
+    ],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 14,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.21.jpg",
+      "caption": "18. Friktion med siden af hånden mellem hofteskålen og de nederste ribben."
+    },
+    "order": 43
+  },
+  {
+    "id": "ryg-19",
+    "program": "ryg",
+    "step": "19",
+    "region": "ryg-nakke-skuldre",
+    "name": "Friktioner af gluteus medius (ned)",
+    "type": "friktion",
+    "tools": [
+      "tommelfingre",
+      "knoer"
+    ],
+    "description": "Tommelfinger- og knofriktioner over m. gluteus medius, nedadgående.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "gluteus-medius",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 15,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.19.jpg",
+      "caption": "19. Tommelfinger- og knofriktioner af Gluteus Medius (ned)."
+    },
+    "order": 44
+  },
+  {
+    "id": "ryg-20",
+    "program": "ryg",
+    "step": "20",
+    "region": "ryg-nakke-skuldre",
+    "name": "Friktioner af gluteus medius (op)",
+    "type": "friktion",
+    "tools": [
+      "knoer",
+      "tommelfingre"
+    ],
+    "description": "Kno- og tommelfingerfriktioner over m. gluteus medius, opadgående.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "gluteus-medius",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 15,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.19.jpg",
+      "caption": "20. Kno- og tommelfingerfriktioner af Gluteus Medius (op)."
+    },
+    "order": 45
+  },
+  {
+    "id": "ryg-21",
+    "program": "ryg",
+    "step": "21",
+    "region": "ryg-nakke-skuldre",
+    "name": "Tommelfingerfriktioner op langs rygsøjlen",
+    "type": "friktion",
+    "tools": [
+      "tommelfingre"
+    ],
+    "description": "Tommelfingerfriktioner op langs rygsøjlen, i retning mod hjertet.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "erector-spinae",
+        "basis": "afledt"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "til-gennemsyn",
+    "source": {
+      "page": 15,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.19.jpg",
+      "caption": "21. Tommelfingerfriktioner op langs rygsøjlen (tilbage til hjertet)."
+    },
+    "order": 46
+  },
+  {
+    "id": "ryg-22",
+    "program": "ryg",
+    "step": "22",
+    "region": "ryg-nakke-skuldre",
+    "name": "Effleurage af hele ryggen",
+    "type": "effleurage",
+    "tools": [
+      "hænder"
+    ],
+    "description": "Afsluttende strygninger over hele ryggen.",
+    "position": "Stå for enden af briksen.",
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 15,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.19.jpg",
+      "caption": "22. Effleurage af hele ryg (stå for enden af briksen)."
+    },
+    "order": 47
+  },
+  {
+    "id": "arm-1",
+    "program": "arm",
+    "step": "1",
+    "region": "arm-haand",
+    "name": "Effleurage af hele armen",
+    "type": "effleurage",
+    "tools": [
+      "hænder"
+    ],
+    "description": "Lange, glidende strygninger over hele armen.",
+    "position": null,
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 16,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.16.jpg",
+      "caption": "1. Effleurage af hele armen."
+    },
+    "order": 48
+  },
+  {
+    "id": "arm-2",
+    "program": "arm",
+    "step": "2",
+    "region": "arm-haand",
+    "name": "Petrissage af fingrene",
+    "type": "petrissage",
+    "tools": [
+      "fingre"
+    ],
+    "description": "Æltning af hver finger.",
+    "position": null,
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 16,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.16.jpg",
+      "caption": "2. Petrissage af fingre."
+    },
+    "order": 49
+  },
+  {
+    "id": "arm-3",
+    "program": "arm",
+    "step": "3",
+    "region": "arm-haand",
+    "name": "Tommelfingerfriktioner mellem fingrenes sener",
+    "type": "friktion",
+    "tools": [
+      "tommelfingre"
+    ],
+    "description": "Tommelfingerfriktioner på håndryggen mellem fingrenes sener.",
+    "position": null,
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 16,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.16.jpg",
+      "caption": "3. Tommelfingerfriktioner imellem fingrenes sener."
+    },
+    "order": 50
+  },
+  {
+    "id": "arm-4",
+    "program": "arm",
+    "step": "4",
+    "region": "arm-haand",
+    "name": "Tommelfingerfriktioner i håndfladen",
+    "type": "friktion",
+    "tools": [
+      "tommelfingre"
+    ],
+    "description": "Tommelfingerfriktioner i håndfladen, især på tommelfingerballen.",
+    "position": null,
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 16,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.16.jpg",
+      "caption": "4. Tommelfingerfriktioner af hånden indvendigt, især tommelfingerballen."
+    },
+    "order": 51
+  },
+  {
+    "id": "arm-5",
+    "program": "arm",
+    "step": "5",
+    "region": "arm-haand",
+    "name": "Tommelfingerfriktioner langs brachioradialis",
+    "type": "friktion",
+    "tools": [
+      "tommelfingre"
+    ],
+    "description": "Tommelfingerfriktioner langs m. brachioradialis til den laterale side af radius.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "brachioradialis",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [
+      {
+        "text": "Ikke over leddet.",
+        "basis": "kilde"
+      }
+    ],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 17,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.14.jpg",
+      "caption": "5. Tommelfingerfriktioner langs m. Brachioradialis til lateralt på radius (ikke over leddet)."
+    },
+    "order": 52
+  },
+  {
+    "id": "arm-6",
+    "program": "arm",
+    "step": "6",
+    "region": "arm-haand",
+    "name": "Tommelfingerfriktioner langs lillefingersiden",
+    "type": "friktion",
+    "tools": [
+      "tommelfingre"
+    ],
+    "description": "Tommelfingerfriktioner langs underarmens lillefingerside op mod humerus.",
+    "position": null,
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [
+      "Formuleringen ”lillefingersiden til lateral på humerus” er uklar (lillefingersiden er normalt medial). Bør afklares med underviser."
+    ],
+    "status": "til-gennemsyn",
+    "source": {
+      "page": 17,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.14.jpg",
+      "caption": "6. Tommelfingerfriktioner langs lillefingersiden til lateral på humerus."
+    },
+    "order": 53
+  },
+  {
+    "id": "arm-7",
+    "program": "arm",
+    "step": "7",
+    "region": "arm-haand",
+    "name": "Skil underarmens inderside",
+    "type": "friktion",
+    "tools": [
+      "tommelfingre"
+    ],
+    "description": "Musklerne på underarmens inderside skilles med tommelfingerfriktioner.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "flexores-antebrachii",
+        "basis": "afledt",
+        "note": "”den indvendige underarms muskel”"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "til-gennemsyn",
+    "source": {
+      "page": 17,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.14.jpg",
+      "caption": "7. Skil den indvendige underarms muskel med tommelfingerfriktioner."
+    },
+    "order": 54
+  },
+  {
+    "id": "arm-8",
+    "program": "arm",
+    "step": "8",
+    "region": "arm-haand",
+    "name": "Tommelfingerfriktioner langs underarmens lillefingerside",
+    "type": "friktion",
+    "tools": [
+      "tommelfingre"
+    ],
+    "description": "Tommelfingerfriktioner langs underarmens lillefingerside op til humerus.",
+    "position": null,
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 17,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.14.jpg",
+      "caption": "8. Tommelfingerfriktioner langs lillefingersiden af underarmen til humerus."
+    },
+    "order": 55
+  },
+  {
+    "id": "arm-9",
+    "program": "arm",
+    "step": "9",
+    "region": "arm-haand",
+    "name": "Tommelfingerfriktioner på brachioradialis' tommelfingerside",
+    "type": "friktion",
+    "tools": [
+      "tommelfingre"
+    ],
+    "description": "Tommelfingerfriktioner langs tommelfingersiden af m. brachioradialis.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "brachioradialis",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [
+      {
+        "text": "Husk at dreje armen inden leddet passeres.",
+        "basis": "kilde"
+      }
+    ],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 18,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.10.jpg",
+      "caption": "9. Tommelfingerfriktioner langs tommelfingersiden på m. Brachioradialis (husk at dreje armen inden leddet passeres)."
+    },
+    "order": 56
+  },
+  {
+    "id": "arm-10",
+    "program": "arm",
+    "step": "10",
+    "region": "arm-haand",
+    "name": "Petrissage af biceps brachii",
+    "type": "petrissage",
+    "tools": [
+      "hænder"
+    ],
+    "description": "Æltning af m. biceps brachii.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "biceps-brachii",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 18,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.10.jpg",
+      "caption": "10. Petrissage af m. Biceps Brachii."
+    },
+    "order": 57
+  },
+  {
+    "id": "arm-11",
+    "program": "arm",
+    "step": "11",
+    "region": "arm-haand",
+    "name": "Petrissage fra albuen langs biceps",
+    "type": "petrissage",
+    "tools": [
+      "hænder"
+    ],
+    "description": "Æltning fra albueleddet og op langs m. biceps brachii.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "biceps-brachii",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 18,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.10.jpg",
+      "caption": "11. Petrissage fra albueled langs m. Biceps Brachii."
+    },
+    "order": 58
+  },
+  {
+    "id": "arm-12",
+    "program": "arm",
+    "step": "12",
+    "region": "arm-haand",
+    "name": "Tommelfingerfriktioner langs triceps",
+    "type": "friktion",
+    "tools": [
+      "tommelfingre"
+    ],
+    "description": "Tommelfingerfriktioner fra albueleddet langs m. triceps brachii. Overarmen deles i fire baner: lateralt for biceps, to baner på triceps og en på deltoideus.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "triceps-brachii",
+        "basis": "kilde"
+      },
+      {
+        "id": "biceps-brachii",
+        "basis": "kilde"
+      },
+      {
+        "id": "deltoideus",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [
+      "Opdelingen i ”4 sektioner” er tolket ud fra billedteksten – bør bekræftes. Kilden staver ”Deltoidues”."
+    ],
+    "status": "til-gennemsyn",
+    "source": {
+      "page": 18,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.10.jpg",
+      "caption": "12. Tommelfingerfriktioner fra albueled ned langs Triceps. (Del Triceps i 4 sektioner) Lateral Biceps, 2 gange Triceps og Deltoidues."
+    },
+    "order": 59
+  },
+  {
+    "id": "arm-13",
+    "program": "arm",
+    "step": "13",
+    "region": "arm-haand",
+    "name": "Effleurage af hele armen",
+    "type": "effleurage",
+    "tools": [
+      "hænder"
+    ],
+    "description": "Afsluttende strygninger over hele armen.",
+    "position": null,
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 18,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.10.jpg",
+      "caption": "13. Effleurage af hele armen."
+    },
+    "order": 60
+  },
+  {
+    "id": "arm-14",
+    "program": "arm",
+    "step": "14",
+    "region": "bryst",
+    "name": "Effleurage af brystmusklen",
+    "type": "effleurage",
+    "tools": [
+      "hænder"
+    ],
+    "description": "Glidende strygninger over brystmusklen.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "pectoralis-major",
+        "basis": "afledt",
+        "note": "”brystmuskelen”"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "til-gennemsyn",
+    "source": {
+      "page": 19,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.09.jpg",
+      "caption": "14. Effleurage af brystmuskelen."
+    },
+    "order": 61
+  },
+  {
+    "id": "arm-15",
+    "program": "arm",
+    "step": "15",
+    "region": "bryst",
+    "name": "Fingerfriktioner fra sternum mod humerus",
+    "type": "friktion",
+    "tools": [
+      "fingre"
+    ],
+    "description": "Fingerfriktioner fra brystbenet ud mod overarmsknoglen.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "pectoralis-major",
+        "basis": "afledt"
+      }
+    ],
+    "precautions": [
+      {
+        "text": "Stop lige over brystvorten.",
+        "basis": "kilde"
+      }
+    ],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "til-gennemsyn",
+    "source": {
+      "page": 19,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.09.jpg",
+      "caption": "15. Fingerfriktioner fra Sternum ud til Humerus (stop lige over brysvorte)."
+    },
+    "order": 62
+  },
+  {
+    "id": "arm-16",
+    "program": "arm",
+    "step": "16",
+    "region": "bryst",
+    "name": "Fingerfriktioner langs pectoralis minor",
+    "type": "friktion",
+    "tools": [
+      "fingre"
+    ],
+    "description": "Fingerfriktioner langs m. pectoralis minor.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "pectoralis-minor",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 19,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.09.jpg",
+      "caption": "16. Fingerfriktioner langs m. Pectoralis Minor."
+    },
+    "order": 63
+  },
+  {
+    "id": "arm-17",
+    "program": "arm",
+    "step": "17",
+    "region": "bryst",
+    "name": "Knofriktioner langs pectoralis minor",
+    "type": "friktion",
+    "tools": [
+      "knoer"
+    ],
+    "description": "Knofriktioner langs m. pectoralis minor.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "pectoralis-minor",
+        "basis": "kilde"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [
+      "Billedteksten er trykt to gange i kilden."
+    ],
+    "status": "til-gennemsyn",
+    "source": {
+      "page": 19,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.09.jpg",
+      "caption": "17. Knofriktioner langs m. Pectoralis Minor."
+    },
+    "order": 64
+  },
+  {
+    "id": "arm-18",
+    "program": "arm",
+    "step": "18",
+    "region": "bryst",
+    "name": "Effleurage af brystet",
+    "type": "effleurage",
+    "tools": [
+      "hænder"
+    ],
+    "description": "Afsluttende strygninger over brystet.",
+    "position": null,
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 19,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.09.jpg",
+      "caption": "18. Effleurage af brystet."
+    },
+    "order": 65
+  },
+  {
+    "id": "ansigt-1",
+    "program": "ansigt",
+    "step": "1",
+    "region": "ansigt",
+    "gap": true,
+    "reason": "Side 20 (ansigtsmassage trin 1–4) er ikke med i billedmaterialet.",
+    "source": {
+      "page": 20,
+      "image": null,
+      "caption": null
+    },
+    "order": 66
+  },
+  {
+    "id": "ansigt-2",
+    "program": "ansigt",
+    "step": "2",
+    "region": "ansigt",
+    "gap": true,
+    "reason": "Side 20 (ansigtsmassage trin 1–4) er ikke med i billedmaterialet.",
+    "source": {
+      "page": 20,
+      "image": null,
+      "caption": null
+    },
+    "order": 67
+  },
+  {
+    "id": "ansigt-3",
+    "program": "ansigt",
+    "step": "3",
+    "region": "ansigt",
+    "gap": true,
+    "reason": "Side 20 (ansigtsmassage trin 1–4) er ikke med i billedmaterialet.",
+    "source": {
+      "page": 20,
+      "image": null,
+      "caption": null
+    },
+    "order": 68
+  },
+  {
+    "id": "ansigt-4",
+    "program": "ansigt",
+    "step": "4",
+    "region": "ansigt",
+    "gap": true,
+    "reason": "Side 20 (ansigtsmassage trin 1–4) er ikke med i billedmaterialet.",
+    "source": {
+      "page": 20,
+      "image": null,
+      "caption": null
+    },
+    "order": 69
+  },
+  {
+    "id": "ansigt-5",
+    "program": "ansigt",
+    "step": "5",
+    "region": "ansigt",
+    "name": "Stryg fra issen ned over tindingen",
+    "type": "strygning",
+    "tools": [
+      "fingre"
+    ],
+    "description": "Fingrene samles på issen og trækkes ned over tindingerne mod ørerne, mens de spredes.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "temporalis",
+        "basis": "afledt",
+        "note": "”tindingen”"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "til-gennemsyn",
+    "source": {
+      "page": 21,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.01.jpg",
+      "caption": "5. Saml fingre på toppen af hovedet, træk ned over tindingen mod ørene så fingrene spredes."
+    },
+    "order": 70
+  },
+  {
+    "id": "ansigt-6",
+    "program": "ansigt",
+    "step": "6",
+    "region": "ansigt",
+    "name": "Cirkler i tyggemuskulaturen",
+    "type": "friktion",
+    "tools": [
+      "håndrod",
+      "fingre"
+    ],
+    "description": "Håndroden hviler ved tindingerne, og fingrene arbejder i tyggemuskulaturen under kindbenene (3 × 3).",
+    "position": null,
+    "muscles": [
+      {
+        "id": "masseter",
+        "basis": "afledt",
+        "note": "”tyggemuskulatur”"
+      },
+      {
+        "id": "temporalis",
+        "basis": "afledt",
+        "note": "”tindingerne”"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "til-gennemsyn",
+    "source": {
+      "page": 21,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.01.jpg",
+      "caption": "6. Placer håndroden i tindingerne og fingrene i muskulaturen under kindbenene (tyggemuskulatur) 3x3."
+    },
+    "order": 71
+  },
+  {
+    "id": "ansigt-7",
+    "program": "ansigt",
+    "step": "7",
+    "region": "ansigt",
+    "name": "Stryg fra næseryggen langs kindbenene",
+    "type": "strygning",
+    "tools": [
+      "fingre"
+    ],
+    "description": "Fingrene placeres på hver side af næseryggen og trækkes langs kindbenene ud mod øreflipperne.",
+    "position": null,
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 21,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.01.jpg",
+      "caption": "7. Placer fingrene på hver side af næseryggen og træk ned langs kindbenene mod øreflipperne."
+    },
+    "order": 72
+  },
+  {
+    "id": "ansigt-8",
+    "program": "ansigt",
+    "step": "8",
+    "region": "ansigt",
+    "name": "Cirkler ved mundvigen",
+    "type": "friktion",
+    "tools": [
+      "håndrod",
+      "fingre"
+    ],
+    "description": "Håndroden hviler ved tindingerne, og fingrene arbejder ved mundvigen (3 × 3).",
+    "position": null,
+    "muscles": [
+      {
+        "id": "temporalis",
+        "basis": "afledt",
+        "note": "”tindingerne”"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "til-gennemsyn",
+    "source": {
+      "page": 21,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.01.jpg",
+      "caption": "8. Placer håndroden i tindingerene og fingrene i mundvigen 3x3."
+    },
+    "order": 73
+  },
+  {
+    "id": "ansigt-9",
+    "program": "ansigt",
+    "step": "9",
+    "region": "ansigt",
+    "name": "Stryg fra hagen op mod ørerne",
+    "type": "strygning",
+    "tools": [
+      "tommelfingre"
+    ],
+    "description": "Tommelfingrene placeres lige over hagen og trækkes tilbage op mod ørerne.",
+    "position": null,
+    "muscles": [],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "kilde",
+    "source": {
+      "page": 22,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.44.50.jpg",
+      "caption": "9. Placér tommelfingre lige over hagen, træk tilbage op mod ørene."
+    },
+    "order": 74
+  },
+  {
+    "id": "ansigt-10",
+    "program": "ansigt",
+    "step": "10",
+    "region": "ansigt",
+    "name": "Stryg ned over panden",
+    "type": "strygning",
+    "tools": [
+      "håndrod"
+    ],
+    "description": "Håndroden placeres ved hårgrænsen og trækkes ned over panden mod øjenbrynene.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "frontalis",
+        "basis": "afledt",
+        "note": "”panden”"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "til-gennemsyn",
+    "source": {
+      "page": 22,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.44.50.jpg",
+      "caption": "10. Placér håndroden ved hårgrænsen og træk ned over panden mod brynene."
+    },
+    "order": 75
+  },
+  {
+    "id": "ansigt-11",
+    "program": "ansigt",
+    "step": "11",
+    "region": "ansigt",
+    "name": "Modsatrettet træk over panden",
+    "type": "strygning",
+    "tools": [
+      "håndrod"
+    ],
+    "description": "Den ene håndrod ved hårgrænsen og den anden over øjenbrynet – hænderne trækker i hver sin retning.",
+    "position": null,
+    "muscles": [
+      {
+        "id": "frontalis",
+        "basis": "afledt",
+        "note": "”panden”"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "til-gennemsyn",
+    "source": {
+      "page": 22,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.44.50.jpg",
+      "caption": "11. Placér den ene håndrod ved hårgrænsen, og den anden over brynet. Træk i modsat retning."
+    },
+    "order": 76
+  },
+  {
+    "id": "ansigt-12",
+    "program": "ansigt",
+    "step": "12",
+    "region": "ansigt",
+    "name": "Cirkler ved tindingerne",
+    "type": "friktion",
+    "tools": [
+      "håndrod"
+    ],
+    "description": "Håndroden lægges ved tindingerne og masserer i cirkler (3 × 3).",
+    "position": null,
+    "muscles": [
+      {
+        "id": "temporalis",
+        "basis": "afledt",
+        "note": "”tindingerne”"
+      }
+    ],
+    "precautions": [],
+    "handwrittenNotes": [],
+    "reviewNotes": [],
+    "status": "til-gennemsyn",
+    "source": {
+      "page": 22,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.44.50.jpg",
+      "caption": "12. Læg håndroden i tindingerne, masser i cirkulære bevægelser 3x3."
+    },
+    "order": 77
+  }
+]
