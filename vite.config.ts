@@ -3,9 +3,17 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
-// Relative base so the built app works from any local folder or static server.
+// Base path:
+// - GitHub Pages serves the app from /<repo>/, so the deploy workflow sets
+//   BASE_PATH=/MassageGuiden/ (see .github/workflows/deploy-pages.yml).
+// - Everywhere else (npm run dev / preview, any local folder) a relative base
+//   keeps working without configuration.
+// Routing uses HashRouter (#/greb/...), so deep links never hit the server and
+// need no 404 rewrites on GitHub Pages.
+const base = process.env.BASE_PATH || './';
+
 export default defineConfig({
-  base: './',
+  base,
   plugins: [
     react(),
     VitePWA({

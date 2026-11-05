@@ -18,6 +18,10 @@ npm run build
 npm run preview    # http://127.0.0.1:4173
 ```
 
+## Online (GitHub Pages)
+Appen udgives automatisk på https://crosenlund79.github.io/MassageGuiden/ ved push til `main`.
+Engangsopsætning og detaljer står i `docs/DEPLOY.md`.
+
 ## Tjek
 ```bash
 npm run typecheck  # TypeScript
