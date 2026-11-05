@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { contentStats, gaps, source, techniques } from '../domain/content';
 import { clearPersonalData, exportPersonalData, importPersonalData, type PersonalExport } from '../storage/db';
 import { TerminologySwitch } from '../components/common';
@@ -89,6 +90,11 @@ export function AboutPage() {
           <dd>Udspring, hæfte og funktion er almindelig lærebogsanatomi – ikke fra hæftet – og er markeret til gennemsyn.</dd>
           <dt>Illustrationer</dt>
           <dd>Alle figurer er originale, forenklede tegninger. Hæftets fotos er ikke indlejret i appen.</dd>
+          <dt>Håndgreb</dt>
+          <dd>
+            Hvert greb har en tegning af håndstillingen (kontaktpunkt, håndvinkel og bevægelsesretning) lavet ud fra hæftets foto.
+            Uklare detaljer er markeret ”til gennemsyn”. <Link to="/haandgreb">Gennemse alle illustrationer</Link>.
+          </dd>
         </dl>
         <details>
           <summary className="small">Vis greb til gennemsyn ({review.length})</summary>

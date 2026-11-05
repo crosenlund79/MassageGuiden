@@ -8,6 +8,7 @@ import { AtlasPage } from './pages/AtlasPage';
 import { QuizPage } from './pages/QuizPage';
 import { FavoritesPage } from './pages/FavoritesPage';
 import { AboutPage } from './pages/AboutPage';
+import { DemoGalleryPage } from './pages/DemoGalleryPage';
 
 const NAV = [
   { to: '/', label: 'Forside', icon: IconHome, end: true },
@@ -66,6 +67,7 @@ function Shell() {
           <Route path="/quiz" element={<QuizPage />} />
           <Route path="/favoritter" element={<FavoritesPage />} />
           <Route path="/om" element={<AboutPage />} />
+          <Route path="/haandgreb" element={<DemoGalleryPage />} />
           <Route path="*" element={<div className="empty"><h3>Siden findes ikke</h3><Link to="/">Til forsiden</Link></div>} />
         </Routes>
       </main>

@@ -44,3 +44,10 @@ Der blev modtaget 20 billeder, ikke 21.
 5. Alle afledte muskelkoblinger (23 greb) skal gennemses.
 6. Danske navne markeret som usikre: brachioradialis, infraspinatus, tensor fasciae latae, tractus iliotibialis og suboccipitale muskler.
 7. Rettigheder: få afklaret med Massørskolen – Fyn, om fotos må vises i appen. Indtil da vises der kun originale illustrationer.
+
+## Illustrationer af håndgreb
+- `src/content/demonstrations.json` bliver genereret af `scripts/build-demos.py`. Ret i scriptet og kør `python3 scripts/build-demos.py`.
+- Håndstilling, kontaktpunkt, håndvinkel og pilenes retning er aflæst af hæftets fotos og tegnet som originale illustrationer (`src/demos/`). Fotografierne gengives ikke.
+- `support: "foto"` betyder, at håndstilling og retning er tydelige i fotoet. `"delvis"` betyder, at noget er tolket ud fra billedteksten, og så har grebet altid en note i `review`.
+- Klientens stilling (f.eks. bøjet knæ eller armen på ryggen) kan den forenklede figur ikke vise. Den står i stedet i `clientPose`.
+- Alle illustrationer kan gennemses samlet på siden `#/haandgreb`.

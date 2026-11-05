@@ -116,3 +116,10 @@ export const contentStats = {
   confirmed: techniques.filter((t) => t.status === 'kilde').length,
   muscles: muscles.length,
 };
+
+// ---------- hand-position demonstrations ----------
+import demosJson from '../content/demonstrations.json';
+import type { Demonstration } from '../demos/types';
+export const demonstrations = demosJson as unknown as Demonstration[];
+const demoByTechnique = new Map(demonstrations.map((d) => [d.techniqueId, d]));
+export const getDemonstration = (techniqueId: string) => demoByTechnique.get(techniqueId);

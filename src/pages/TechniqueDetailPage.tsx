@@ -2,7 +2,8 @@ import { useEffect, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { AtlasFigure } from '../anatomy/AtlasFigure';
 import { viewsForMuscle } from '../anatomy/figure2d';
-import { getMuscle, getProgram, getRegion, getTechnique, neighbours, sequenceNoteAfter } from '../domain/content';
+import { getDemonstration, getMuscle, getProgram, getRegion, getTechnique, neighbours, sequenceNoteAfter } from '../domain/content';
+import { DemoPanels } from '../demos/DemoPanel';
 import { TYPE_LABELS } from '../domain/types';
 import { FavoriteButton, StatusBadge } from '../components/common';
 import { IconAlert, IconArrow, IconBook, IconNote } from '../components/Icons';
@@ -86,6 +87,7 @@ export function TechniqueDetailPage() {
   }
 
   const region = getRegion(t.region)!;
+  const demo = getDemonstration(t.id);
   const program = getProgram(t.program);
   const { prev, next } = neighbours(t.id);
   const seqNote = sequenceNoteAfter(t);
@@ -146,6 +148,21 @@ export function TechniqueDetailPage() {
               <span><strong>Udføres med:</strong> {t.tools.join(', ')}</span>
             </div>
           </div>
+
+          {demo && (
+            <section aria-labelledby="demo-h" className="demo-section">
+              <div className="row" style={{ marginBottom: 8 }}>
+                <h3 id="demo-h" style={{ margin: 0 }}>Sådan udføres grebet</h3>
+                <span className={`badge ${demo.review.length ? 'badge-review' : 'badge-source'}`}>
+                  {demo.review.length ? 'Illustration til gennemsyn' : 'Tegnet efter fotoet'}
+                </span>
+              </div>
+              <DemoPanels demo={demo} title={t.name} />
+              <p className="small muted" style={{ margin: '8px 0 0' }}>
+                Original tegning af håndstillingen ud fra hæftets foto (side {t.source.page}, trin {t.step}) – fotoet gengives ikke.
+              </p>
+            </section>
+          )}
 
           {t.position && (
             <dl className="kv">

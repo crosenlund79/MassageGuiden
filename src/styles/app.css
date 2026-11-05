@@ -472,3 +472,66 @@ a.list-item:hover .li-title { color: var(--accent); }
 @media (min-width: 960px) { .mobile-only { display: none; } }
 @media (max-width: 959px) { .atlas-stage .fig-wrap { height: 62dvh; min-height: 380px; } .quiz-stage .fig-wrap { height: 56dvh; min-height: 340px; } }
 @media (max-width: 899px) { .detail-figure .fig-wrap { height: 38dvh; min-height: 240px; } }
+
+/* ---------------- technique demonstrations ---------------- */
+:root {
+  --hand-skin: #c79a7c;
+  --hand-line: #6e4c3a;
+  --hand-detail: #8e6550;
+  --client-skin: #f4ebdf;
+  --client-line: #a8957f;
+  --contact: #5f7457;
+  --arrow: #2b302a;
+}
+.demo-svg { display: block; width: 100%; height: 100%; }
+.demo-bg { fill: #fbf8f2; }
+.demo-body .db-skin { fill: var(--client-skin); }
+.demo-body .db-hair path { fill: #ddd0bf; }
+.demo-body .db-muscle path { fill: #ead8c9; stroke: #d9c1ae; stroke-width: 0.6; }
+.demo-body .db-focus path { fill: #d6dfcd; stroke: #9bab8f; stroke-width: 0.8; }
+.demo-body .db-detail path { fill: none; stroke: #b9a690; stroke-width: 0.6; }
+.demo-body .db-outline path { fill: none; stroke: var(--client-line); stroke-width: 1.1; stroke-linejoin: round; }
+.hand-outline path { fill: var(--hand-line); stroke: var(--hand-line); stroke-width: 3; stroke-linejoin: round; }
+.hand-fill path { fill: var(--hand-skin); stroke: none; }
+.hand-detail path { fill: none; stroke: var(--hand-detail); stroke-width: 0.9; stroke-linecap: round; opacity: 0.8; }
+.hand-detail path.seam { stroke: var(--hand-line); stroke-width: 1.2; opacity: 0.9; }
+.hand-detail path.nail { fill: #e2c3ae; stroke: #a8806a; stroke-width: 0.7; opacity: 1; }
+.hand-client .hand-outline path { fill: #8f7a64; stroke: #8f7a64; stroke-width: 2.4; }
+.hand-client .hand-fill path { fill: #f1e6d7; }
+.hand-client .hand-detail path { stroke: #b9a690; }
+.hand-client .hand-detail path.nail { fill: #f6efe6; stroke: #c7b6a2; }
+.client-hand .tendons path { fill: none; stroke: #c2ad95; stroke-width: 1.4; stroke-dasharray: 3 2; }
+.client-hand .palm-lines path { fill: none; stroke: #c2ad95; stroke-width: 0.9; }
+.client-hand .palm-lines .thenar { fill: #d6dfcd; stroke: #9bab8f; stroke-width: 0.8; }
+.hand-support { opacity: 0.5; }
+.contact circle, .contact ellipse { fill: rgba(95, 116, 87, 0.35); stroke: var(--contact); stroke-width: 1.6; }
+.demo-arrow path { fill: none; stroke: var(--arrow); stroke-linecap: round; stroke-linejoin: round; }
+.demo-arrow path.halo { stroke: #fbf8f2; opacity: 0.9; }
+.arrow-head { fill: var(--arrow); }
+.demo-label { fill: var(--arrow); font-family: var(--font-sans); font-weight: 600; }
+.demo-mark circle { fill: var(--olive); }
+.demo-mark text { fill: var(--ivory); font-family: var(--font-sans); font-weight: 700; }
+.demo-wrap { display: grid; gap: 12px; }
+.demo-grid { display: grid; gap: 12px; }
+@media (min-width: 560px) { .demo-grid.multi { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.demo-card { margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+.demo-stage { position: relative; background: #fbf8f2; max-height: 560px; margin: 0 auto; }
+.demo-grid:not(.multi) .demo-stage { max-width: 560px; }
+.demo-num { position: absolute; left: 10px; top: 10px; width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; background: var(--olive); color: var(--ivory); font-weight: 700; font-size: 0.9rem; }
+.demo-card figcaption { padding: 10px 14px 12px; font-size: 0.95rem; line-height: 1.45; border-top: 1px solid var(--line); }
+.demo-meta { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; margin: 0; font-size: 0.9rem; }
+.demo-meta dt { color: var(--taupe); font-weight: 600; }
+.demo-meta dd { margin: 0; color: var(--text-soft); }
+.demo-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 0.8rem; color: var(--text-muted); }
+.demo-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.demo-legend i { display: inline-block; width: 16px; height: 12px; border-radius: 6px; }
+.lg-hand { background: var(--hand-skin); border: 1.5px solid var(--hand-line); }
+.lg-hand.support { opacity: 0.5; }
+.lg-contact { background: rgba(95, 116, 87, 0.35); border: 1.5px solid var(--contact); border-radius: 50% !important; width: 12px !important; }
+.lg-arrow { height: 2px !important; background: var(--arrow); border-radius: 0 !important; position: relative; }
+.lg-arrow::after { content: ''; position: absolute; right: -2px; top: -3px; border-left: 6px solid var(--arrow); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
+.gallery { display: grid; gap: 16px; margin-top: 18px; }
+@media (min-width: 1100px) { .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.gallery-item h3 a { color: inherit; text-decoration: none; }
+.gallery-item h3 a:hover { color: var(--accent); }
+.demo-section { padding: 16px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); }

@@ -1,0 +1,4468 @@
+[
+ {
+  "techniqueId": "ben-1",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    50,
+    520,
+    300,
+    360
+   ],
+   "focus": [
+    "biceps-femoris",
+    "semitendinosus"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Hånden ligger fladt på benets bagside med fingrene pegende mod ballen. Stryg med hele håndfladen op ad benet mod ballen.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "flat",
+      "at": [
+       162,
+       640
+      ],
+      "rot": 0,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       194,
+       840
+      ],
+      "to": [
+       194,
+       570
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": []
+ },
+ {
+  "techniqueId": "ben-2",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    60,
+    680,
+    280,
+    220
+   ],
+   "focus": [
+    "gastrocnemius",
+    "soleus"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Begge hænder griber om lægmusklen – tommelfingeren på den ene side, fingrene på den anden – og løfter musklen.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "grip",
+      "at": [
+       160,
+       742
+      ],
+      "rot": 72,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "grip",
+      "at": [
+       160,
+       806
+      ],
+      "rot": 108,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       205,
+       720
+      ],
+      "to": [
+       205,
+       845
+      ],
+      "double": true
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Håndstillingen er tolket ud fra fotoet. ”Skiftevis” stammer fra en håndskreven note; dobbeltpilen langs læggen står på fotoet."
+  ]
+ },
+ {
+  "techniqueId": "ben-3",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    60,
+    660,
+    280,
+    300
+   ],
+   "focus": [
+    "gastrocnemius"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Den ene hånd holder om anklen. Tommelfingeren arbejder fra anklen op langs lægmusklens inderside (medialt) til over knæet.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       180,
+       830
+      ],
+      "rot": 0,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "grip",
+      "at": [
+       168,
+       905
+      ],
+      "rot": 90,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       190,
+       875
+      ],
+      "to": [
+       190,
+       690
+      ]
+     }
+    ]
+   },
+   {
+    "text": "Gentag på lægmusklens yderside (lateralt) – igen fra anklen op til over knæet.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       148,
+       830
+      ],
+      "rot": 0,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "grip",
+      "at": [
+       168,
+       905
+      ],
+      "rot": 90,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       136,
+       875
+      ],
+      "to": [
+       136,
+       690
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": []
+ },
+ {
+  "techniqueId": "ben-4",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    80,
+    830,
+    200,
+    150
+   ],
+   "focus": [
+    "tendo-calcaneus"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Den ene hånd holder om hælen. Den anden hånd griber akillessenen mellem tommel- og fingre og ælter den.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "pinch",
+      "at": [
+       170,
+       897
+      ],
+      "rot": 64,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       172,
+       952
+      ],
+      "rot": 180,
+      "role": "support"
+     }
+    ],
+    "arrows": []
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Fotoet viser ingen bevægelsesretning for æltningen."
+  ]
+ },
+ {
+  "techniqueId": "ben-5",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    60,
+    680,
+    280,
+    220
+   ],
+   "focus": [
+    "gastrocnemius"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Begge tommelfingre placeres midt på lægmusklen. De arbejder frem og tilbage i pilens retning for at skille musklen.",
+    "hands": [
+     {
+      "side": "L",
+      "pose": "thumb",
+      "at": [
+       158,
+       768
+      ],
+      "rot": 0,
+      "role": "active"
+     },
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       170,
+       768
+      ],
+      "rot": 0,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       140,
+       805
+      ],
+      "to": [
+       190,
+       770
+      ],
+      "double": true
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Tommelfingrenes præcise placering er kun delvist synlig i fotoet. Håndskrevet: ”Bevæger vævet”."
+  ]
+ },
+ {
+  "techniqueId": "ben-6",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    60,
+    530,
+    280,
+    220
+   ],
+   "focus": [
+    "biceps-femoris",
+    "semitendinosus",
+    "semimembranosus"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Start lige under knæet. Tommelfingeren arbejder op langs hasemusklerne til sædebensknuden (tuber ischii); fingrene hviler om lårets yderside.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       166,
+       655
+      ],
+      "rot": 0,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       182,
+       712
+      ],
+      "to": [
+       182,
+       552
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": []
+ },
+ {
+  "techniqueId": "ben-7",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    60,
+    530,
+    280,
+    220
+   ],
+   "focus": [
+    "biceps-femoris",
+    "semitendinosus",
+    "semimembranosus"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Begge tommelfingre midt på lårets bagside. Arbejd frem og tilbage på tværs for at skille hasemusklerne fra hinanden.",
+    "hands": [
+     {
+      "side": "L",
+      "pose": "thumb",
+      "at": [
+       158,
+       625
+      ],
+      "rot": 0,
+      "role": "active"
+     },
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       170,
+       625
+      ],
+      "rot": 0,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       136,
+       662
+      ],
+      "to": [
+       194,
+       640
+      ],
+      "double": true
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": []
+ },
+ {
+  "techniqueId": "ben-8",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    70,
+    440,
+    260,
+    200
+   ],
+   "focus": [
+    "gluteus-maximus"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Knoerne placeres ved sædebensknuden (tuber ischii) i ballefolden og laver friktioner op mod ballen.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "fist",
+      "at": [
+       178,
+       552
+      ],
+      "rot": -15,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       140,
+       600
+      ],
+      "to": [
+       140,
+       540
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": []
+ },
+ {
+  "techniqueId": "ben-9",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    70,
+    400,
+    260,
+    200
+   ],
+   "focus": [
+    "gluteus-maximus"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Tommelfingeren laver friktioner på m. gluteus maximus; den anden hånd hviler på lænden.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       165,
+       500
+      ],
+      "rot": 15,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       215,
+       430
+      ],
+      "rot": 90,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "circle",
+      "at": [
+       165,
+       500
+      ],
+      "r": 12
+     }
+    ]
+   },
+   {
+    "text": "Fortsæt derefter med knofriktioner på samme område.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "fist",
+      "at": [
+       165,
+       500
+      ],
+      "rot": 15,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       215,
+       430
+      ],
+      "rot": 90,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "circle",
+      "at": [
+       165,
+       500
+      ],
+      "r": 14
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Cirklen er tegnet med hånd på kildens foto; cirklernes retning er ikke angivet."
+  ]
+ },
+ {
+  "techniqueId": "ben-10",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    50,
+    440,
+    300,
+    330
+   ],
+   "focus": [
+    "biceps-femoris",
+    "semitendinosus"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Afslut med lange strygninger med flad hånd over benets bagside.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "flat",
+      "at": [
+       162,
+       600
+      ],
+      "rot": 0,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       194,
+       720
+      ],
+      "to": [
+       194,
+       545
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Pilens retning i fotoet er ikke entydig – vist som strygning op mod ballen ligesom trin 1."
+  ]
+ },
+ {
+  "techniqueId": "ben-15",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    80,
+    680,
+    240,
+    240
+   ],
+   "focus": [
+    "tibialis-anterior"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Begge hænder omslutter underbenet. Tommelfingeren arbejder fra anklen op langs ydersiden af skinnebenet mod knæet – stop før knæleddet.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       152,
+       805
+      ],
+      "rot": 0,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       182,
+       812
+      ],
+      "rot": 0,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       140,
+       870
+      ],
+      "to": [
+       140,
+       728
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": [],
+  "therapist": "Ved fodenden.",
+  "clientPose": "Knæet er bøjet med foden på briksen (tegningen viser benet strakt)."
+ },
+ {
+  "techniqueId": "ben-16",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    80,
+    680,
+    240,
+    240
+   ],
+   "focus": []
+  },
+  "frames": [
+   {
+    "text": "Forsigtige friktioner med fingrene langs skinnebenet op mod knæet – især ved tuberositas tibiae (knoglefremspringet lige under knæskallen).",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "tips",
+      "at": [
+       170,
+       770
+      ],
+      "rot": 0,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       186,
+       860
+      ],
+      "to": [
+       186,
+       720
+      ]
+     }
+    ],
+    "marks": [
+     {
+      "at": [
+       166,
+       712
+      ],
+      "label": "!"
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Billedteksten siger ikke, hvilken del af hånden der bruges; fotoet viser fingrene langs skinnebenet."
+  ],
+  "therapist": "Ved fodenden.",
+  "clientPose": "Knæet er bøjet med foden på briksen (tegningen viser benet strakt)."
+ },
+ {
+  "techniqueId": "ben-17",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    80,
+    440,
+    240,
+    290
+   ],
+   "focus": [
+    "vastus-medialis",
+    "vastus-lateralis"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Tommelfingeren arbejder fra knæet op langs m. vastus medialis på lårets inderside.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       180,
+       652
+      ],
+      "rot": 0,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       192,
+       690
+      ],
+      "to": [
+       192,
+       540
+      ]
+     }
+    ]
+   },
+   {
+    "text": "Derefter samme bevægelse op langs m. vastus lateralis på lårets yderside.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       136,
+       615
+      ],
+      "rot": 0,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       122,
+       680
+      ],
+      "to": [
+       122,
+       520
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Håndskrevet på siden: ”Tommel”, ”3 baner” – betydningen (tre baner på hver muskel?) bør bekræftes."
+  ]
+ },
+ {
+  "techniqueId": "ben-18",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    80,
+    440,
+    240,
+    290
+   ],
+   "focus": [
+    "rectus-femoris"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Knoerne arbejder op langs m. rectus femoris midt på lårets forside mod hoften. Den anden hånd hviler ved knæet.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "fist",
+      "at": [
+       160,
+       585
+      ],
+      "rot": 25,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       176,
+       672
+      ],
+      "rot": -10,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       190,
+       650
+      ],
+      "to": [
+       190,
+       490
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Håndskrevet: ”Kno”, ”3 baner” – bør bekræftes."
+  ]
+ },
+ {
+  "techniqueId": "ben-19",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    80,
+    440,
+    240,
+    290
+   ],
+   "focus": [
+    "sartorius"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Den ene hånd stabiliserer knæet. Tommelfingeren følger m. sartorius fra knæets inderside skråt op mod hoften.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       183,
+       640
+      ],
+      "rot": -8,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       160,
+       676
+      ],
+      "rot": 0,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       196,
+       690
+      ],
+      "to": [
+       154,
+       465
+      ],
+      "bend": 6
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": [],
+  "clientPose": "Knæet er bøjet (fotoet); håndskrevet: ”Bukke ind mod mig”. Tegningen viser benet strakt."
+ },
+ {
+  "techniqueId": "ben-20",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    80,
+    440,
+    240,
+    290
+   ],
+   "focus": [
+    "gracilis"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Tommelfingeren arbejder op langs m. gracilis på lårets inderside mod lysken.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       192,
+       625
+      ],
+      "rot": 0,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       186,
+       692
+      ],
+      "to": [
+       186,
+       520
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": [],
+  "clientPose": "Benet er bøjet og ført lidt ud (fotoet). Håndskrevet: ”løft benet”. Tegningen viser benet strakt."
+ },
+ {
+  "techniqueId": "ben-21",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    80,
+    440,
+    240,
+    290
+   ],
+   "focus": [
+    "adductores"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Knoerne arbejder med friktioner langs adduktorerne på lårets inderside, med tryk ned mod briksen. Den anden hånd støtter ved knæet.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "fist",
+      "at": [
+       184,
+       560
+      ],
+      "rot": 0,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       140,
+       672
+      ],
+      "rot": 0,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "press",
+      "at": [
+       184,
+       560
+      ],
+      "angle": 180
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Pilen i fotoet peger nedad mod briksen (tryk); bevægelsesretningen langs musklen er ikke vist."
+  ]
+ },
+ {
+  "techniqueId": "ben-22",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    80,
+    440,
+    240,
+    290
+   ],
+   "focus": [
+    "tractus-iliotibialis"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Knoerne arbejder ned langs tractus iliotibialis på lårets yderside, fra hoften mod knæet. Den anden hånd hviler på låret.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "fist",
+      "at": [
+       132,
+       560
+      ],
+      "rot": 180,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       168,
+       560
+      ],
+      "rot": 180,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       110,
+       520
+      ],
+      "to": [
+       112,
+       680
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": []
+ },
+ {
+  "techniqueId": "ben-23",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    80,
+    440,
+    240,
+    290
+   ],
+   "focus": [
+    "tractus-iliotibialis"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Fingerspidserne arbejder langs den nederste del af tractus iliotibialis ned mod knæet.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "tips",
+      "at": [
+       134,
+       650
+      ],
+      "rot": 180,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       112,
+       610
+      ],
+      "to": [
+       114,
+       690
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": [
+   "Håndskrevet: ”vend mod patienten”."
+  ]
+ },
+ {
+  "techniqueId": "ben-24",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    50,
+    430,
+    300,
+    480
+   ],
+   "focus": []
+  },
+  "frames": [
+   {
+    "text": "Afslut med lange strygninger med flade hænder over hele benet.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "flat",
+      "at": [
+       160,
+       600
+      ],
+      "rot": 0,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       194,
+       880
+      ],
+      "to": [
+       194,
+       480
+      ],
+      "double": true,
+      "dashed": true
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Billedteksten angiver ikke retning, og fotoet har ingen pil. Den stiplede dobbeltpil viser kun området."
+  ]
+ },
+ {
+  "techniqueId": "ryg-1",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    50,
+    120,
+    300,
+    370
+   ],
+   "focus": []
+  },
+  "frames": [
+   {
+    "text": "Stå ved hovedenden. Begge hænder ligger fladt på hver side af rygsøjlen med fingrene mod fødderne. Stryg op og ned over hele ryggen.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "flat",
+      "at": [
+       168,
+       245
+      ],
+      "rot": 180,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       232,
+       245
+      ],
+      "rot": 180,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       130,
+       200
+      ],
+      "to": [
+       130,
+       450
+      ],
+      "double": true
+     },
+     {
+      "kind": "line",
+      "from": [
+       270,
+       200
+      ],
+      "to": [
+       270,
+       450
+      ],
+      "double": true
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": [],
+  "therapist": "Ved hovedenden."
+ },
+ {
+  "techniqueId": "ryg-2",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    90,
+    60,
+    220,
+    180
+   ],
+   "focus": [
+    "trapezius"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Den ene hånd griber om den øvre del af m. trapezius og ælter frem og tilbage; den anden hånd hviler på skulderbladet.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "grip",
+      "at": [
+       150,
+       164
+      ],
+      "rot": -100,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       165,
+       228
+      ],
+      "rot": 200,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       150,
+       128
+      ],
+      "to": [
+       166,
+       182
+      ],
+      "double": true
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Grebets præcise fingerstilling (tommelfinger bag, fingre over skulderen) er tolket ud fra fotoet."
+  ],
+  "therapist": "Stå på modsatte side af briksen."
+ },
+ {
+  "techniqueId": "ryg-3",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    90,
+    60,
+    220,
+    180
+   ],
+   "focus": [
+    "levator-scapulae"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Fingerspidserne laver små friktioner over m. levator scapulae, mellem nakken og skulderbladets øvre, indre hjørne.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "tips",
+      "at": [
+       172,
+       172
+      ],
+      "rot": -100,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       162,
+       160
+      ],
+      "to": [
+       180,
+       190
+      ],
+      "double": true
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Den anden hånd ses ikke i fotoet. Musklens placering er tegnet efter standardanatomi."
+  ],
+  "therapist": "Stå på modsatte side af briksen."
+ },
+ {
+  "techniqueId": "ryg-4a",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    90,
+    60,
+    220,
+    180
+   ],
+   "focus": [
+    "trapezius"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Fingrene arbejder frem og tilbage langs den øvre kant af m. trapezius, fra nakken ud mod skulderen. Den anden hånd hviler på skulderen.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "tips",
+      "at": [
+       160,
+       160
+      ],
+      "rot": 210,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       118,
+       198
+      ],
+      "rot": 200,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       184,
+       142
+      ],
+      "to": [
+       132,
+       170
+      ],
+      "double": true
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": [
+   "Håndskrevet: ”frem og tilbage v. hovedets side”."
+  ],
+  "therapist": "Stå ved hovedenden."
+ },
+ {
+  "techniqueId": "ryg-4b",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    70,
+    120,
+    240,
+    200
+   ],
+   "focus": [
+    "trapezius"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Massage langs skulderbladets øvre kant. Fotoet viser begge hænder fladt over skulderbladet.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "tips",
+      "at": [
+       158,
+       198
+      ],
+      "rot": 80,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       165,
+       245
+      ],
+      "rot": 80,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       182,
+       210
+      ],
+      "to": [
+       134,
+       194
+      ],
+      "double": true,
+      "dashed": true
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Kilden angiver hverken håndstilling eller retning; den stiplede pil viser kun området. Håndskrevet: ”og m. knoer”."
+  ]
+ },
+ {
+  "techniqueId": "ryg-5",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    70,
+    120,
+    240,
+    200
+   ],
+   "focus": []
+  },
+  "frames": [
+   {
+    "text": "Med klientens arm liggende på ryggen løfter skulderbladets inderkant sig. Tommelfingrene laver friktioner langs inderkanten i pilens retning, mod kanten.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       178,
+       236
+      ],
+      "rot": -90,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       122,
+       190
+      ],
+      "rot": 0,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       196,
+       236
+      ],
+      "to": [
+       170,
+       236
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Tommelfingrenes præcise stilling er kun delvist synlig; pilen i fotoet peger mod skulderbladets kant."
+  ],
+  "therapist": "Stå ved hovedenden (fotoet).",
+  "clientPose": "Klientens arm ligger på ryggen med hånden ved lænden (tegningen viser armen langs siden). Håndskrevet: ”PUDE”."
+ },
+ {
+  "techniqueId": "ryg-6",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    70,
+    120,
+    240,
+    200
+   ],
+   "focus": []
+  },
+  "frames": [
+   {
+    "text": "Knoerne arbejder ned langs skulderbladets inderste kant.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "fist",
+      "at": [
+       176,
+       215
+      ],
+      "rot": 180,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       190,
+       205
+      ],
+      "to": [
+       182,
+       285
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": [],
+  "therapist": "Stå ved hovedenden."
+ },
+ {
+  "techniqueId": "ryg-7",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    70,
+    120,
+    240,
+    200
+   ],
+   "focus": [
+    "trapezius"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Knoerne arbejder fra skulderen indad mod nakken og rygsøjlen.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "fist",
+      "at": [
+       150,
+       182
+      ],
+      "rot": 70,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       132,
+       196
+      ],
+      "to": [
+       186,
+       210
+      ]
+     },
+     {
+      "kind": "line",
+      "from": [
+       130,
+       180
+      ],
+      "to": [
+       178,
+       152
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Håndskrevet: ”håndrod imellem, lille bevægelse” (usikker læsning)."
+  ]
+ },
+ {
+  "techniqueId": "ryg-8",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    70,
+    120,
+    240,
+    200
+   ],
+   "focus": [
+    "infraspinatus"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Håndroden placeres på skulderbladet og laver cirkulære friktioner. Den anden hånd hviler på ryggen.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "heel",
+      "at": [
+       148,
+       232
+      ],
+      "rot": 160,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       236,
+       248
+      ],
+      "rot": 180,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "circle",
+      "at": [
+       148,
+       232
+      ],
+      "r": 16
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": [
+   "Håndskrevet: ”over knoklen”, ”stå oppe” (usikker læsning)."
+  ]
+ },
+ {
+  "techniqueId": "ryg-9",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    70,
+    120,
+    240,
+    200
+   ],
+   "focus": [
+    "infraspinatus"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Tommelfingeren laver friktioner på m. infraspinatus under skulderbladskammen; fingrene hviler om skulderen. Herefter lægges armen op over hovedet.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       146,
+       238
+      ],
+      "rot": 200,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       192,
+       262
+      ],
+      "rot": 180,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "circle",
+      "at": [
+       146,
+       238
+      ],
+      "r": 10
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Friktionernes retning er ikke angivet; cirklen markerer kun friktion på stedet."
+  ],
+  "therapist": "Stå ved hovedenden (fotoet)."
+ },
+ {
+  "techniqueId": "ryg-10",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    70,
+    120,
+    240,
+    200
+   ],
+   "focus": [
+    "triceps-brachii",
+    "teres-major"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Knoerne arbejder langs udspringet af m. triceps brachii på ydersiden af armhulen, i pilens retning op mod armhulen.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "fist",
+      "at": [
+       128,
+       255
+      ],
+      "rot": -45,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       196,
+       286
+      ],
+      "rot": 180,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       150,
+       285
+      ],
+      "to": [
+       118,
+       236
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Håndskrevet: ”glat hånd over scapula” (usikker læsning)."
+  ],
+  "clientPose": "Armen ligger op over hovedet (tegningen viser armen langs siden)."
+ },
+ {
+  "techniqueId": "ryg-11",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    70,
+    120,
+    240,
+    200
+   ],
+   "focus": [
+    "teres-major",
+    "infraspinatus"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Tommelfingeren arbejder langs skulderbladets yderste kant; den anden hånd holder om skulderen.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       148,
+       254
+      ],
+      "rot": -30,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       112,
+       200
+      ],
+      "rot": 0,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       166,
+       286
+      ],
+      "to": [
+       134,
+       220
+      ],
+      "double": true,
+      "dashed": true
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Retningen langs kanten er ikke entydig i fotoet; den stiplede dobbeltpil viser kun forløbet."
+  ]
+ },
+ {
+  "techniqueId": "ryg-12",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    90,
+    60,
+    220,
+    180
+   ],
+   "focus": [
+    "trapezius"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Hånden griber om nakken med tommelfingeren på den ene side og fingrene på den anden og ælter frem og tilbage.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "grip",
+      "at": [
+       200,
+       140
+      ],
+      "rot": 43,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       172,
+       168
+      ],
+      "to": [
+       228,
+       168
+      ],
+      "double": true
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Den anden hånds placering er ikke tydelig i fotoet. Håndskrevet: ”frem og tilbage, ’vippe’”."
+  ],
+  "therapist": "Stå på siden af briksen."
+ },
+ {
+  "techniqueId": "ryg-13",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    100,
+    20,
+    200,
+    220
+   ],
+   "focus": [
+    "suboccipitales",
+    "trapezius"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Hænderne ligger på skuldrene og trækker skuldrene tilbage mod hovedenden.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "flat",
+      "at": [
+       150,
+       186
+      ],
+      "rot": 180,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       250,
+       186
+      ],
+      "rot": 180,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       124,
+       220
+      ],
+      "to": [
+       124,
+       172
+      ]
+     },
+     {
+      "kind": "line",
+      "from": [
+       276,
+       220
+      ],
+      "to": [
+       276,
+       172
+      ]
+     }
+    ]
+   },
+   {
+    "text": "Fingerspidserne trykker derefter langs kraniekanten over den suboccipitale muskulatur.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "tips",
+      "at": [
+       188,
+       114
+      ],
+      "rot": 180,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "tips",
+      "at": [
+       212,
+       114
+      ],
+      "rot": 180,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       178,
+       142
+      ],
+      "to": [
+       184,
+       118
+      ]
+     },
+     {
+      "kind": "line",
+      "from": [
+       222,
+       142
+      ],
+      "to": [
+       216,
+       118
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": [],
+  "therapist": "Stå ved hovedenden."
+ },
+ {
+  "techniqueId": "ryg-14",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    90,
+    60,
+    220,
+    180
+   ],
+   "focus": [
+    "trapezius"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Knoerne placeres på hver side af nakken og arbejder ned og ud over den øvre del af m. trapezius mod skuldrene.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "fist",
+      "at": [
+       186,
+       148
+      ],
+      "rot": 180,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "fist",
+      "at": [
+       214,
+       148
+      ],
+      "rot": 180,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       178,
+       132
+      ],
+      "to": [
+       136,
+       170
+      ],
+      "bend": -14
+     },
+     {
+      "kind": "line",
+      "from": [
+       222,
+       132
+      ],
+      "to": [
+       264,
+       170
+      ],
+      "bend": 14
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": [
+   "Håndskrevet: ”Tommelfinger friktion i kraniekanten”."
+  ],
+  "therapist": "Stå ved hovedenden."
+ },
+ {
+  "techniqueId": "ryg-15",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    60,
+    150,
+    280,
+    350
+   ],
+   "focus": [
+    "erector-spinae"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Tommelfingrene laver små cirkler på hver side af rygsøjlen og flyttes gradvist ned til ballernes øverste kant. Hænderne hviler fladt.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       191,
+       225
+      ],
+      "rot": 180,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "thumb",
+      "at": [
+       209,
+       225
+      ],
+      "rot": 180,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "circle",
+      "at": [
+       191,
+       225
+      ],
+      "r": 8
+     },
+     {
+      "kind": "circle",
+      "at": [
+       209,
+       225
+      ],
+      "r": 8,
+      "ccw": true
+     },
+     {
+      "kind": "line",
+      "from": [
+       183,
+       250
+      ],
+      "to": [
+       183,
+       455
+      ],
+      "dashed": true
+     },
+     {
+      "kind": "line",
+      "from": [
+       217,
+       250
+      ],
+      "to": [
+       217,
+       455
+      ],
+      "dashed": true
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": [],
+  "therapist": "Stå ved hovedenden."
+ },
+ {
+  "techniqueId": "ryg-16",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    70,
+    340,
+    260,
+    200
+   ],
+   "focus": [
+    "erector-spinae"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Den ene hånd lægges oven på den anden. Håndroden laver cirkulære friktioner langs rygstrækkeren på den modsatte side af rygsøjlen.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "heel",
+      "at": [
+       186,
+       420
+      ],
+      "rot": -90,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "heel",
+      "at": [
+       190,
+       412
+      ],
+      "rot": -80,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "circle",
+      "at": [
+       186,
+       420
+      ],
+      "r": 16
+     },
+     {
+      "kind": "line",
+      "from": [
+       166,
+       360
+      ],
+      "to": [
+       166,
+       470
+      ],
+      "double": true,
+      "dashed": true
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Retningen langs musklen (op/ned) er ikke angivet; den stiplede pil viser kun området."
+  ],
+  "therapist": "Stå på modsatte side af briksen."
+ },
+ {
+  "techniqueId": "ryg-17",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    70,
+    340,
+    260,
+    200
+   ],
+   "focus": []
+  },
+  "frames": [
+   {
+    "text": "Begge hænder ligger fladt på lænden og ælter vævet frem og tilbage i pilens retning.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "flat",
+      "at": [
+       172,
+       432
+      ],
+      "rot": 190,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       228,
+       432
+      ],
+      "rot": 170,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       186,
+       385
+      ],
+      "to": [
+       214,
+       385
+      ],
+      "double": true
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Håndskrevet: ”Ned skråt”."
+  ]
+ },
+ {
+  "techniqueId": "ryg-18",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    70,
+    340,
+    260,
+    200
+   ],
+   "focus": []
+  },
+  "frames": [
+   {
+    "text": "Friktion med håndens kant i flanken, mellem hoftekammen og de nederste ribben.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "edge",
+      "at": [
+       140,
+       415
+      ],
+      "rot": 180,
+      "role": "active"
+     }
+    ],
+    "arrows": []
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Fotoet viser ingen bevægelsesretning. Håndskrevet: ”kniven”, ”QL musklen” (usikker læsning)."
+  ]
+ },
+ {
+  "techniqueId": "ryg-19",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    80,
+    380,
+    240,
+    180
+   ],
+   "focus": [
+    "gluteus-medius"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Tommelfingeren laver friktioner på m. gluteus medius, nedad. Den anden hånd hviler på lænden.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       156,
+       452
+      ],
+      "rot": 180,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       210,
+       418
+      ],
+      "rot": 90,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       132,
+       430
+      ],
+      "to": [
+       132,
+       480
+      ]
+     }
+    ]
+   },
+   {
+    "text": "Gentag med knoerne, nedad.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "fist",
+      "at": [
+       156,
+       452
+      ],
+      "rot": 180,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       210,
+       418
+      ],
+      "rot": 90,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       132,
+       430
+      ],
+      "to": [
+       132,
+       480
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": []
+ },
+ {
+  "techniqueId": "ryg-20",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    80,
+    380,
+    240,
+    180
+   ],
+   "focus": [
+    "gluteus-medius"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Knoerne laver friktioner på m. gluteus medius, opad.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "fist",
+      "at": [
+       156,
+       456
+      ],
+      "rot": 0,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       210,
+       418
+      ],
+      "rot": 90,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       132,
+       480
+      ],
+      "to": [
+       132,
+       430
+      ]
+     }
+    ]
+   },
+   {
+    "text": "Gentag med tommelfingeren, opad.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       156,
+       456
+      ],
+      "rot": 0,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       210,
+       418
+      ],
+      "rot": 90,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       132,
+       480
+      ],
+      "to": [
+       132,
+       430
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": []
+ },
+ {
+  "techniqueId": "ryg-21",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    70,
+    300,
+    260,
+    200
+   ],
+   "focus": [
+    "erector-spinae"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Tommelfingeren arbejder op langs rygsøjlen (tilbage mod hjertet).",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       190,
+       440
+      ],
+      "rot": 0,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       178,
+       480
+      ],
+      "to": [
+       178,
+       330
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": []
+ },
+ {
+  "techniqueId": "ryg-22",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    50,
+    120,
+    300,
+    370
+   ],
+   "focus": []
+  },
+  "frames": [
+   {
+    "text": "Stå ved hovedenden. Begge hænder ligger fladt på hver side af rygsøjlen og stryger op og ned over hele ryggen.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "flat",
+      "at": [
+       168,
+       245
+      ],
+      "rot": 180,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       232,
+       245
+      ],
+      "rot": 180,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       130,
+       200
+      ],
+      "to": [
+       130,
+       450
+      ],
+      "double": true
+     },
+     {
+      "kind": "line",
+      "from": [
+       270,
+       200
+      ],
+      "to": [
+       270,
+       450
+      ],
+      "double": true
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": [],
+  "therapist": "Stå for enden af briksen (ved hovedet)."
+ },
+ {
+  "techniqueId": "arm-1",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    0,
+    150,
+    240,
+    470
+   ],
+   "focus": []
+  },
+  "frames": [
+   {
+    "text": "Begge hænder omslutter armen og stryger op og ned over hele armen.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "flat",
+      "at": [
+       80,
+       430
+      ],
+      "rot": 0,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       106,
+       268
+      ],
+      "rot": 0,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       30,
+       500
+      ],
+      "to": [
+       30,
+       220
+      ],
+      "double": true
+     },
+     {
+      "kind": "line",
+      "from": [
+       140,
+       380
+      ],
+      "to": [
+       140,
+       210
+      ],
+      "double": true
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Hændernes præcise stilling om armen er kun delvist synlig."
+  ],
+  "clientPose": "Fotoet viser armen løftet mellem behandlerens hænder."
+ },
+ {
+  "techniqueId": "arm-2",
+  "stage": {
+   "kind": "hand",
+   "surface": "dorsal",
+   "frame": [
+    -95,
+    -80,
+    190,
+    150
+   ]
+  },
+  "frames": [
+   {
+    "text": "Den ene hånd støtter klientens hånd nedefra. Tommel- og pegefinger griber om én finger ad gangen og ælter fra fingerroden ud mod spidsen.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "pinch",
+      "at": [
+       -3,
+       -30
+      ],
+      "rot": 115,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       14,
+       -10
+      ],
+      "to": [
+       14,
+       -56
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": []
+ },
+ {
+  "techniqueId": "arm-3",
+  "stage": {
+   "kind": "hand",
+   "surface": "dorsal",
+   "frame": [
+    -95,
+    -80,
+    190,
+    150
+   ]
+  },
+  "frames": [
+   {
+    "text": "Klientens hånd ligger med håndryggen op. Tommelfingrene arbejder i furerne mellem fingrenes sener, fra knoerne mod håndleddet; fingrene støtter under hånden.",
+    "hands": [
+     {
+      "side": "L",
+      "pose": "thumb",
+      "at": [
+       -9,
+       4
+      ],
+      "rot": 145,
+      "role": "active"
+     },
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       11,
+       4
+      ],
+      "rot": 215,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       -9,
+       -8
+      ],
+      "to": [
+       -8,
+       34
+      ]
+     },
+     {
+      "kind": "line",
+      "from": [
+       11,
+       -8
+      ],
+      "to": [
+       10,
+       34
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": []
+ },
+ {
+  "techniqueId": "arm-4",
+  "stage": {
+   "kind": "hand",
+   "surface": "palmar",
+   "frame": [
+    -95,
+    -80,
+    190,
+    150
+   ]
+  },
+  "frames": [
+   {
+    "text": "Klientens håndflade vender op, og behandlerens fingre støtter under hånden. Tommelfingrene arbejder i håndfladen – især på tommelfingerballen.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       14,
+       16
+      ],
+      "rot": 225,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "thumb",
+      "at": [
+       -6,
+       2
+      ],
+      "rot": 140,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       36,
+       -4
+      ],
+      "to": [
+       20,
+       12
+      ]
+     },
+     {
+      "kind": "line",
+      "from": [
+       -20,
+       30
+      ],
+      "to": [
+       -10,
+       6
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Pilene i fotoet viser flere retninger; den præcise rækkefølge er ikke beskrevet."
+  ]
+ },
+ {
+  "techniqueId": "arm-5",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    0,
+    300,
+    220,
+    230
+   ],
+   "focus": [
+    "brachioradialis"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Den ene hånd holder klientens håndled. Tommelfingeren arbejder op langs m. brachioradialis på underarmens tommelfingerside mod albuen – ikke over leddet.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       76,
+       440
+      ],
+      "rot": -8,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "grip",
+      "at": [
+       72,
+       505
+      ],
+      "rot": 90,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       56,
+       480
+      ],
+      "to": [
+       72,
+       355
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": [],
+  "clientPose": "Fotoet viser albuen på briksen med underarmen løftet."
+ },
+ {
+  "techniqueId": "arm-6",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    0,
+    300,
+    220,
+    230
+   ],
+   "focus": [
+    "flexores-antebrachii"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Tommelfingeren arbejder op langs underarmens lillefingerside mod albuen.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       104,
+       440
+      ],
+      "rot": 6,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       122,
+       485
+      ],
+      "to": [
+       120,
+       340
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Billedtekstens ”til lateral på humerus” er uklar – lillefingersiden er normalt medial. Bør afklares med underviser."
+  ]
+ },
+ {
+  "techniqueId": "arm-7",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    0,
+    300,
+    220,
+    230
+   ],
+   "focus": [
+    "flexores-antebrachii"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Tommelfingeren skiller musklerne på underarmens inderside med friktioner frem og tilbage i pilens retning.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       88,
+       425
+      ],
+      "rot": 0,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       72,
+       450
+      ],
+      "to": [
+       106,
+       400
+      ],
+      "double": true
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": []
+ },
+ {
+  "techniqueId": "arm-8",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    0,
+    300,
+    220,
+    230
+   ],
+   "focus": [
+    "flexores-antebrachii"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Tommelfingeren arbejder langs underarmens lillefingerside op mod albuen og humerus.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       104,
+       450
+      ],
+      "rot": 6,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       122,
+       490
+      ],
+      "to": [
+       120,
+       330
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": []
+ },
+ {
+  "techniqueId": "arm-9",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    0,
+    260,
+    220,
+    260
+   ],
+   "focus": [
+    "brachioradialis"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Den ene hånd holder håndleddet. Tommelfingeren arbejder op langs tommelfingersiden af m. brachioradialis. Drej armen, før albueleddet passeres.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       76,
+       440
+      ],
+      "rot": -8,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "grip",
+      "at": [
+       72,
+       505
+      ],
+      "rot": 90,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       56,
+       480
+      ],
+      "to": [
+       80,
+       300
+      ],
+      "bend": -8
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": []
+ },
+ {
+  "techniqueId": "arm-10",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    10,
+    170,
+    220,
+    210
+   ],
+   "focus": [
+    "biceps-brachii"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Begge hænder griber om m. biceps brachii og ælter frem og tilbage langs musklen.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "grip",
+      "at": [
+       104,
+       258
+      ],
+      "rot": 43,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "grip",
+      "at": [
+       104,
+       318
+      ],
+      "rot": 137,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       72,
+       232
+      ],
+      "to": [
+       70,
+       340
+      ],
+      "double": true
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Grebets præcise stilling er tolket ud fra fotoet."
+  ]
+ },
+ {
+  "techniqueId": "arm-11",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    0,
+    200,
+    220,
+    330
+   ],
+   "focus": [
+    "biceps-brachii"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Den ene hånd holder klientens håndled. Den anden hånd ælter fra albueleddet op langs m. biceps brachii.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "grip",
+      "at": [
+       104,
+       330
+      ],
+      "rot": 43,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "grip",
+      "at": [
+       72,
+       505
+      ],
+      "rot": 90,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       70,
+       345
+      ],
+      "to": [
+       76,
+       225
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": []
+ },
+ {
+  "techniqueId": "arm-12",
+  "stage": {
+   "kind": "figure",
+   "view": "posterior",
+   "frame": [
+    20,
+    160,
+    200,
+    220
+   ],
+   "focus": [
+    "triceps-brachii",
+    "deltoideus"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Tommelfingeren arbejder fra albuen op ad overarmen i fire baner: (1) lateralt for biceps, (2–3) to gange på triceps, (4) over deltoideus.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       104,
+       322
+      ],
+      "rot": 0,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       86,
+       342
+      ],
+      "to": [
+       86,
+       232
+      ],
+      "dashed": true
+     },
+     {
+      "kind": "line",
+      "from": [
+       100,
+       342
+      ],
+      "to": [
+       100,
+       250
+      ],
+      "dashed": true
+     },
+     {
+      "kind": "line",
+      "from": [
+       114,
+       342
+      ],
+      "to": [
+       114,
+       250
+      ],
+      "dashed": true
+     },
+     {
+      "kind": "line",
+      "from": [
+       108,
+       262
+      ],
+      "to": [
+       112,
+       186
+      ],
+      "dashed": true
+     }
+    ],
+    "marks": [
+     {
+      "at": [
+       80,
+       350
+      ],
+      "label": "1"
+     },
+     {
+      "at": [
+       98,
+       356
+      ],
+      "label": "2"
+     },
+     {
+      "at": [
+       116,
+       352
+      ],
+      "label": "3"
+     },
+     {
+      "at": [
+       124,
+       250
+      ],
+      "label": "4"
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Opdelingen i fire baner er tolket ud fra billedteksten (”Del Triceps i 4 sektioner …”) og bør bekræftes."
+  ],
+  "clientPose": "Fotoet viser armen bøjet og løftet; tegningen viser overarmen bagfra."
+ },
+ {
+  "techniqueId": "arm-13",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    0,
+    150,
+    240,
+    470
+   ],
+   "focus": []
+  },
+  "frames": [
+   {
+    "text": "Afslut med strygninger op og ned over hele armen med begge hænder.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "flat",
+      "at": [
+       80,
+       430
+      ],
+      "rot": 0,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       106,
+       268
+      ],
+      "rot": 0,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       30,
+       500
+      ],
+      "to": [
+       30,
+       220
+      ],
+      "double": true
+     },
+     {
+      "kind": "line",
+      "from": [
+       140,
+       380
+      ],
+      "to": [
+       140,
+       210
+      ],
+      "double": true
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Hændernes præcise stilling om armen er kun delvist synlig."
+  ]
+ },
+ {
+  "techniqueId": "arm-14",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    70,
+    120,
+    260,
+    190
+   ],
+   "focus": [
+    "pectoralis-major"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Stå ved hovedenden. Begge hænder ligger fladt på brystet med fingrene ind mod brystbenet og stryger ud over brystmusklen mod skuldrene.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "flat",
+      "at": [
+       165,
+       215
+      ],
+      "rot": 135,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       235,
+       215
+      ],
+      "rot": 225,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       192,
+       248
+      ],
+      "to": [
+       128,
+       196
+      ],
+      "bend": -18
+     },
+     {
+      "kind": "line",
+      "from": [
+       208,
+       248
+      ],
+      "to": [
+       272,
+       196
+      ],
+      "bend": 18
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": [],
+  "therapist": "Stå ved hovedenden."
+ },
+ {
+  "techniqueId": "arm-15",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    70,
+    120,
+    260,
+    190
+   ],
+   "focus": [
+    "pectoralis-major"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Fingerspidserne arbejder fra brystbenet ud mod overarmsknoglen. Stop lige over brystvorten.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "tips",
+      "at": [
+       178,
+       205
+      ],
+      "rot": 160,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       196,
+       222
+      ],
+      "to": [
+       128,
+       202
+      ],
+      "bend": -6
+     }
+    ],
+    "marks": [
+     {
+      "at": [
+       166,
+       246
+      ],
+      "label": "!"
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Fotoet viser en pil nedad langs fingrene; billedteksten beskriver retningen fra sternum ud mod humerus. Tegningen følger billedteksten."
+  ],
+  "therapist": "Stå ved hovedenden."
+ },
+ {
+  "techniqueId": "arm-16",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    70,
+    120,
+    260,
+    190
+   ],
+   "focus": [
+    "pectoralis-minor"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Fingerspidserne laver friktioner frem og tilbage langs m. pectoralis minor, under den store brystmuskel.",
+    "hands": [
+     {
+      "side": "L",
+      "pose": "tips",
+      "at": [
+       152,
+       222
+      ],
+      "rot": 60,
+      "role": "active"
+     },
+     {
+      "side": "R",
+      "pose": "flat",
+      "at": [
+       112,
+       270
+      ],
+      "rot": 0,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       142,
+       194
+      ],
+      "to": [
+       168,
+       252
+      ],
+      "double": true
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Musklen ligger dybt; placeringen er tegnet efter standardanatomi."
+  ],
+  "clientPose": "Fotoet viser klientens arm let ført ud fra kroppen."
+ },
+ {
+  "techniqueId": "arm-17",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    70,
+    120,
+    260,
+    190
+   ],
+   "focus": [
+    "pectoralis-minor"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Knoerne arbejder langs m. pectoralis minor op mod skulderen. Den anden hånd hviler på skulderen.",
+    "hands": [
+     {
+      "side": "L",
+      "pose": "fist",
+      "at": [
+       156,
+       228
+      ],
+      "rot": -20,
+      "role": "active"
+     },
+     {
+      "side": "R",
+      "pose": "flat",
+      "at": [
+       118,
+       190
+      ],
+      "rot": 0,
+      "role": "support"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       176,
+       262
+      ],
+      "to": [
+       146,
+       200
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Musklen ligger dybt; placeringen er tegnet efter standardanatomi."
+  ]
+ },
+ {
+  "techniqueId": "arm-18",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    70,
+    120,
+    260,
+    190
+   ],
+   "focus": [
+    "pectoralis-major"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Afslut med strygninger med flade hænder fra brystbenet ud mod skuldrene.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "flat",
+      "at": [
+       165,
+       215
+      ],
+      "rot": 135,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "flat",
+      "at": [
+       235,
+       215
+      ],
+      "rot": 225,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       192,
+       248
+      ],
+      "to": [
+       128,
+       196
+      ],
+      "bend": -18
+     },
+     {
+      "kind": "line",
+      "from": [
+       208,
+       248
+      ],
+      "to": [
+       272,
+       196
+      ],
+      "bend": 18
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": [],
+  "therapist": "Stå ved hovedenden."
+ },
+ {
+  "techniqueId": "ansigt-5",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    118,
+    -30,
+    164,
+    175
+   ],
+   "focus": [
+    "temporalis"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Fingrene samles på toppen af hovedet.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "tips",
+      "at": [
+       193,
+       26
+      ],
+      "rot": 165,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "tips",
+      "at": [
+       207,
+       26
+      ],
+      "rot": 195,
+      "role": "active"
+     }
+    ],
+    "arrows": []
+   },
+   {
+    "text": "Træk ned over tindingerne mod ørerne, så fingrene spredes.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "tips",
+      "at": [
+       166,
+       82
+      ],
+      "rot": 150,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "tips",
+      "at": [
+       234,
+       82
+      ],
+      "rot": 210,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       188,
+       30
+      ],
+      "to": [
+       160,
+       74
+      ],
+      "bend": -14
+     },
+     {
+      "kind": "line",
+      "from": [
+       212,
+       30
+      ],
+      "to": [
+       240,
+       74
+      ],
+      "bend": 14
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": [],
+  "therapist": "Ved hovedenden."
+ },
+ {
+  "techniqueId": "ansigt-6",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    118,
+    -30,
+    164,
+    175
+   ],
+   "focus": [
+    "masseter",
+    "temporalis"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Håndroden hviler ved tindingerne, og fingerspidserne ligger i tyggemuskulaturen under kindbenene. Lav små cirkler – 3 × 3.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "claw",
+      "at": [
+       166,
+       46
+      ],
+      "rot": 172,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "claw",
+      "at": [
+       234,
+       46
+      ],
+      "rot": 188,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "circle",
+      "at": [
+       172,
+       102
+      ],
+      "r": 6
+     },
+     {
+      "kind": "circle",
+      "at": [
+       228,
+       102
+      ],
+      "r": 6,
+      "ccw": true
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": [],
+  "therapist": "Ved hovedenden."
+ },
+ {
+  "techniqueId": "ansigt-7",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    118,
+    -30,
+    164,
+    175
+   ],
+   "focus": []
+  },
+  "frames": [
+   {
+    "text": "Fingrene placeres på hver side af næseryggen.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "tips",
+      "at": [
+       193,
+       76
+      ],
+      "rot": 170,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "tips",
+      "at": [
+       207,
+       76
+      ],
+      "rot": 190,
+      "role": "active"
+     }
+    ],
+    "arrows": []
+   },
+   {
+    "text": "Træk ned langs kindbenene ud mod øreflipperne.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "tips",
+      "at": [
+       162,
+       98
+      ],
+      "rot": 130,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "tips",
+      "at": [
+       238,
+       98
+      ],
+      "rot": 230,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       192,
+       88
+      ],
+      "to": [
+       162,
+       102
+      ],
+      "bend": 10
+     },
+     {
+      "kind": "line",
+      "from": [
+       208,
+       88
+      ],
+      "to": [
+       238,
+       102
+      ],
+      "bend": -10
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": [],
+  "therapist": "Ved hovedenden."
+ },
+ {
+  "techniqueId": "ansigt-8",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    118,
+    -30,
+    164,
+    175
+   ],
+   "focus": [
+    "temporalis"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Håndroden hviler ved tindingerne, og fingerspidserne ligger ved mundvigene. Lav små cirkler – 3 × 3.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "claw",
+      "at": [
+       170,
+       58
+      ],
+      "rot": 158,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "claw",
+      "at": [
+       230,
+       58
+      ],
+      "rot": 202,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "circle",
+      "at": [
+       188,
+       113
+      ],
+      "r": 5
+     },
+     {
+      "kind": "circle",
+      "at": [
+       212,
+       113
+      ],
+      "r": 5,
+      "ccw": true
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Fingerspidsernes præcise placering ved mundvigen er kun delvist synlig i fotoet."
+  ],
+  "therapist": "Ved hovedenden."
+ },
+ {
+  "techniqueId": "ansigt-9",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    118,
+    -30,
+    164,
+    175
+   ],
+   "focus": []
+  },
+  "frames": [
+   {
+    "text": "Tommelfingrene placeres lige over hagen og trækkes tilbage langs kæben op mod ørerne.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "thumb",
+      "at": [
+       194,
+       124
+      ],
+      "rot": 162,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "thumb",
+      "at": [
+       206,
+       124
+      ],
+      "rot": 198,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       190,
+       130
+      ],
+      "to": [
+       162,
+       102
+      ],
+      "bend": -8
+     },
+     {
+      "kind": "line",
+      "from": [
+       210,
+       130
+      ],
+      "to": [
+       238,
+       102
+      ],
+      "bend": 8
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Fotoet ser ud til at vise fingrene (ikke tommelfingrene) ved hagen – fingerstillingen bør bekræftes."
+  ],
+  "therapist": "Ved hovedenden."
+ },
+ {
+  "techniqueId": "ansigt-10",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    118,
+    -30,
+    164,
+    175
+   ],
+   "focus": [
+    "frontalis"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Håndroden placeres ved hårgrænsen og trækkes ned over panden mod øjenbrynene.",
+    "hands": [
+     {
+      "side": "L",
+      "pose": "heel",
+      "at": [
+       200,
+       34
+      ],
+      "rot": 180,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       222,
+       34
+      ],
+      "to": [
+       222,
+       60
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Fotoet viser to hænder med pile i hver sin retning; billedteksten nævner kun strygning nedad."
+  ],
+  "therapist": "Ved hovedenden."
+ },
+ {
+  "techniqueId": "ansigt-11",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    118,
+    -30,
+    164,
+    175
+   ],
+   "focus": [
+    "frontalis"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Den ene håndrod ved hårgrænsen, den anden over øjenbrynet. Hænderne trækker i hver sin retning.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "heel",
+      "at": [
+       188,
+       34
+      ],
+      "rot": 180,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "heel",
+      "at": [
+       212,
+       60
+      ],
+      "rot": 180,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "line",
+      "from": [
+       174,
+       40
+      ],
+      "to": [
+       174,
+       22
+      ]
+     },
+     {
+      "kind": "line",
+      "from": [
+       226,
+       56
+      ],
+      "to": [
+       226,
+       74
+      ]
+     }
+    ]
+   }
+  ],
+  "support": "delvis",
+  "review": [
+   "Hvilken hånd trækker hvilken vej er ikke beskrevet, og begge pile i fotoet peger nedad. Tegnet som en udstrækning af panden – bør bekræftes."
+  ],
+  "therapist": "Ved hovedenden."
+ },
+ {
+  "techniqueId": "ansigt-12",
+  "stage": {
+   "kind": "figure",
+   "view": "anterior",
+   "frame": [
+    118,
+    -30,
+    164,
+    175
+   ],
+   "focus": [
+    "temporalis"
+   ]
+  },
+  "frames": [
+   {
+    "text": "Håndroden lægges ved tindingerne og masserer i cirkler – 3 × 3.",
+    "hands": [
+     {
+      "side": "R",
+      "pose": "heel",
+      "at": [
+       164,
+       68
+      ],
+      "rot": 170,
+      "role": "active"
+     },
+     {
+      "side": "L",
+      "pose": "heel",
+      "at": [
+       236,
+       68
+      ],
+      "rot": 190,
+      "role": "active"
+     }
+    ],
+    "arrows": [
+     {
+      "kind": "circle",
+      "at": [
+       164,
+       68
+      ],
+      "r": 9
+     },
+     {
+      "kind": "circle",
+      "at": [
+       236,
+       68
+      ],
+      "r": 9,
+      "ccw": true
+     }
+    ]
+   }
+  ],
+  "support": "foto",
+  "review": [],
+  "therapist": "Ved hovedenden."
+ }
+]
