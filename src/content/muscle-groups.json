@@ -1,0 +1,40 @@
+[
+  {
+    "id": "triceps-surae",
+    "nameDa": "Den trehovedede lægmuskel",
+    "nameLatin": "M. triceps surae",
+    "nameEn": "Triceps surae",
+    "parts": [
+      "gastrocnemius",
+      "soleus"
+    ],
+    "aliases": [
+      "lægmusklen",
+      "lægmusklerne"
+    ],
+    "aliasesEn": [
+      "calf muscles"
+    ],
+    "daStatus": "gængs",
+    "daReason": null
+  },
+  {
+    "id": "quadriceps-femoris",
+    "nameDa": "Den firehovedede lårmuskel",
+    "nameLatin": "M. quadriceps femoris",
+    "nameEn": "Quadriceps femoris",
+    "parts": [
+      "rectus-femoris",
+      "vastus-lateralis",
+      "vastus-medialis"
+    ],
+    "aliases": [
+      "quadriceps"
+    ],
+    "aliasesEn": [
+      "quads"
+    ],
+    "daStatus": "gængs",
+    "daReason": null
+  }
+]

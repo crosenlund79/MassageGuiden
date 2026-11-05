@@ -379,6 +379,24 @@ t(P,"12","ansigt",22,"Cirkler ved tindingerne","friktion",["håndrod"],
 for i, r in enumerate(records):
     r["order"] = i + 1
 
+# ---- English versions (scripts/translations_en.py), checked against the Danish structure ----
+import sys
+sys.path.insert(0, os.path.dirname(__file__))
+from translations_en import TECH, GAP, LINK_NOTES
+for r in records:
+    if r.get("gap"):
+        r["en"] = {"reason": GAP[r["program"]]}
+        continue
+    name, desc, pos, prec, rev = TECH[r["id"]]
+    assert (pos is None) == (r["position"] is None), r["id"] + " position"
+    assert len(prec) == len(r["precautions"]), r["id"] + " precautions"
+    assert len(rev) == len(r["reviewNotes"]), r["id"] + " reviewNotes"
+    r["en"] = {"name": name, "description": desc, "position": pos, "precautions": prec, "reviewNotes": rev}
+    for l in r["muscles"]:
+        if l.get("note"):
+            l["noteEn"] = LINK_NOTES[l["note"]]
+assert set(TECH) == {r["id"] for r in records if not r.get("gap")}, "translation ids mismatch"
+
 out = os.path.join(os.path.dirname(__file__), "..", "src", "content", "techniques.json")
 with open(out, "w", encoding="utf-8") as f:
     json.dump(records, f, ensure_ascii=False, indent=2)

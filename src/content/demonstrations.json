@@ -46,7 +46,15 @@
    }
   ],
   "support": "foto",
-  "review": []
+  "review": [],
+  "en": {
+   "frames": [
+    "The hand lies flat on the back of the leg with the fingers pointing towards the buttock. Stroke with the whole palm up the leg towards the buttock."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "ben-2",
@@ -108,7 +116,17 @@
   "support": "delvis",
   "review": [
    "Håndstillingen er tolket ud fra fotoet. ”Skiftevis” stammer fra en håndskreven note; dobbeltpilen langs læggen står på fotoet."
-  ]
+  ],
+  "en": {
+   "frames": [
+    "Both hands grip the calf muscle – thumb on one side, fingers on the other – and lift the muscle."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": [
+    "The hand position is interpreted from the photo. “Alternately” comes from a handwritten note; the double arrow along the calf is in the photo."
+   ]
+  }
  },
  {
   "techniqueId": "ben-3",
@@ -204,7 +222,16 @@
    }
   ],
   "support": "foto",
-  "review": []
+  "review": [],
+  "en": {
+   "frames": [
+    "One hand holds the ankle. The thumb works from the ankle up along the inner (medial) side of the calf muscle to above the knee.",
+    "Repeat on the outer (lateral) side of the calf muscle – again from the ankle up to above the knee."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "ben-4",
@@ -252,7 +279,17 @@
   "support": "delvis",
   "review": [
    "Fotoet viser ingen bevægelsesretning for æltningen."
-  ]
+  ],
+  "en": {
+   "frames": [
+    "One hand holds the heel. The other hand grips the Achilles tendon between thumb and fingers and kneads it."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": [
+    "The photo shows no direction of movement for the kneading."
+   ]
+  }
  },
  {
   "techniqueId": "ben-5",
@@ -313,7 +350,17 @@
   "support": "delvis",
   "review": [
    "Tommelfingrenes præcise placering er kun delvist synlig i fotoet. Håndskrevet: ”Bevæger vævet”."
-  ]
+  ],
+  "en": {
+   "frames": [
+    "Both thumbs are placed in the middle of the calf muscle. They work back and forth in the direction of the arrow to separate the muscle."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": [
+    "The exact thumb placement is only partly visible in the photo. Handwritten: “Bevæger vævet” (moves the tissue)."
+   ]
+  }
  },
  {
   "techniqueId": "ben-6",
@@ -363,7 +410,15 @@
    }
   ],
   "support": "foto",
-  "review": []
+  "review": [],
+  "en": {
+   "frames": [
+    "Start just below the knee. The thumb works up along the hamstrings to the ischial tuberosity (tuber ischii); the fingers rest around the outer thigh."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "ben-7",
@@ -424,7 +479,15 @@
    }
   ],
   "support": "foto",
-  "review": []
+  "review": [],
+  "en": {
+   "frames": [
+    "Both thumbs in the middle of the back of the thigh. Work back and forth across the muscles to separate the hamstrings from each other."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "ben-8",
@@ -472,7 +535,15 @@
    }
   ],
   "support": "foto",
-  "review": []
+  "review": [],
+  "en": {
+   "frames": [
+    "The knuckles are placed at the ischial tuberosity (tuber ischii) in the gluteal fold and make frictions up towards the buttock."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "ben-9",
@@ -564,7 +635,18 @@
   "support": "delvis",
   "review": [
    "Cirklen er tegnet med hånd på kildens foto; cirklernes retning er ikke angivet."
-  ]
+  ],
+  "en": {
+   "frames": [
+    "The thumb makes frictions on the gluteus maximus; the other hand rests on the lower back.",
+    "Then continue with knuckle frictions over the same area."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": [
+    "The circle is hand-drawn on the source photo; the direction of the circles is not stated."
+   ]
+  }
  },
  {
   "techniqueId": "ben-10",
@@ -615,7 +697,17 @@
   "support": "delvis",
   "review": [
    "Pilens retning i fotoet er ikke entydig – vist som strygning op mod ballen ligesom trin 1."
-  ]
+  ],
+  "en": {
+   "frames": [
+    "Finish with long strokes with a flat hand over the back of the leg."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": [
+    "The direction of the arrow in the photo is ambiguous – shown as a stroke up towards the buttock, as in step 1."
+   ]
+  }
  },
  {
   "techniqueId": "ben-15",
@@ -675,7 +767,15 @@
   "support": "foto",
   "review": [],
   "therapist": "Ved fodenden.",
-  "clientPose": "Knæet er bøjet med foden på briksen (tegningen viser benet strakt)."
+  "clientPose": "Knæet er bøjet med foden på briksen (tegningen viser benet strakt).",
+  "en": {
+   "frames": [
+    "Both hands surround the lower leg. The thumb works from the ankle up along the outer side of the shin bone towards the knee – stop before the knee joint."
+   ],
+   "therapist": "At the foot end.",
+   "clientPose": "The knee is bent with the foot on the table (the drawing shows the leg straight).",
+   "review": []
+  }
  },
  {
   "techniqueId": "ben-16",
@@ -734,7 +834,17 @@
    "Billedteksten siger ikke, hvilken del af hånden der bruges; fotoet viser fingrene langs skinnebenet."
   ],
   "therapist": "Ved fodenden.",
-  "clientPose": "Knæet er bøjet med foden på briksen (tegningen viser benet strakt)."
+  "clientPose": "Knæet er bøjet med foden på briksen (tegningen viser benet strakt).",
+  "en": {
+   "frames": [
+    "Gentle frictions with the fingers along the shin bone up towards the knee – especially at the tibial tuberosity (the bony bump just below the kneecap)."
+   ],
+   "therapist": "At the foot end.",
+   "clientPose": "The knee is bent with the foot on the table (the drawing shows the leg straight).",
+   "review": [
+    "The caption does not say which part of the hand is used; the photo shows the fingers along the shin bone."
+   ]
+  }
  },
  {
   "techniqueId": "ben-17",
@@ -813,7 +923,18 @@
   "support": "delvis",
   "review": [
    "Håndskrevet på siden: ”Tommel”, ”3 baner” – betydningen (tre baner på hver muskel?) bør bekræftes."
-  ]
+  ],
+  "en": {
+   "frames": [
+    "The thumb works from the knee up along the vastus medialis on the inner thigh.",
+    "Then the same movement up along the vastus lateralis on the outer thigh."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": [
+    "Handwritten on the page: “Tommel” (thumb), “3 baner” (3 lanes) – the meaning (three lanes on each muscle?) should be confirmed."
+   ]
+  }
  },
  {
   "techniqueId": "ben-18",
@@ -873,7 +994,17 @@
   "support": "delvis",
   "review": [
    "Håndskrevet: ”Kno”, ”3 baner” – bør bekræftes."
-  ]
+  ],
+  "en": {
+   "frames": [
+    "The knuckles work up along the rectus femoris in the middle of the front of the thigh towards the hip. The other hand rests at the knee."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": [
+    "Handwritten: “Kno” (knuckle), “3 baner” (3 lanes) – should be confirmed."
+   ]
+  }
  },
  {
   "techniqueId": "ben-19",
@@ -933,7 +1064,15 @@
   ],
   "support": "foto",
   "review": [],
-  "clientPose": "Knæet er bøjet (fotoet); håndskrevet: ”Bukke ind mod mig”. Tegningen viser benet strakt."
+  "clientPose": "Knæet er bøjet (fotoet); håndskrevet: ”Bukke ind mod mig”. Tegningen viser benet strakt.",
+  "en": {
+   "frames": [
+    "One hand stabilises the knee. The thumb follows the sartorius from the inner side of the knee diagonally up towards the hip."
+   ],
+   "therapist": null,
+   "clientPose": "The knee is bent (photo); handwritten: “Bukke ind mod mig” (bend towards me). The drawing shows the leg straight.",
+   "review": []
+  }
  },
  {
   "techniqueId": "ben-20",
@@ -982,7 +1121,15 @@
   ],
   "support": "foto",
   "review": [],
-  "clientPose": "Benet er bøjet og ført lidt ud (fotoet). Håndskrevet: ”løft benet”. Tegningen viser benet strakt."
+  "clientPose": "Benet er bøjet og ført lidt ud (fotoet). Håndskrevet: ”løft benet”. Tegningen viser benet strakt.",
+  "en": {
+   "frames": [
+    "The thumb works up along the gracilis on the inner thigh towards the groin."
+   ],
+   "therapist": null,
+   "clientPose": "The leg is bent and moved slightly outwards (photo). Handwritten: “løft benet” (lift the leg). The drawing shows the leg straight.",
+   "review": []
+  }
  },
  {
   "techniqueId": "ben-21",
@@ -1039,7 +1186,17 @@
   "support": "delvis",
   "review": [
    "Pilen i fotoet peger nedad mod briksen (tryk); bevægelsesretningen langs musklen er ikke vist."
-  ]
+  ],
+  "en": {
+   "frames": [
+    "The knuckles make frictions along the adductors on the inner thigh, pressing down towards the table. The other hand supports at the knee."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": [
+    "The arrow in the photo points down towards the table (pressure); the direction of movement along the muscle is not shown."
+   ]
+  }
  },
  {
   "techniqueId": "ben-22",
@@ -1097,7 +1254,15 @@
    }
   ],
   "support": "foto",
-  "review": []
+  "review": [],
+  "en": {
+   "frames": [
+    "The knuckles work down along the iliotibial tract on the outer thigh, from the hip towards the knee. The other hand rests on the thigh."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "ben-23",
@@ -1147,7 +1312,17 @@
   "support": "foto",
   "review": [
    "Håndskrevet: ”vend mod patienten”."
-  ]
+  ],
+  "en": {
+   "frames": [
+    "The fingertips work along the lower part of the iliotibial tract down towards the knee."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": [
+    "Handwritten: “vend mod patienten” (turn towards the client)."
+   ]
+  }
  },
  {
   "techniqueId": "ben-24",
@@ -1197,7 +1372,17 @@
   "support": "delvis",
   "review": [
    "Billedteksten angiver ikke retning, og fotoet har ingen pil. Den stiplede dobbeltpil viser kun området."
-  ]
+  ],
+  "en": {
+   "frames": [
+    "Finish with long strokes with flat hands over the whole leg."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": [
+    "The caption gives no direction and the photo has no arrow. The dashed double arrow only shows the area."
+   ]
+  }
  },
  {
   "techniqueId": "ryg-1",
@@ -1267,7 +1452,15 @@
   ],
   "support": "foto",
   "review": [],
-  "therapist": "Ved hovedenden."
+  "therapist": "Ved hovedenden.",
+  "en": {
+   "frames": [
+    "Stand at the head end. Both hands lie flat on each side of the spine with the fingers pointing towards the feet. Stroke up and down over the whole back."
+   ],
+   "therapist": "At the head end.",
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "ryg-2",
@@ -1329,7 +1522,17 @@
   "review": [
    "Grebets præcise fingerstilling (tommelfinger bag, fingre over skulderen) er tolket ud fra fotoet."
   ],
-  "therapist": "Stå på modsatte side af briksen."
+  "therapist": "Stå på modsatte side af briksen.",
+  "en": {
+   "frames": [
+    "One hand grips the upper part of the trapezius and kneads back and forth; the other hand rests on the shoulder blade."
+   ],
+   "therapist": "Stand on the opposite side of the table.",
+   "clientPose": null,
+   "review": [
+    "The exact finger position of the grip (thumb behind, fingers over the shoulder) is interpreted from the photo."
+   ]
+  }
  },
  {
   "techniqueId": "ryg-3",
@@ -1381,7 +1584,17 @@
   "review": [
    "Den anden hånd ses ikke i fotoet. Musklens placering er tegnet efter standardanatomi."
   ],
-  "therapist": "Stå på modsatte side af briksen."
+  "therapist": "Stå på modsatte side af briksen.",
+  "en": {
+   "frames": [
+    "The fingertips make small frictions over the levator scapulae, between the neck and the upper inner corner of the shoulder blade."
+   ],
+   "therapist": "Stand on the opposite side of the table.",
+   "clientPose": null,
+   "review": [
+    "The other hand is not visible in the photo. The muscle’s position is drawn according to standard anatomy."
+   ]
+  }
  },
  {
   "techniqueId": "ryg-4a",
@@ -1443,7 +1656,17 @@
   "review": [
    "Håndskrevet: ”frem og tilbage v. hovedets side”."
   ],
-  "therapist": "Stå ved hovedenden."
+  "therapist": "Stå ved hovedenden.",
+  "en": {
+   "frames": [
+    "The fingers work back and forth along the upper border of the trapezius, from the neck out towards the shoulder. The other hand rests on the shoulder."
+   ],
+   "therapist": "Stand at the head end.",
+   "clientPose": null,
+   "review": [
+    "Handwritten: “frem og tilbage v. hovedets side” (back and forth at the side of the head)."
+   ]
+  }
  },
  {
   "techniqueId": "ryg-4b",
@@ -1505,7 +1728,17 @@
   "support": "delvis",
   "review": [
    "Kilden angiver hverken håndstilling eller retning; den stiplede pil viser kun området. Håndskrevet: ”og m. knoer”."
-  ]
+  ],
+  "en": {
+   "frames": [
+    "Massage along the upper border of the shoulder blade. The photo shows both hands flat over the shoulder blade."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": [
+    "The source gives neither hand position nor direction; the dashed arrow only shows the area. Handwritten: “og m. knoer” (and with knuckles)."
+   ]
+  }
  },
  {
   "techniqueId": "ryg-5",
@@ -1565,7 +1798,17 @@
    "Tommelfingrenes præcise stilling er kun delvist synlig; pilen i fotoet peger mod skulderbladets kant."
   ],
   "therapist": "Stå ved hovedenden (fotoet).",
-  "clientPose": "Klientens arm ligger på ryggen med hånden ved lænden (tegningen viser armen langs siden). Håndskrevet: ”PUDE”."
+  "clientPose": "Klientens arm ligger på ryggen med hånden ved lænden (tegningen viser armen langs siden). Håndskrevet: ”PUDE”.",
+  "en": {
+   "frames": [
+    "With the client’s arm lying on the back, the inner border of the shoulder blade lifts. The thumbs make frictions along the inner border in the direction of the arrow, towards the border."
+   ],
+   "therapist": "Stand at the head end (photo).",
+   "clientPose": "The client’s arm lies on the back with the hand at the lower back (the drawing shows the arm along the side). Handwritten: “PUDE” (pillow).",
+   "review": [
+    "The exact thumb position is only partly visible; the arrow in the photo points towards the border of the shoulder blade."
+   ]
+  }
  },
  {
   "techniqueId": "ryg-6",
@@ -1612,7 +1855,15 @@
   ],
   "support": "foto",
   "review": [],
-  "therapist": "Stå ved hovedenden."
+  "therapist": "Stå ved hovedenden.",
+  "en": {
+   "frames": [
+    "The knuckles work down along the inner border of the shoulder blade."
+   ],
+   "therapist": "Stand at the head end.",
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "ryg-7",
@@ -1673,7 +1924,17 @@
   "support": "delvis",
   "review": [
    "Håndskrevet: ”håndrod imellem, lille bevægelse” (usikker læsning)."
-  ]
+  ],
+  "en": {
+   "frames": [
+    "The knuckles work from the shoulder inwards towards the neck and the spine."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": [
+    "Handwritten: “håndrod imellem, lille bevægelse” (heel of the hand in between, small movement) – uncertain reading."
+   ]
+  }
  },
  {
   "techniqueId": "ryg-8",
@@ -1730,7 +1991,17 @@
   "support": "foto",
   "review": [
    "Håndskrevet: ”over knoklen”, ”stå oppe” (usikker læsning)."
-  ]
+  ],
+  "en": {
+   "frames": [
+    "The heel of the hand is placed on the shoulder blade and makes circular frictions. The other hand rests on the back."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": [
+    "Handwritten: “over knoklen” (over the bone), “stå oppe” (stand up) – uncertain reading."
+   ]
+  }
  },
  {
   "techniqueId": "ryg-9",
@@ -1788,7 +2059,17 @@
   "review": [
    "Friktionernes retning er ikke angivet; cirklen markerer kun friktion på stedet."
   ],
-  "therapist": "Stå ved hovedenden (fotoet)."
+  "therapist": "Stå ved hovedenden (fotoet).",
+  "en": {
+   "frames": [
+    "The thumb makes frictions on the infraspinatus below the spine of the scapula; the fingers rest around the shoulder. Afterwards the arm is placed up over the head."
+   ],
+   "therapist": "Stand at the head end (photo).",
+   "clientPose": null,
+   "review": [
+    "The direction of the frictions is not stated; the circle only marks friction on the spot."
+   ]
+  }
  },
  {
   "techniqueId": "ryg-10",
@@ -1850,7 +2131,17 @@
   "review": [
    "Håndskrevet: ”glat hånd over scapula” (usikker læsning)."
   ],
-  "clientPose": "Armen ligger op over hovedet (tegningen viser armen langs siden)."
+  "clientPose": "Armen ligger op over hovedet (tegningen viser armen langs siden).",
+  "en": {
+   "frames": [
+    "The knuckles work along the origin of the triceps brachii on the outer side of the armpit, in the direction of the arrow up towards the armpit."
+   ],
+   "therapist": null,
+   "clientPose": "The arm lies up over the head (the drawing shows the arm along the side).",
+   "review": [
+    "Handwritten: “glat hånd over scapula” (flat hand over the scapula) – uncertain reading."
+   ]
+  }
  },
  {
   "techniqueId": "ryg-11",
@@ -1913,7 +2204,17 @@
   "support": "delvis",
   "review": [
    "Retningen langs kanten er ikke entydig i fotoet; den stiplede dobbeltpil viser kun forløbet."
-  ]
+  ],
+  "en": {
+   "frames": [
+    "The thumb works along the outer border of the shoulder blade; the other hand holds the shoulder."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": [
+    "The direction along the border is ambiguous in the photo; the dashed double arrow only shows the course."
+   ]
+  }
  },
  {
   "techniqueId": "ryg-12",
@@ -1965,7 +2266,17 @@
   "review": [
    "Den anden hånds placering er ikke tydelig i fotoet. Håndskrevet: ”frem og tilbage, ’vippe’”."
   ],
-  "therapist": "Stå på siden af briksen."
+  "therapist": "Stå på siden af briksen.",
+  "en": {
+   "frames": [
+    "The hand grips the neck with the thumb on one side and the fingers on the other and kneads back and forth."
+   ],
+   "therapist": "Stand at the side of the table.",
+   "clientPose": null,
+   "review": [
+    "The other hand’s position is not clear in the photo. Handwritten: “frem og tilbage, ’vippe’” (back and forth, “rock”)."
+   ]
+  }
  },
  {
   "techniqueId": "ryg-13",
@@ -2085,7 +2396,16 @@
   ],
   "support": "foto",
   "review": [],
-  "therapist": "Stå ved hovedenden."
+  "therapist": "Stå ved hovedenden.",
+  "en": {
+   "frames": [
+    "The hands lie on the shoulders and draw the shoulders back towards the head end.",
+    "The fingertips then press along the base of the skull over the suboccipital muscles."
+   ],
+   "therapist": "Stand at the head end.",
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "ryg-14",
@@ -2159,7 +2479,17 @@
   "review": [
    "Håndskrevet: ”Tommelfinger friktion i kraniekanten”."
   ],
-  "therapist": "Stå ved hovedenden."
+  "therapist": "Stå ved hovedenden.",
+  "en": {
+   "frames": [
+    "The knuckles are placed on each side of the neck and work down and out over the upper part of the trapezius towards the shoulders."
+   ],
+   "therapist": "Stand at the head end.",
+   "clientPose": null,
+   "review": [
+    "Handwritten: “Tommelfinger friktion i kraniekanten” (thumb friction at the base of the skull)."
+   ]
+  }
  },
  {
   "techniqueId": "ryg-15",
@@ -2248,7 +2578,15 @@
   ],
   "support": "foto",
   "review": [],
-  "therapist": "Stå ved hovedenden."
+  "therapist": "Stå ved hovedenden.",
+  "en": {
+   "frames": [
+    "The thumbs make small circles on each side of the spine and move gradually down to the top of the buttocks. The hands rest flat."
+   ],
+   "therapist": "Stand at the head end.",
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "ryg-16",
@@ -2319,7 +2657,17 @@
   "review": [
    "Retningen langs musklen (op/ned) er ikke angivet; den stiplede pil viser kun området."
   ],
-  "therapist": "Stå på modsatte side af briksen."
+  "therapist": "Stå på modsatte side af briksen.",
+  "en": {
+   "frames": [
+    "One hand is placed on top of the other. The heel of the hand makes circular frictions along the erector spinae on the far side of the spine."
+   ],
+   "therapist": "Stand on the opposite side of the table.",
+   "clientPose": null,
+   "review": [
+    "The direction along the muscle (up/down) is not stated; the dashed arrow only shows the area."
+   ]
+  }
  },
  {
   "techniqueId": "ryg-17",
@@ -2378,7 +2726,17 @@
   "support": "delvis",
   "review": [
    "Håndskrevet: ”Ned skråt”."
-  ]
+  ],
+  "en": {
+   "frames": [
+    "Both hands lie flat on the lower back and knead the tissue back and forth in the direction of the arrow."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": [
+    "Handwritten: “Ned skråt” (down diagonally)."
+   ]
+  }
  },
  {
   "techniqueId": "ryg-18",
@@ -2414,7 +2772,17 @@
   "support": "delvis",
   "review": [
    "Fotoet viser ingen bevægelsesretning. Håndskrevet: ”kniven”, ”QL musklen” (usikker læsning)."
-  ]
+  ],
+  "en": {
+   "frames": [
+    "Friction with the edge of the hand in the flank, between the iliac crest and the lowest ribs."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": [
+    "The photo shows no direction of movement. Handwritten: “kniven” (the knife), “QL musklen” (the QL muscle) – uncertain reading."
+   ]
+  }
  },
  {
   "techniqueId": "ryg-19",
@@ -2510,7 +2878,16 @@
    }
   ],
   "support": "foto",
-  "review": []
+  "review": [],
+  "en": {
+   "frames": [
+    "The thumb makes frictions on the gluteus medius, downward. The other hand rests on the lower back.",
+    "Repeat with the knuckles, downward."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "ryg-20",
@@ -2606,7 +2983,16 @@
    }
   ],
   "support": "foto",
-  "review": []
+  "review": [],
+  "en": {
+   "frames": [
+    "The knuckles make frictions on the gluteus medius, upward.",
+    "Repeat with the thumb, upward."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "ryg-21",
@@ -2654,7 +3040,15 @@
    }
   ],
   "support": "foto",
-  "review": []
+  "review": [],
+  "en": {
+   "frames": [
+    "The thumb works up along the spine (back towards the heart)."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "ryg-22",
@@ -2724,7 +3118,15 @@
   ],
   "support": "foto",
   "review": [],
-  "therapist": "Stå for enden af briksen (ved hovedet)."
+  "therapist": "Stå for enden af briksen (ved hovedet).",
+  "en": {
+   "frames": [
+    "Stand at the head end. Both hands lie flat on each side of the spine and stroke up and down over the whole back."
+   ],
+   "therapist": "Stand at the end of the table (at the head).",
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "arm-1",
@@ -2796,7 +3198,17 @@
   "review": [
    "Hændernes præcise stilling om armen er kun delvist synlig."
   ],
-  "clientPose": "Fotoet viser armen løftet mellem behandlerens hænder."
+  "clientPose": "Fotoet viser armen løftet mellem behandlerens hænder.",
+  "en": {
+   "frames": [
+    "Both hands surround the arm and stroke up and down over the whole arm."
+   ],
+   "therapist": null,
+   "clientPose": "The photo shows the arm lifted between the therapist’s hands.",
+   "review": [
+    "The exact position of the hands around the arm is only partly visible."
+   ]
+  }
  },
  {
   "techniqueId": "arm-2",
@@ -2841,7 +3253,15 @@
    }
   ],
   "support": "foto",
-  "review": []
+  "review": [],
+  "en": {
+   "frames": [
+    "One hand supports the client’s hand from below. Thumb and index finger grip one finger at a time and knead from the base out towards the tip."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "arm-3",
@@ -2907,7 +3327,15 @@
    }
   ],
   "support": "foto",
-  "review": []
+  "review": [],
+  "en": {
+   "frames": [
+    "The client’s hand lies palm down. The thumbs work in the grooves between the finger tendons, from the knuckles towards the wrist; the fingers support under the hand."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "arm-4",
@@ -2975,7 +3403,17 @@
   "support": "delvis",
   "review": [
    "Pilene i fotoet viser flere retninger; den præcise rækkefølge er ikke beskrevet."
-  ]
+  ],
+  "en": {
+   "frames": [
+    "The client’s palm faces up and the therapist’s fingers support under the hand. The thumbs work in the palm – especially on the ball of the thumb."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": [
+    "The arrows in the photo show several directions; the exact order is not described."
+   ]
+  }
  },
  {
   "techniqueId": "arm-5",
@@ -3034,7 +3472,15 @@
   ],
   "support": "foto",
   "review": [],
-  "clientPose": "Fotoet viser albuen på briksen med underarmen løftet."
+  "clientPose": "Fotoet viser albuen på briksen med underarmen løftet.",
+  "en": {
+   "frames": [
+    "One hand holds the client’s wrist. The thumb works up along the brachioradialis on the thumb side of the forearm towards the elbow – not over the joint."
+   ],
+   "therapist": null,
+   "clientPose": "The photo shows the elbow on the table with the forearm raised.",
+   "review": []
+  }
  },
  {
   "techniqueId": "arm-6",
@@ -3084,7 +3530,17 @@
   "support": "delvis",
   "review": [
    "Billedtekstens ”til lateral på humerus” er uklar – lillefingersiden er normalt medial. Bør afklares med underviser."
-  ]
+  ],
+  "en": {
+   "frames": [
+    "The thumb works up along the little-finger side of the forearm towards the elbow."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": [
+    "The caption’s “to lateral on the humerus” is unclear – the little-finger side is normally medial. Should be clarified with the teacher."
+   ]
+  }
  },
  {
   "techniqueId": "arm-7",
@@ -3133,7 +3589,15 @@
    }
   ],
   "support": "foto",
-  "review": []
+  "review": [],
+  "en": {
+   "frames": [
+    "The thumb separates the muscles on the inside of the forearm with frictions back and forth in the direction of the arrow."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "arm-8",
@@ -3181,7 +3645,15 @@
    }
   ],
   "support": "foto",
-  "review": []
+  "review": [],
+  "en": {
+   "frames": [
+    "The thumb works along the little-finger side of the forearm up towards the elbow and the humerus."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "arm-9",
@@ -3240,7 +3712,15 @@
    }
   ],
   "support": "foto",
-  "review": []
+  "review": [],
+  "en": {
+   "frames": [
+    "One hand holds the wrist. The thumb works up along the thumb side of the brachioradialis. Turn the arm before passing the elbow joint."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "arm-10",
@@ -3301,7 +3781,17 @@
   "support": "delvis",
   "review": [
    "Grebets præcise stilling er tolket ud fra fotoet."
-  ]
+  ],
+  "en": {
+   "frames": [
+    "Both hands grip the biceps brachii and knead back and forth along the muscle."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": [
+    "The exact position of the grip is interpreted from the photo."
+   ]
+  }
  },
  {
   "techniqueId": "arm-11",
@@ -3359,7 +3849,15 @@
    }
   ],
   "support": "foto",
-  "review": []
+  "review": [],
+  "en": {
+   "frames": [
+    "One hand holds the client’s wrist. The other hand kneads from the elbow joint up along the biceps brachii."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "arm-12",
@@ -3478,7 +3976,17 @@
   "review": [
    "Opdelingen i fire baner er tolket ud fra billedteksten (”Del Triceps i 4 sektioner …”) og bør bekræftes."
   ],
-  "clientPose": "Fotoet viser armen bøjet og løftet; tegningen viser overarmen bagfra."
+  "clientPose": "Fotoet viser armen bøjet og løftet; tegningen viser overarmen bagfra.",
+  "en": {
+   "frames": [
+    "The thumb works from the elbow up the upper arm in four lanes: (1) lateral to the biceps, (2–3) twice on the triceps, (4) over the deltoid."
+   ],
+   "therapist": null,
+   "clientPose": "The photo shows the arm bent and raised; the drawing shows the upper arm from behind.",
+   "review": [
+    "The division into four lanes is interpreted from the caption (“Del Triceps i 4 sektioner …”) and should be confirmed."
+   ]
+  }
  },
  {
   "techniqueId": "arm-13",
@@ -3549,7 +4057,17 @@
   "support": "delvis",
   "review": [
    "Hændernes præcise stilling om armen er kun delvist synlig."
-  ]
+  ],
+  "en": {
+   "frames": [
+    "Finish with strokes up and down over the whole arm with both hands."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": [
+    "The exact position of the hands around the arm is only partly visible."
+   ]
+  }
  },
  {
   "techniqueId": "arm-14",
@@ -3621,7 +4139,15 @@
   ],
   "support": "foto",
   "review": [],
-  "therapist": "Stå ved hovedenden."
+  "therapist": "Stå ved hovedenden.",
+  "en": {
+   "frames": [
+    "Stand at the head end. Both hands lie flat on the chest with the fingers pointing in towards the breastbone and stroke out over the chest muscle towards the shoulders."
+   ],
+   "therapist": "Stand at the head end.",
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "arm-15",
@@ -3682,7 +4208,17 @@
   "review": [
    "Fotoet viser en pil nedad langs fingrene; billedteksten beskriver retningen fra sternum ud mod humerus. Tegningen følger billedteksten."
   ],
-  "therapist": "Stå ved hovedenden."
+  "therapist": "Stå ved hovedenden.",
+  "en": {
+   "frames": [
+    "The fingertips work from the breastbone out towards the upper arm bone. Stop just above the nipple."
+   ],
+   "therapist": "Stand at the head end.",
+   "clientPose": null,
+   "review": [
+    "The photo shows an arrow pointing down along the fingers; the caption describes the direction from the sternum out towards the humerus. The drawing follows the caption."
+   ]
+  }
  },
  {
   "techniqueId": "arm-16",
@@ -3744,7 +4280,17 @@
   "review": [
    "Musklen ligger dybt; placeringen er tegnet efter standardanatomi."
   ],
-  "clientPose": "Fotoet viser klientens arm let ført ud fra kroppen."
+  "clientPose": "Fotoet viser klientens arm let ført ud fra kroppen.",
+  "en": {
+   "frames": [
+    "The fingertips make frictions back and forth along the pectoralis minor, beneath the large chest muscle."
+   ],
+   "therapist": null,
+   "clientPose": "The photo shows the client’s arm moved slightly away from the body.",
+   "review": [
+    "The muscle lies deep; its position is drawn according to standard anatomy."
+   ]
+  }
  },
  {
   "techniqueId": "arm-17",
@@ -3804,7 +4350,17 @@
   "support": "delvis",
   "review": [
    "Musklen ligger dybt; placeringen er tegnet efter standardanatomi."
-  ]
+  ],
+  "en": {
+   "frames": [
+    "The knuckles work along the pectoralis minor up towards the shoulder. The other hand rests on the shoulder."
+   ],
+   "therapist": null,
+   "clientPose": null,
+   "review": [
+    "The muscle lies deep; its position is drawn according to standard anatomy."
+   ]
+  }
  },
  {
   "techniqueId": "arm-18",
@@ -3876,7 +4432,15 @@
   ],
   "support": "foto",
   "review": [],
-  "therapist": "Stå ved hovedenden."
+  "therapist": "Stå ved hovedenden.",
+  "en": {
+   "frames": [
+    "Finish with flat-hand strokes from the breastbone out towards the shoulders."
+   ],
+   "therapist": "Stand at the head end.",
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "ansigt-5",
@@ -3974,7 +4538,16 @@
   ],
   "support": "foto",
   "review": [],
-  "therapist": "Ved hovedenden."
+  "therapist": "Ved hovedenden.",
+  "en": {
+   "frames": [
+    "Gather the fingers on the crown of the head.",
+    "Draw them down over the temples towards the ears so that the fingers spread."
+   ],
+   "therapist": "At the head end.",
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "ansigt-6",
@@ -4040,7 +4613,15 @@
   ],
   "support": "foto",
   "review": [],
-  "therapist": "Ved hovedenden."
+  "therapist": "Ved hovedenden.",
+  "en": {
+   "frames": [
+    "The heel of the hand rests at the temples and the fingertips lie in the chewing muscles below the cheekbones. Make small circles – 3 × 3."
+   ],
+   "therapist": "At the head end.",
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "ansigt-7",
@@ -4136,7 +4717,16 @@
   ],
   "support": "foto",
   "review": [],
-  "therapist": "Ved hovedenden."
+  "therapist": "Ved hovedenden.",
+  "en": {
+   "frames": [
+    "Place the fingers on each side of the bridge of the nose.",
+    "Draw them down along the cheekbones out towards the earlobes."
+   ],
+   "therapist": "At the head end.",
+   "clientPose": null,
+   "review": []
+  }
  },
  {
   "techniqueId": "ansigt-8",
@@ -4203,7 +4793,17 @@
   "review": [
    "Fingerspidsernes præcise placering ved mundvigen er kun delvist synlig i fotoet."
   ],
-  "therapist": "Ved hovedenden."
+  "therapist": "Ved hovedenden.",
+  "en": {
+   "frames": [
+    "The heel of the hand rests at the temples and the fingertips lie at the corners of the mouth. Make small circles – 3 × 3."
+   ],
+   "therapist": "At the head end.",
+   "clientPose": null,
+   "review": [
+    "The exact position of the fingertips at the corner of the mouth is only partly visible in the photo."
+   ]
+  }
  },
  {
   "techniqueId": "ansigt-9",
@@ -4275,7 +4875,17 @@
   "review": [
    "Fotoet ser ud til at vise fingrene (ikke tommelfingrene) ved hagen – fingerstillingen bør bekræftes."
   ],
-  "therapist": "Ved hovedenden."
+  "therapist": "Ved hovedenden.",
+  "en": {
+   "frames": [
+    "Place the thumbs just above the chin and draw them back along the jaw up towards the ears."
+   ],
+   "therapist": "At the head end.",
+   "clientPose": null,
+   "review": [
+    "The photo appears to show the fingers (not the thumbs) at the chin – the finger position should be confirmed."
+   ]
+  }
  },
  {
   "techniqueId": "ansigt-10",
@@ -4326,7 +4936,17 @@
   "review": [
    "Fotoet viser to hænder med pile i hver sin retning; billedteksten nævner kun strygning nedad."
   ],
-  "therapist": "Ved hovedenden."
+  "therapist": "Ved hovedenden.",
+  "en": {
+   "frames": [
+    "Place the heel of the hand at the hairline and draw it down over the forehead towards the eyebrows."
+   ],
+   "therapist": "At the head end.",
+   "clientPose": null,
+   "review": [
+    "The photo shows two hands with arrows in opposite directions; the caption only mentions stroking downward."
+   ]
+  }
  },
  {
   "techniqueId": "ansigt-11",
@@ -4398,7 +5018,17 @@
   "review": [
    "Hvilken hånd trækker hvilken vej er ikke beskrevet, og begge pile i fotoet peger nedad. Tegnet som en udstrækning af panden – bør bekræftes."
   ],
-  "therapist": "Ved hovedenden."
+  "therapist": "Ved hovedenden.",
+  "en": {
+   "frames": [
+    "One heel of the hand at the hairline, the other above the eyebrow. The hands pull in opposite directions."
+   ],
+   "therapist": "At the head end.",
+   "clientPose": null,
+   "review": [
+    "Which hand pulls which way is not described, and both arrows in the photo point downward. Drawn as a stretch of the forehead – should be confirmed."
+   ]
+  }
  },
  {
   "techniqueId": "ansigt-12",
@@ -4463,6 +5093,14 @@
   ],
   "support": "foto",
   "review": [],
-  "therapist": "Ved hovedenden."
+  "therapist": "Ved hovedenden.",
+  "en": {
+   "frames": [
+    "Place the heel of the hand at the temples and massage in circles – 3 × 3."
+   ],
+   "therapist": "At the head end.",
+   "clientPose": null,
+   "review": []
+  }
  }
 ]

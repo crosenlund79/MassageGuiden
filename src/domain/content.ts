@@ -6,9 +6,12 @@ import musclesJson from '../content/muscles.json';
 import techniquesJson from '../content/techniques.json';
 import regionsJson from '../content/regions.json';
 import sourceJson from '../content/source.json';
-import type { Muscle, Program, Region, SequenceEntry, Technique, TechniqueGap } from './types';
+import groupsJson from '../content/muscle-groups.json';
+import type { Muscle, MuscleGroupRecord, Program, Region, SequenceEntry, Technique, TechniqueGap } from './types';
 
 export const muscles = musclesJson as Muscle[];
+export const muscleGroups = groupsJson as MuscleGroupRecord[];
+export const getMuscleGroup = (id: string) => muscleGroups.find((g) => g.id === id);
 export const sequence = (techniquesJson as SequenceEntry[]).slice().sort((a, b) => a.order - b.order);
 export const techniques = sequence.filter((e): e is Technique => !e.gap);
 export const gaps = sequence.filter((e): e is TechniqueGap => e.gap === true);
@@ -46,8 +49,8 @@ export function neighbours(id: string): { prev?: Technique; next?: Technique } {
 }
 
 /** Booklet notes such as "Punkt 1–11 gentages på modsatte side" that follow a step. */
-export function sequenceNoteAfter(t: { program: string; step: string }): string | undefined {
-  return getProgram(t.program)?.sequenceNotes.find((n) => n.afterStep === t.step)?.text;
+export function sequenceNoteAfter(t: { program: string; step: string }) {
+  return getProgram(t.program)?.sequenceNotes.find((n) => n.afterStep === t.step);
 }
 
 // ---------- search ----------
@@ -64,7 +67,7 @@ export function normalize(s: string): string {
 }
 
 function muscleHaystack(m: Muscle): string {
-  return normalize([m.nameDa, m.nameLatin, ...m.aliases].join(' '));
+  return normalize([m.nameDa, m.nameLatin, m.nameEn, ...m.aliases, ...m.aliasesEn].join(' '));
 }
 
 const techniqueIndex = new Map(
@@ -73,6 +76,10 @@ const techniqueIndex = new Map(
     const parts = [
       t.name,
       t.description,
+      t.en.name,
+      t.en.description,
+      region?.nameEn ?? '',
+      `step ${t.step}`,
       t.source.caption ?? '',
       t.type,
       t.tools.join(' '),
@@ -80,7 +87,7 @@ const techniqueIndex = new Map(
       `trin ${t.step}`,
       ...t.muscles.map((l) => {
         const m = getMuscle(l.id);
-        return m ? `${m.nameDa} ${m.nameLatin} ${m.aliases.join(' ')}` : '';
+        return m ? `${m.nameDa} ${m.nameLatin} ${m.nameEn} ${m.aliases.join(' ')} ${m.aliasesEn.join(' ')}` : '';
       }),
     ];
     return [t.id, normalize(parts.join(' '))];
@@ -103,8 +110,9 @@ export function searchMuscles(query: string, list: Muscle[] = muscles): Muscle[]
   const hits = list.filter((m) => matchesAll(muscleHaystack(m), query));
   // Names starting with the query rank first
   return hits.sort((a, b) => {
-    const sa = normalize(a.nameDa).startsWith(q) || normalize(a.nameLatin).startsWith(q) ? 0 : 1;
-    const sb = normalize(b.nameDa).startsWith(q) || normalize(b.nameLatin).startsWith(q) ? 0 : 1;
+    const starts = (m: Muscle) => [m.nameDa, m.nameLatin, m.nameEn].some((n) => normalize(n).replace(/^den |^de /, '').startsWith(q) || normalize(n).startsWith(q));
+    const sa = starts(a) ? 0 : 1;
+    const sb = starts(b) ? 0 : 1;
     return sa - sb || a.nameDa.localeCompare(b.nameDa, 'da');
   });
 }

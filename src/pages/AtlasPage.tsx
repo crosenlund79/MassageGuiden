@@ -2,16 +2,18 @@ import { useEffect, useMemo, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { AtlasFigure } from '../anatomy/AtlasFigure';
 import { viewsForMuscle, type AtlasView } from '../anatomy/figure2d';
-import { getMuscle, getRegion, muscles, searchMuscles, techniquesForMuscle } from '../domain/content';
-import { GROUP_LABELS, KIND_LABELS } from '../domain/types';
+import { getMuscle, getMuscleGroup, getRegion, muscles, searchMuscles, techniquesForMuscle } from '../domain/content';
 import { FavoriteButton, SearchInput } from '../components/common';
 import { usePrefs } from '../storage/hooks';
 import { recordActivity } from '../storage/db';
 import { displayName } from '../quiz/engine';
+import { useI18n } from '../i18n/I18nProvider';
+import { muscleAction, muscleInsertion, muscleName, muscleNote, muscleOrigin, regionName, techName } from '../i18n/localize';
 
 export function AtlasPage() {
   const { muscleId } = useParams();
   const nav = useNavigate();
+  const { s, lang } = useI18n();
   const [prefs, setPrefs] = usePrefs();
   const [view, setView] = useState<AtlasView>(prefs.atlasView);
   const [hover, setHover] = useState<string | null>(null);
@@ -45,53 +47,47 @@ export function AtlasPage() {
   const hovered = hover ? getMuscle(hover) : undefined;
   const label = (id: string) => {
     const m = getMuscle(id);
-    return m ? displayName(m, prefs.terminology) : id;
+    return m ? displayName(m, prefs.terminology, lang) : id;
   };
 
   const highlights = selected ? { [selected.id]: 'selected' as const } : {};
   const selectedInOtherViewOnly = selected && !viewsForMuscle(selected.id).includes(view);
+  const group = selected?.partOf ? getMuscleGroup(selected.partOf) : undefined;
+  const note = selected ? muscleNote(selected, lang) : null;
 
   return (
     <div className="fade-in">
-      <div className="eyebrow">Muskelatlas</div>
-      <h1>Kroppens muskler</h1>
+      <div className="eyebrow">{s.atlas.eyebrow}</div>
+      <h1>{s.atlas.title}</h1>
 
       <div className="atlas-layout">
-        <section className="card atlas-stage" aria-label="Interaktiv muskelfigur">
+        <section className="card atlas-stage" aria-label={s.atlas.stage}>
           <div className="stage-bar">
-            <div className="segmented" role="group" aria-label="Visning">
-              <button type="button" className={view === 'anterior' ? 'on' : ''} aria-pressed={view === 'anterior'} onClick={() => changeView('anterior')}>Forfra</button>
-              <button type="button" className={view === 'posterior' ? 'on' : ''} aria-pressed={view === 'posterior'} onClick={() => changeView('posterior')}>Bagfra</button>
+            <div className="segmented" role="group" aria-label={s.atlas.view}>
+              <button type="button" className={view === 'anterior' ? 'on' : ''} aria-pressed={view === 'anterior'} onClick={() => changeView('anterior')}>{s.atlas.front}</button>
+              <button type="button" className={view === 'posterior' ? 'on' : ''} aria-pressed={view === 'posterior'} onClick={() => changeView('posterior')}>{s.atlas.back}</button>
             </div>
             <label className="toggle">
               <input type="checkbox" checked={prefs.showDeep} onChange={(e) => setPrefs({ showDeep: e.target.checked })} />
-              Vis dybe muskler
+              {s.atlas.showDeep}
             </label>
           </div>
           <div className="fig-wrap">
-            <AtlasFigure
-              view={view}
-              highlights={highlights}
-              onSelect={select}
-              onHover={setHover}
-              showDeep={showDeep}
-              zoomable
-              labelFor={label}
-            />
+            <AtlasFigure view={view} highlights={highlights} onSelect={select} onHover={setHover} showDeep={showDeep} zoomable labelFor={label} />
           </div>
           <div className="hover-cap" aria-live="polite">
             {hovered ? (
-              <span><strong>{hovered.nameDa}</strong> <i className="muted">{hovered.nameLatin}</i></span>
+              <span><strong>{muscleName(hovered, lang)}</strong> <i className="muted">{hovered.nameLatin}</i></span>
             ) : selected && !selectedInOtherViewOnly ? (
               <span className="row" style={{ gap: 8 }}>
-                <span><strong>{selected.nameDa}</strong> <i className="muted">{selected.nameLatin}</i></span>
+                <span><strong>{muscleName(selected, lang)}</strong> <i className="muted">{selected.nameLatin}</i></span>
                 <span className="spacer" />
-                <a href="#mp-h" className="small mobile-only" onClick={(e) => { e.preventDefault(); document.getElementById('mp-h')?.scrollIntoView({ behavior: 'smooth', block: 'start' }); }}>Detaljer ↓</a>
+                <a href="#mp-h" className="small mobile-only" onClick={(e) => { e.preventDefault(); document.getElementById('mp-h')?.scrollIntoView({ behavior: 'smooth', block: 'start' }); }}>{s.atlas.details}</a>
               </span>
             ) : selectedInOtherViewOnly ? (
-              <span>{selected?.nameDa} ses fra den anden side.</span>
+              <span>{s.atlas.otherSide(muscleName(selected!, lang))}</span>
             ) : (
-              <span className="muted">Tryk på en muskel. Knib eller scroll for at zoome, træk for at panorere. {view === 'anterior' ? 'H/V = figurens højre/venstre side.' : ''}</span>
+              <span className="muted">{s.atlas.hint} {view === 'anterior' ? s.atlas.sides : ''}</span>
             )}
           </div>
         </section>
@@ -101,8 +97,8 @@ export function AtlasPage() {
             <SearchInput
               value={q}
               onChange={(v) => { setQ(v); setActive(0); }}
-              label="Søg muskel"
-              placeholder="Søg muskel – dansk eller latin"
+              label={s.atlas.searchLabel}
+              placeholder={s.atlas.searchPlaceholder}
               onKeyDown={(e) => {
                 if (e.key === 'ArrowDown') { e.preventDefault(); setActive((a) => Math.min(a + 1, suggestions.length - 1)); }
                 if (e.key === 'ArrowUp') { e.preventDefault(); setActive((a) => Math.max(a - 1, 0)); }
@@ -110,11 +106,11 @@ export function AtlasPage() {
               }}
             />
             {q.trim() && (
-              <div className="suggest" role="listbox" aria-label="Forslag">
-                {suggestions.length === 0 && <div className="empty small">Ingen muskler matcher ”{q}”.</div>}
+              <div className="suggest" role="listbox" aria-label={s.atlas.suggestions}>
+                {suggestions.length === 0 && <div className="empty small">{s.atlas.noMatch(q)}</div>}
                 {suggestions.map((m, i) => (
                   <button key={m.id} type="button" role="option" aria-selected={i === active} className={i === active ? 'on' : ''} onClick={() => select(m.id)}>
-                    <span>{m.nameDa}</span> <span className="s-latin">{m.nameLatin}</span>
+                    <span>{muscleName(m, lang)}</span> <span className="s-latin">{m.nameLatin}</span>
                   </button>
                 ))}
               </div>
@@ -125,38 +121,41 @@ export function AtlasPage() {
             <section className="card card-l muscle-panel fade-in" key={selected.id} aria-labelledby="mp-h">
               <div className="title-row">
                 <div style={{ flex: 1 }}>
-                  <h2 id="mp-h">{selected.nameDa}</h2>
+                  <h2 id="mp-h">{muscleName(selected, lang)}</h2>
                   <div className="latin">{selected.nameLatin}</div>
+                  <div className="small muted alt-name">{lang === 'en' ? `DA: ${selected.nameDa}` : `EN: ${selected.nameEn}`}</div>
                 </div>
-                <FavoriteButton kind="muscle" id={selected.id} label={selected.nameDa} />
+                <FavoriteButton kind="muscle" id={selected.id} label={muscleName(selected, lang)} />
               </div>
               <div className="row" style={{ marginBottom: 12 }}>
-                <span className="badge">{GROUP_LABELS[selected.group]}</span>
-                <span className="badge">{KIND_LABELS[selected.kind]}</span>
-                {selected.layer === 'deep' && <span className="badge badge-deep">Dybtliggende</span>}
-                {selected.danishNameUncertain && <span className="badge badge-review" title="Det danske navn bør bekræftes">Dansk navn til gennemsyn</span>}
+                <span className="badge">{s.groups[selected.group]}</span>
+                <span className="badge">{s.kinds[selected.kind]}</span>
+                {selected.layer === 'deep' && <span className="badge badge-deep">{s.atlas.deep}</span>}
+                {selected.daStatus !== 'gængs' && <span className="badge badge-review" title={lang === 'da' && selected.daReason ? selected.daReason : s.atlas.daReviewTitle}>{s.atlas.daReview}</span>}
               </div>
-              {selected.note && <p className="small soft">{selected.note}</p>}
+              {note && <p className="small soft">{note}</p>}
+              {group && <p className="small soft">{s.atlas.partOf(muscleName(group, lang), group.nameLatin)}</p>}
               <dl className="kv">
-                <dt>Udspring</dt><dd>{selected.origin}</dd>
-                <dt>Hæfte</dt><dd>{selected.insertion}</dd>
-                <dt>Funktion</dt><dd>{selected.action}</dd>
+                <dt>{s.atlas.origin}</dt><dd>{muscleOrigin(selected, lang)}</dd>
+                <dt>{s.atlas.insertion}</dt><dd>{muscleInsertion(selected, lang)}</dd>
+                <dt>{s.atlas.action}</dt><dd>{muscleAction(selected, lang)}</dd>
               </dl>
-              <p className="small muted">Standardanatomi – ikke fra kildehæftet. Bør gennemses med lærebog/underviser.</p>
+              <p className="small muted">{s.atlas.standard}</p>
 
-              <h3 style={{ marginTop: 14 }}>Massagegreb ({related.length})</h3>
+              <h3 style={{ marginTop: 14 }}>{s.atlas.techniques(related.length)}</h3>
               {related.length === 0 ? (
-                <p className="small muted">Ingen greb i hæftet er koblet til denne muskel.</p>
+                <p className="small muted">{s.atlas.noTechniques}</p>
               ) : (
                 <div className="mini-tech">
                   {related.map((t) => {
                     const basis = t.muscles.find((l) => l.id === selected.id)?.basis;
+                    const r = getRegion(t.region);
                     return (
                       <Link key={t.id} to={`/greb/${t.id}`}>
                         <span className="step-badge">{t.step}</span>
                         <span className="li-body">
-                          <span className="li-title">{t.name}</span>
-                          <span className="li-sub">{getRegion(t.region)?.name}{basis === 'afledt' ? ' · afledt kobling' : ''}</span>
+                          <span className="li-title">{techName(t, lang)}</span>
+                          <span className="li-sub">{r ? regionName(r, lang) : ''}{basis === 'afledt' ? ` · ${s.atlas.inferredLink}` : ''}</span>
                         </span>
                       </Link>
                     );
@@ -166,9 +165,9 @@ export function AtlasPage() {
             </section>
           ) : (
             <section className="card card-l">
-              <h3>Vælg en muskel</h3>
-              <p className="soft small">Tryk på figuren eller søg. Atlasset viser {muscles.filter((m) => m.layer === 'superficial').length} overfladiske strukturer og {muscles.filter((m) => m.layer === 'deep').length} dybe muskler, der nævnes i hæftet.</p>
-              <p className="small muted">Figuren er en forenklet, original illustration. Muskelformerne er skematiske – brug en anatomibog til detaljer.</p>
+              <h3>{s.atlas.choose}</h3>
+              <p className="soft small">{s.atlas.chooseText(muscles.filter((m) => m.layer === 'superficial').length, muscles.filter((m) => m.layer === 'deep').length)}</p>
+              <p className="small muted">{s.atlas.simplified}</p>
             </section>
           )}
         </aside>

@@ -7,32 +7,193 @@
   "imagesReceived": 20,
   "imagesExpected": 21,
   "pages": [
-    { "page": "forside", "image": "ChatGPT-billede 4. nov. 2026, 22.45.43.jpg", "status": "læst", "content": "Forside: ”Massørskolen – Fyn – Massage i Billeder”" },
-    { "page": 3,  "image": "ChatGPT-billede 4. nov. 2026, 22.45.41.jpg", "status": "læst", "content": "Ben (bagside) trin 1–5" },
-    { "page": 4,  "image": "ChatGPT-billede 4. nov. 2026, 22.45.39.jpg", "status": "læst", "content": "Ben (bagside) trin 6–10" },
-    { "page": 5,  "image": "ChatGPT-billede 4. nov. 2026, 22.45.37.jpg", "status": "ulæselig", "content": "Ben trin 11–14 – fotoet er for sløret til at læse" },
-    { "page": 6,  "image": "ChatGPT-billede 4. nov. 2026, 22.45.34.jpg", "status": "læst", "content": "Ben (forside) trin 15–16" },
-    { "page": 7,  "image": "ChatGPT-billede 4. nov. 2026, 22.45.32.jpg", "status": "læst", "content": "Ben (forside) trin 17–19" },
-    { "page": 8,  "image": "ChatGPT-billede 4. nov. 2026, 22.45.31.jpg", "status": "læst", "content": "Ben (forside) trin 20–24" },
-    { "page": 9,  "image": null, "status": "mangler", "content": "Ikke modtaget – indhold ukendt" },
-    { "page": 10, "image": "ChatGPT-billede 4. nov. 2026, 22.45.29.jpg", "status": "læst", "content": "Ryg/nakke/skuldre trin 1–4a" },
-    { "page": 11, "image": "ChatGPT-billede 4. nov. 2026, 22.45.28.jpg", "status": "læst", "content": "Ryg/nakke/skuldre trin 4b–6" },
-    { "page": 12, "image": "ChatGPT-billede 4. nov. 2026, 22.45.26.jpg", "status": "læst", "content": "Ryg/nakke/skuldre trin 7–10" },
-    { "page": 13, "image": "ChatGPT-billede 4. nov. 2026, 22.45.23.jpg", "status": "læst", "content": "Ryg/nakke/skuldre trin 11–14" },
-    { "page": 14, "image": "ChatGPT-billede 4. nov. 2026, 22.45.21.jpg", "status": "læst", "content": "Ryg/nakke/skuldre trin 15–18" },
-    { "page": 15, "image": "ChatGPT-billede 4. nov. 2026, 22.45.19.jpg", "status": "læst", "content": "Ryg/nakke/skuldre trin 19–22" },
-    { "page": 16, "image": "ChatGPT-billede 4. nov. 2026, 22.45.16.jpg", "status": "læst", "content": "Arm og hånd trin 1–4" },
-    { "page": 17, "image": "ChatGPT-billede 4. nov. 2026, 22.45.14.jpg", "status": "læst", "content": "Arm og hånd trin 5–8" },
-    { "page": 18, "image": "ChatGPT-billede 4. nov. 2026, 22.45.10.jpg", "status": "læst", "content": "Arm og hånd trin 9–13" },
-    { "page": 19, "image": "ChatGPT-billede 4. nov. 2026, 22.45.09.jpg", "status": "læst", "content": "Bryst trin 14–18" },
-    { "page": 20, "image": null, "status": "mangler", "content": "Ikke modtaget – ansigtsmassage trin 1–4" },
-    { "page": 21, "image": "ChatGPT-billede 4. nov. 2026, 22.45.01.jpg", "status": "læst", "content": "Ansigt trin 5–8" },
-    { "page": 21, "image": "ChatGPT-billede 4. nov. 2026, 22.45.07.jpg", "status": "dublet", "content": "Sløret dublet af side 21" },
-    { "page": 22, "image": "ChatGPT-billede 4. nov. 2026, 22.44.50.jpg", "status": "læst", "content": "Ansigt trin 9–12" }
+    {
+      "page": "forside",
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.43.jpg",
+      "status": "læst",
+      "content": "Forside: ”Massørskolen – Fyn – Massage i Billeder”",
+      "contentEn": "Cover: “Massørskolen – Fyn – Massage i Billeder”",
+      "statusEn": "read"
+    },
+    {
+      "page": 3,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.41.jpg",
+      "status": "læst",
+      "content": "Ben (bagside) trin 1–5",
+      "contentEn": "Leg (back) steps 1–5",
+      "statusEn": "read"
+    },
+    {
+      "page": 4,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.39.jpg",
+      "status": "læst",
+      "content": "Ben (bagside) trin 6–10",
+      "contentEn": "Leg (back) steps 6–10",
+      "statusEn": "read"
+    },
+    {
+      "page": 5,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.37.jpg",
+      "status": "ulæselig",
+      "content": "Ben trin 11–14 – fotoet er for sløret til at læse",
+      "contentEn": "Leg steps 11–14 – the photo is too blurred to read",
+      "statusEn": "unreadable"
+    },
+    {
+      "page": 6,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.34.jpg",
+      "status": "læst",
+      "content": "Ben (forside) trin 15–16",
+      "contentEn": "Leg (front) steps 15–16",
+      "statusEn": "read"
+    },
+    {
+      "page": 7,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.32.jpg",
+      "status": "læst",
+      "content": "Ben (forside) trin 17–19",
+      "contentEn": "Leg (front) steps 17–19",
+      "statusEn": "read"
+    },
+    {
+      "page": 8,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.31.jpg",
+      "status": "læst",
+      "content": "Ben (forside) trin 20–24",
+      "contentEn": "Leg (front) steps 20–24",
+      "statusEn": "read"
+    },
+    {
+      "page": 9,
+      "image": null,
+      "status": "mangler",
+      "content": "Ikke modtaget – indhold ukendt",
+      "contentEn": "Not received – content unknown",
+      "statusEn": "missing"
+    },
+    {
+      "page": 10,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.29.jpg",
+      "status": "læst",
+      "content": "Ryg/nakke/skuldre trin 1–4a",
+      "contentEn": "Back/neck/shoulders steps 1–4a",
+      "statusEn": "read"
+    },
+    {
+      "page": 11,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.28.jpg",
+      "status": "læst",
+      "content": "Ryg/nakke/skuldre trin 4b–6",
+      "contentEn": "Back/neck/shoulders steps 4b–6",
+      "statusEn": "read"
+    },
+    {
+      "page": 12,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.26.jpg",
+      "status": "læst",
+      "content": "Ryg/nakke/skuldre trin 7–10",
+      "contentEn": "Back/neck/shoulders steps 7–10",
+      "statusEn": "read"
+    },
+    {
+      "page": 13,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.23.jpg",
+      "status": "læst",
+      "content": "Ryg/nakke/skuldre trin 11–14",
+      "contentEn": "Back/neck/shoulders steps 11–14",
+      "statusEn": "read"
+    },
+    {
+      "page": 14,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.21.jpg",
+      "status": "læst",
+      "content": "Ryg/nakke/skuldre trin 15–18",
+      "contentEn": "Back/neck/shoulders steps 15–18",
+      "statusEn": "read"
+    },
+    {
+      "page": 15,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.19.jpg",
+      "status": "læst",
+      "content": "Ryg/nakke/skuldre trin 19–22",
+      "contentEn": "Back/neck/shoulders steps 19–22",
+      "statusEn": "read"
+    },
+    {
+      "page": 16,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.16.jpg",
+      "status": "læst",
+      "content": "Arm og hånd trin 1–4",
+      "contentEn": "Arm and hand steps 1–4",
+      "statusEn": "read"
+    },
+    {
+      "page": 17,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.14.jpg",
+      "status": "læst",
+      "content": "Arm og hånd trin 5–8",
+      "contentEn": "Arm and hand steps 5–8",
+      "statusEn": "read"
+    },
+    {
+      "page": 18,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.10.jpg",
+      "status": "læst",
+      "content": "Arm og hånd trin 9–13",
+      "contentEn": "Arm and hand steps 9–13",
+      "statusEn": "read"
+    },
+    {
+      "page": 19,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.09.jpg",
+      "status": "læst",
+      "content": "Bryst trin 14–18",
+      "contentEn": "Chest steps 14–18",
+      "statusEn": "read"
+    },
+    {
+      "page": 20,
+      "image": null,
+      "status": "mangler",
+      "content": "Ikke modtaget – ansigtsmassage trin 1–4",
+      "contentEn": "Not received – face massage steps 1–4",
+      "statusEn": "missing"
+    },
+    {
+      "page": 21,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.01.jpg",
+      "status": "læst",
+      "content": "Ansigt trin 5–8",
+      "contentEn": "Face steps 5–8",
+      "statusEn": "read"
+    },
+    {
+      "page": 21,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.45.07.jpg",
+      "status": "dublet",
+      "content": "Sløret dublet af side 21",
+      "contentEn": "Blurred duplicate of page 21",
+      "statusEn": "duplicate"
+    },
+    {
+      "page": 22,
+      "image": "ChatGPT-billede 4. nov. 2026, 22.44.50.jpg",
+      "status": "læst",
+      "content": "Ansigt trin 9–12",
+      "contentEn": "Face steps 9–12",
+      "statusEn": "read"
+    }
   ],
   "notes": [
     "Der blev modtaget 20 billeder, ikke 21.",
     "Filnavnene (”ChatGPT-billede …”) tyder på, at billederne er gemt via ChatGPT. Indholdet er fotos af det trykte hæfte.",
     "Håndskrevne noter på siderne er transskriberet separat og markeret som usikre."
+  ],
+  "titleEn": "Massage in Pictures – Physiatric Massage (Danish: “Massage i Billeder – Fysiurgisk Massage”)",
+  "rightsEn": "Copyrighted teaching material. The photographs are not embedded in the app; only page and step numbers are referenced. The captions are transcribed verbatim (in Danish) for personal study and traceability.",
+  "notesEn": [
+    "20 images were received, not 21.",
+    "The file names (“ChatGPT-billede …”) suggest the images were saved via ChatGPT. The content is photos of the printed booklet.",
+    "Handwritten notes on the pages are transcribed separately and marked as uncertain."
   ]
 }

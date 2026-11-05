@@ -45,4 +45,6 @@ export interface Demonstration {
    *  'delvis' = partly visible/partly from the caption. */
   support: 'foto' | 'delvis';
   review: string[];
+  /** English texts (hand-translated, same order as the Danish ones). */
+  en: { frames: string[]; therapist?: string | null; clientPose?: string | null; review: string[] };
 }

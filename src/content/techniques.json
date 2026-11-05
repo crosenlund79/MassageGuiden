@@ -21,7 +21,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.41.jpg",
       "caption": "1. Effleurage af bagside af ben."
     },
-    "order": 1
+    "order": 1,
+    "en": {
+      "name": "Effleurage of the back of the leg",
+      "description": "Long, gliding strokes over the whole back of the leg.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ben-2",
@@ -39,12 +46,14 @@
       {
         "id": "gastrocnemius",
         "basis": "afledt",
-        "note": "”lægmusklen”"
+        "note": "”lægmusklen”",
+        "noteEn": "“the calf muscle”"
       },
       {
         "id": "soleus",
         "basis": "afledt",
-        "note": "”lægmusklen”"
+        "note": "”lægmusklen”",
+        "noteEn": "“the calf muscle”"
       }
     ],
     "precautions": [],
@@ -61,7 +70,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.41.jpg",
       "caption": "2. ”Løft” lægmusklen."
     },
-    "order": 2
+    "order": 2,
+    "en": {
+      "name": "“Lifting” the calf muscle",
+      "description": "The calf muscle is lifted with the hands.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ben-3",
@@ -92,7 +108,16 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.41.jpg",
       "caption": "3. Tommelfingerfriktion langs gastronecmius. (medialt som lateralt) til over knæet."
     },
-    "order": 3
+    "order": 3,
+    "en": {
+      "name": "Thumb friction along the gastrocnemius",
+      "description": "Thumb frictions along the gastrocnemius – both medially and laterally – up to above the knee.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": [
+        "The source spells it “gastronecmius”; interpreted as the gastrocnemius."
+      ]
+    }
   },
   {
     "id": "ben-4",
@@ -121,7 +146,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.41.jpg",
       "caption": "4. Petrissage af achillessene."
     },
-    "order": 4
+    "order": 4,
+    "en": {
+      "name": "Petrissage of the Achilles tendon",
+      "description": "Kneading around the Achilles tendon.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ben-5",
@@ -139,7 +171,8 @@
       {
         "id": "gastrocnemius",
         "basis": "afledt",
-        "note": "”lægmusklen”"
+        "note": "”lægmusklen”",
+        "noteEn": "“the calf muscle”"
       }
     ],
     "precautions": [],
@@ -156,7 +189,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.41.jpg",
       "caption": "5. Skil lægmusklen med tommelfingre."
     },
-    "order": 5
+    "order": 5,
+    "en": {
+      "name": "Separating the calf muscle",
+      "description": "The calf muscle is separated with the thumbs.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ben-6",
@@ -174,17 +214,20 @@
       {
         "id": "biceps-femoris",
         "basis": "kilde",
-        "note": "”haserne”"
+        "note": "”haserne”",
+        "noteEn": "“the hamstrings”"
       },
       {
         "id": "semitendinosus",
         "basis": "kilde",
-        "note": "”haserne”"
+        "note": "”haserne”",
+        "noteEn": "“the hamstrings”"
       },
       {
         "id": "semimembranosus",
         "basis": "kilde",
-        "note": "”haserne”"
+        "note": "”haserne”",
+        "noteEn": "“the hamstrings”"
       }
     ],
     "precautions": [],
@@ -196,7 +239,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.39.jpg",
       "caption": "6. Tommelfingerfriktioner langs haserne til tuber ischii (begynd under knæet)"
     },
-    "order": 6
+    "order": 6,
+    "en": {
+      "name": "Thumb frictions along the hamstrings",
+      "description": "Thumb frictions along the hamstrings up to the ischial tuberosity (tuber ischii). Start below the knee.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ben-7",
@@ -214,17 +264,20 @@
       {
         "id": "biceps-femoris",
         "basis": "kilde",
-        "note": "”hasemusklerne”"
+        "note": "”hasemusklerne”",
+        "noteEn": "“the hamstrings”"
       },
       {
         "id": "semitendinosus",
         "basis": "kilde",
-        "note": "”hasemusklerne”"
+        "note": "”hasemusklerne”",
+        "noteEn": "“the hamstrings”"
       },
       {
         "id": "semimembranosus",
         "basis": "kilde",
-        "note": "”hasemusklerne”"
+        "note": "”hasemusklerne”",
+        "noteEn": "“the hamstrings”"
       }
     ],
     "precautions": [],
@@ -236,7 +289,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.39.jpg",
       "caption": "7. Skil hasemusklerne med tommelfingrene."
     },
-    "order": 7
+    "order": 7,
+    "en": {
+      "name": "Separating the hamstrings",
+      "description": "The hamstrings are separated from each other with the thumbs.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ben-8",
@@ -260,7 +320,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.39.jpg",
       "caption": "8. Knofriktion af tuber ischii området."
     },
-    "order": 8
+    "order": 8,
+    "en": {
+      "name": "Knuckle friction around the ischial tuberosity",
+      "description": "Knuckle frictions around the ischial tuberosity (tuber ischii).",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ben-9",
@@ -290,7 +357,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.39.jpg",
       "caption": "9. Tommelfingerfriktioner af m. Gluteus Maximus, efterfulgt af knofriktioner."
     },
-    "order": 9
+    "order": 9,
+    "en": {
+      "name": "Frictions on the gluteus maximus",
+      "description": "Thumb frictions over the gluteus maximus, followed by knuckle frictions.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ben-10",
@@ -314,7 +388,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.39.jpg",
       "caption": "10. Effleurage af bagside af ben."
     },
-    "order": 10
+    "order": 10,
+    "en": {
+      "name": "Effleurage of the back of the leg",
+      "description": "Closing strokes over the back of the leg.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ben-11",
@@ -328,7 +409,10 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.37.jpg",
       "caption": null
     },
-    "order": 11
+    "order": 11,
+    "en": {
+      "reason": "Page 5 is too blurred to read. The captions and any change of position (turning to lying on the back) cannot be determined."
+    }
   },
   {
     "id": "ben-12",
@@ -342,7 +426,10 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.37.jpg",
       "caption": null
     },
-    "order": 12
+    "order": 12,
+    "en": {
+      "reason": "Page 5 is too blurred to read. The captions and any change of position (turning to lying on the back) cannot be determined."
+    }
   },
   {
     "id": "ben-13",
@@ -356,7 +443,10 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.37.jpg",
       "caption": null
     },
-    "order": 13
+    "order": 13,
+    "en": {
+      "reason": "Page 5 is too blurred to read. The captions and any change of position (turning to lying on the back) cannot be determined."
+    }
   },
   {
     "id": "ben-14",
@@ -370,7 +460,10 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.37.jpg",
       "caption": null
     },
-    "order": 14
+    "order": 14,
+    "en": {
+      "reason": "Page 5 is too blurred to read. The captions and any change of position (turning to lying on the back) cannot be determined."
+    }
   },
   {
     "id": "ben-15",
@@ -409,7 +502,16 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.34.jpg",
       "caption": "15. Tommelfingerfriktioner langs underbenet på laterale side af tibia (ikke over knæled)."
     },
-    "order": 15
+    "order": 15,
+    "en": {
+      "name": "Thumb frictions lateral to the tibia",
+      "description": "Thumb frictions along the front of the lower leg, on the outer side of the shin bone.",
+      "position": null,
+      "precautions": [
+        "Not over the knee joint."
+      ],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ben-16",
@@ -440,7 +542,18 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.34.jpg",
       "caption": "16. Forsigtige friktioner langs tibia, især tuberosita tibia."
     },
-    "order": 16
+    "order": 16,
+    "en": {
+      "name": "Gentle frictions along the tibia",
+      "description": "Gentle frictions along the shin bone, especially at the tibial tuberosity.",
+      "position": null,
+      "precautions": [
+        "Performed gently (directly over the bone)."
+      ],
+      "reviewNotes": [
+        "The source writes “tuberosita tibia”; the correct Latin is tuberositas tibiae."
+      ]
+    }
   },
   {
     "id": "ben-17",
@@ -486,7 +599,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.32.jpg",
       "caption": "17. Tommelfingerfriktioner langs m. Vastus medialis samt m. Vastus lateralis"
     },
-    "order": 17
+    "order": 17,
+    "en": {
+      "name": "Frictions along the vastus medialis and lateralis",
+      "description": "Thumb frictions along the vastus medialis and the vastus lateralis.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ben-18",
@@ -524,7 +644,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.32.jpg",
       "caption": "18. Knofriktion af m. Rectus Femoris."
     },
-    "order": 18
+    "order": 18,
+    "en": {
+      "name": "Knuckle friction of the rectus femoris",
+      "description": "Knuckle frictions along the rectus femoris.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ben-19",
@@ -560,7 +687,16 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.32.jpg",
       "caption": "19. Tommelfingerfriktioner langs m. Satorius."
     },
-    "order": 19
+    "order": 19,
+    "en": {
+      "name": "Thumb frictions along the sartorius",
+      "description": "Thumb frictions along the sartorius.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": [
+        "The source spells it “Satorius”; interpreted as the sartorius."
+      ]
+    }
   },
   {
     "id": "ben-20",
@@ -594,7 +730,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.31.jpg",
       "caption": "20. Tommelfingerfriktioner langs m. Gracilis."
     },
-    "order": 20
+    "order": 20,
+    "en": {
+      "name": "Thumb frictions along the gracilis",
+      "description": "Thumb frictions along the gracilis on the inner thigh.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ben-21",
@@ -628,7 +771,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.31.jpg",
       "caption": "21. Knofriktioner langs lårets adduktorer."
     },
-    "order": 21
+    "order": 21,
+    "en": {
+      "name": "Knuckle frictions along the adductors",
+      "description": "Knuckle frictions along the adductors of the thigh.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ben-22",
@@ -657,7 +807,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.31.jpg",
       "caption": "22. Knofriktion langs lårets Tractus Iliotibialis."
     },
-    "order": 22
+    "order": 22,
+    "en": {
+      "name": "Knuckle friction along the iliotibial tract",
+      "description": "Knuckle frictions along the iliotibial tract on the outer thigh.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ben-23",
@@ -691,7 +848,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.31.jpg",
       "caption": "23. Fingerfriktioner langs det sidste stykke af Tractus Iliotibiales."
     },
-    "order": 23
+    "order": 23,
+    "en": {
+      "name": "Finger frictions on the lower iliotibial tract",
+      "description": "Finger frictions along the lower part of the iliotibial tract.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ben-24",
@@ -717,7 +881,16 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.31.jpg",
       "caption": "24. Effleurage."
     },
-    "order": 24
+    "order": 24,
+    "en": {
+      "name": "Effleurage",
+      "description": "Closing strokes over the leg.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": [
+        "The source does not state the area; the photo shows the leg."
+      ]
+    }
   },
   {
     "id": "ryg-1",
@@ -746,7 +919,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.29.jpg",
       "caption": "1. Effleurage af hele ryggen."
     },
-    "order": 25
+    "order": 25,
+    "en": {
+      "name": "Effleurage of the whole back",
+      "description": "Long, gliding strokes over the whole back.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ryg-2",
@@ -775,7 +955,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.29.jpg",
       "caption": "2. Petrissage af øvre Trapezius (stå på modsatte side af briksen)."
     },
-    "order": 26
+    "order": 26,
+    "en": {
+      "name": "Petrissage of the upper trapezius",
+      "description": "Kneading of the upper part of the trapezius.",
+      "position": "Stand on the opposite side of the table.",
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ryg-3",
@@ -806,7 +993,16 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.29.jpg",
       "caption": "3. Friktion af m. Levator Scapula (stå på modsatte side af briksen)."
     },
-    "order": 27
+    "order": 27,
+    "en": {
+      "name": "Friction of the levator scapulae",
+      "description": "Frictions over the levator scapulae.",
+      "position": "Stand on the opposite side of the table.",
+      "precautions": [],
+      "reviewNotes": [
+        "The source writes “Levator Scapula”; the correct Latin is levator scapulae."
+      ]
+    }
   },
   {
     "id": "ryg-4a",
@@ -840,7 +1036,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.29.jpg",
       "caption": "4a. Friktion langs m. Trapezius' superiore kant (Stå for enden af briksen)."
     },
-    "order": 28
+    "order": 28,
+    "en": {
+      "name": "Friction along the upper border of the trapezius",
+      "description": "Frictions along the upper border of the trapezius.",
+      "position": "Stand at the end of the table.",
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ryg-4b",
@@ -869,7 +1072,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.28.jpg",
       "caption": "4b. Massage langs Scapulas superiore kant."
     },
-    "order": 29
+    "order": 29,
+    "en": {
+      "name": "Massage along the upper border of the scapula",
+      "description": "Massage along the upper border of the shoulder blade.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ryg-5",
@@ -902,7 +1112,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.28.jpg",
       "caption": "5. Friktion langs Scapulas mediale kant med tommelfingrene (gøres bedst med armen liggende på ryggen."
     },
-    "order": 30
+    "order": 30,
+    "en": {
+      "name": "Thumb friction along the medial border of the scapula",
+      "description": "Frictions with the thumbs along the inner border of the shoulder blade.",
+      "position": "Works best with the arm lying on the back.",
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ryg-6",
@@ -926,7 +1143,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.28.jpg",
       "caption": "6. Friktion langs Scapulas mediale kant med knofriktioner."
     },
-    "order": 31
+    "order": 31,
+    "en": {
+      "name": "Knuckle friction along the medial border of the scapula",
+      "description": "Knuckle frictions along the inner border of the shoulder blade.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ryg-7",
@@ -955,7 +1179,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.26.jpg",
       "caption": "7. Knofriktioner indad mod nakke og rygsøjle."
     },
-    "order": 32
+    "order": 32,
+    "en": {
+      "name": "Knuckle frictions towards the neck and spine",
+      "description": "Knuckle frictions working inwards towards the neck and the spine.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ryg-8",
@@ -988,7 +1219,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.26.jpg",
       "caption": "8. Friktion i cirkler med håndroden på Scapula."
     },
-    "order": 33
+    "order": 33,
+    "en": {
+      "name": "Circular heel-of-hand friction on the scapula",
+      "description": "Circular frictions with the heel of the hand over the shoulder blade.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ryg-9",
@@ -1017,7 +1255,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.26.jpg",
       "caption": "9. Tommelfingerfriktioner på m. Infraspinatus på Scapula. Herefter lægges armen op over hovedet."
     },
-    "order": 34
+    "order": 34,
+    "en": {
+      "name": "Thumb frictions on the infraspinatus",
+      "description": "Thumb frictions over the infraspinatus on the shoulder blade. Afterwards the arm is placed up over the head.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ryg-10",
@@ -1051,7 +1296,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.26.jpg",
       "caption": "10. Knofriktioner langs tricepsudspring udvendig armhule."
     },
-    "order": 35
+    "order": 35,
+    "en": {
+      "name": "Knuckle frictions along the origin of the triceps",
+      "description": "Knuckle frictions along the origin of the triceps brachii at the outer side of the armpit.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ryg-11",
@@ -1080,7 +1332,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.23.jpg",
       "caption": "11. Tommelfingerfriktioner langs Scapulas laterale kant."
     },
-    "order": 36
+    "order": 36,
+    "en": {
+      "name": "Thumb frictions along the lateral border of the scapula",
+      "description": "Thumb frictions along the outer border of the shoulder blade.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ryg-12",
@@ -1098,7 +1357,8 @@
       {
         "id": "trapezius",
         "basis": "afledt",
-        "note": "”nakkemuskler”"
+        "note": "”nakkemuskler”",
+        "noteEn": "“neck muscles”"
       }
     ],
     "precautions": [],
@@ -1115,7 +1375,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.23.jpg",
       "caption": "12. Petrissage af nakkemuskler (stå på siden af briksen)."
     },
-    "order": 37
+    "order": 37,
+    "en": {
+      "name": "Petrissage of the neck muscles",
+      "description": "Kneading of the neck muscles.",
+      "position": "Stand at the side of the table.",
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ryg-13",
@@ -1144,7 +1411,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.23.jpg",
       "caption": "13. Træk tilbage fra skuldre, og tryk langs suboccipitale muskulatur (kraniekanten)."
     },
-    "order": 38
+    "order": 38,
+    "en": {
+      "name": "Pull from the shoulders and press at the base of the skull",
+      "description": "Pull back from the shoulders, then press along the base of the skull over the suboccipital muscles.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ryg-14",
@@ -1178,7 +1452,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.23.jpg",
       "caption": "14. Knofriktion af nakkemuskler samt øvre m. Trapezius."
     },
-    "order": 39
+    "order": 39,
+    "en": {
+      "name": "Knuckle friction of the neck and upper trapezius",
+      "description": "Knuckle frictions over the neck muscles and the upper part of the trapezius.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ryg-15",
@@ -1207,7 +1488,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.21.jpg",
       "caption": "15. Cirkulære friktioner med tommelfingre langs rygsøjlen til øverste ballekant."
     },
-    "order": 40
+    "order": 40,
+    "en": {
+      "name": "Circular thumb frictions along the spine",
+      "description": "Circular frictions with the thumbs along the spine down to the top of the buttocks.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ryg-16",
@@ -1225,7 +1513,8 @@
       {
         "id": "erector-spinae",
         "basis": "kilde",
-        "note": "”rygstrækkeren”"
+        "note": "”rygstrækkeren”",
+        "noteEn": "“the erector spinae”"
       }
     ],
     "precautions": [],
@@ -1237,7 +1526,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.21.jpg",
       "caption": "16. Cirkulære håndrodsfriktioner langs ene side af rygstrækkeren (stå på modsatte side)."
     },
-    "order": 41
+    "order": 41,
+    "en": {
+      "name": "Circular heel-of-hand frictions along the erector spinae",
+      "description": "Circular frictions with the heel of the hand along the erector spinae on one side.",
+      "position": "Stand on the opposite side.",
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ryg-17",
@@ -1266,7 +1562,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.21.jpg",
       "caption": "17. Petrissage af lænden med begge hænder."
     },
-    "order": 42
+    "order": 42,
+    "en": {
+      "name": "Petrissage of the lower back",
+      "description": "Kneading of the lower back with both hands.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ryg-18",
@@ -1299,7 +1602,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.21.jpg",
       "caption": "18. Friktion med siden af hånden mellem hofteskålen og de nederste ribben."
     },
-    "order": 43
+    "order": 43,
+    "en": {
+      "name": "Friction between the pelvis and the lowest ribs",
+      "description": "Frictions with the edge of the hand in the area between the iliac crest and the lowest ribs.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ryg-19",
@@ -1329,7 +1639,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.19.jpg",
       "caption": "19. Tommelfinger- og knofriktioner af Gluteus Medius (ned)."
     },
-    "order": 44
+    "order": 44,
+    "en": {
+      "name": "Frictions of the gluteus medius (downward)",
+      "description": "Thumb and knuckle frictions over the gluteus medius, working downward.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ryg-20",
@@ -1359,7 +1676,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.19.jpg",
       "caption": "20. Kno- og tommelfingerfriktioner af Gluteus Medius (op)."
     },
-    "order": 45
+    "order": 45,
+    "en": {
+      "name": "Frictions of the gluteus medius (upward)",
+      "description": "Knuckle and thumb frictions over the gluteus medius, working upward.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ryg-21",
@@ -1388,7 +1712,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.19.jpg",
       "caption": "21. Tommelfingerfriktioner op langs rygsøjlen (tilbage til hjertet)."
     },
-    "order": 46
+    "order": 46,
+    "en": {
+      "name": "Thumb frictions up along the spine",
+      "description": "Thumb frictions up along the spine, towards the heart.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ryg-22",
@@ -1412,7 +1743,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.19.jpg",
       "caption": "22. Effleurage af hele ryg (stå for enden af briksen)."
     },
-    "order": 47
+    "order": 47,
+    "en": {
+      "name": "Effleurage of the whole back",
+      "description": "Closing strokes over the whole back.",
+      "position": "Stand at the end of the table.",
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "arm-1",
@@ -1436,7 +1774,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.16.jpg",
       "caption": "1. Effleurage af hele armen."
     },
-    "order": 48
+    "order": 48,
+    "en": {
+      "name": "Effleurage of the whole arm",
+      "description": "Long, gliding strokes over the whole arm.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "arm-2",
@@ -1460,7 +1805,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.16.jpg",
       "caption": "2. Petrissage af fingre."
     },
-    "order": 49
+    "order": 49,
+    "en": {
+      "name": "Petrissage of the fingers",
+      "description": "Kneading of each finger.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "arm-3",
@@ -1484,7 +1836,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.16.jpg",
       "caption": "3. Tommelfingerfriktioner imellem fingrenes sener."
     },
-    "order": 50
+    "order": 50,
+    "en": {
+      "name": "Thumb frictions between the finger tendons",
+      "description": "Thumb frictions on the back of the hand between the finger tendons.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "arm-4",
@@ -1508,7 +1867,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.16.jpg",
       "caption": "4. Tommelfingerfriktioner af hånden indvendigt, især tommelfingerballen."
     },
-    "order": 51
+    "order": 51,
+    "en": {
+      "name": "Thumb frictions in the palm",
+      "description": "Thumb frictions in the palm, especially on the ball of the thumb.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "arm-5",
@@ -1542,7 +1908,16 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.14.jpg",
       "caption": "5. Tommelfingerfriktioner langs m. Brachioradialis til lateralt på radius (ikke over leddet)."
     },
-    "order": 52
+    "order": 52,
+    "en": {
+      "name": "Thumb frictions along the brachioradialis",
+      "description": "Thumb frictions along the brachioradialis to the lateral side of the radius.",
+      "position": null,
+      "precautions": [
+        "Not over the joint."
+      ],
+      "reviewNotes": []
+    }
   },
   {
     "id": "arm-6",
@@ -1568,7 +1943,16 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.14.jpg",
       "caption": "6. Tommelfingerfriktioner langs lillefingersiden til lateral på humerus."
     },
-    "order": 53
+    "order": 53,
+    "en": {
+      "name": "Thumb frictions along the little-finger side",
+      "description": "Thumb frictions along the little-finger side of the forearm up towards the humerus.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": [
+        "The wording “little-finger side to lateral on the humerus” is unclear (the little-finger side is normally medial). Should be clarified with the teacher."
+      ]
+    }
   },
   {
     "id": "arm-7",
@@ -1586,7 +1970,8 @@
       {
         "id": "flexores-antebrachii",
         "basis": "afledt",
-        "note": "”den indvendige underarms muskel”"
+        "note": "”den indvendige underarms muskel”",
+        "noteEn": "“the inner forearm muscle”"
       }
     ],
     "precautions": [],
@@ -1598,7 +1983,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.14.jpg",
       "caption": "7. Skil den indvendige underarms muskel med tommelfingerfriktioner."
     },
-    "order": 54
+    "order": 54,
+    "en": {
+      "name": "Separating the inner forearm",
+      "description": "The muscles on the inside of the forearm are separated with thumb frictions.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "arm-8",
@@ -1622,7 +2014,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.14.jpg",
       "caption": "8. Tommelfingerfriktioner langs lillefingersiden af underarmen til humerus."
     },
-    "order": 55
+    "order": 55,
+    "en": {
+      "name": "Thumb frictions along the little-finger side of the forearm",
+      "description": "Thumb frictions along the little-finger side of the forearm up to the humerus.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "arm-9",
@@ -1656,7 +2055,16 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.10.jpg",
       "caption": "9. Tommelfingerfriktioner langs tommelfingersiden på m. Brachioradialis (husk at dreje armen inden leddet passeres)."
     },
-    "order": 56
+    "order": 56,
+    "en": {
+      "name": "Thumb frictions on the thumb side of the brachioradialis",
+      "description": "Thumb frictions along the thumb side of the brachioradialis.",
+      "position": null,
+      "precautions": [
+        "Remember to turn the arm before passing the joint."
+      ],
+      "reviewNotes": []
+    }
   },
   {
     "id": "arm-10",
@@ -1685,7 +2093,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.10.jpg",
       "caption": "10. Petrissage af m. Biceps Brachii."
     },
-    "order": 57
+    "order": 57,
+    "en": {
+      "name": "Petrissage of the biceps brachii",
+      "description": "Kneading of the biceps brachii.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "arm-11",
@@ -1714,7 +2129,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.10.jpg",
       "caption": "11. Petrissage fra albueled langs m. Biceps Brachii."
     },
-    "order": 58
+    "order": 58,
+    "en": {
+      "name": "Petrissage from the elbow along the biceps",
+      "description": "Kneading from the elbow joint up along the biceps brachii.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "arm-12",
@@ -1753,7 +2175,16 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.10.jpg",
       "caption": "12. Tommelfingerfriktioner fra albueled ned langs Triceps. (Del Triceps i 4 sektioner) Lateral Biceps, 2 gange Triceps og Deltoidues."
     },
-    "order": 59
+    "order": 59,
+    "en": {
+      "name": "Thumb frictions along the triceps",
+      "description": "Thumb frictions from the elbow joint along the triceps brachii. The upper arm is divided into four lanes: lateral to the biceps, two lanes on the triceps and one on the deltoid.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": [
+        "The division into “4 sections” is interpreted from the caption and should be confirmed. The source spells it “Deltoidues”."
+      ]
+    }
   },
   {
     "id": "arm-13",
@@ -1777,7 +2208,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.10.jpg",
       "caption": "13. Effleurage af hele armen."
     },
-    "order": 60
+    "order": 60,
+    "en": {
+      "name": "Effleurage of the whole arm",
+      "description": "Closing strokes over the whole arm.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "arm-14",
@@ -1795,7 +2233,8 @@
       {
         "id": "pectoralis-major",
         "basis": "afledt",
-        "note": "”brystmuskelen”"
+        "note": "”brystmuskelen”",
+        "noteEn": "“the chest muscle”"
       }
     ],
     "precautions": [],
@@ -1807,7 +2246,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.09.jpg",
       "caption": "14. Effleurage af brystmuskelen."
     },
-    "order": 61
+    "order": 61,
+    "en": {
+      "name": "Effleurage of the chest muscle",
+      "description": "Gliding strokes over the chest muscle.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "arm-15",
@@ -1841,7 +2287,16 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.09.jpg",
       "caption": "15. Fingerfriktioner fra Sternum ud til Humerus (stop lige over brysvorte)."
     },
-    "order": 62
+    "order": 62,
+    "en": {
+      "name": "Finger frictions from the sternum towards the humerus",
+      "description": "Finger frictions from the breastbone out towards the upper arm bone.",
+      "position": null,
+      "precautions": [
+        "Stop just above the nipple."
+      ],
+      "reviewNotes": []
+    }
   },
   {
     "id": "arm-16",
@@ -1870,7 +2325,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.09.jpg",
       "caption": "16. Fingerfriktioner langs m. Pectoralis Minor."
     },
-    "order": 63
+    "order": 63,
+    "en": {
+      "name": "Finger frictions along the pectoralis minor",
+      "description": "Finger frictions along the pectoralis minor.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "arm-17",
@@ -1901,7 +2363,16 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.09.jpg",
       "caption": "17. Knofriktioner langs m. Pectoralis Minor."
     },
-    "order": 64
+    "order": 64,
+    "en": {
+      "name": "Knuckle frictions along the pectoralis minor",
+      "description": "Knuckle frictions along the pectoralis minor.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": [
+        "The caption is printed twice in the source."
+      ]
+    }
   },
   {
     "id": "arm-18",
@@ -1925,7 +2396,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.09.jpg",
       "caption": "18. Effleurage af brystet."
     },
-    "order": 65
+    "order": 65,
+    "en": {
+      "name": "Effleurage of the chest",
+      "description": "Closing strokes over the chest.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ansigt-1",
@@ -1939,7 +2417,10 @@
       "image": null,
       "caption": null
     },
-    "order": 66
+    "order": 66,
+    "en": {
+      "reason": "Page 20 (face massage steps 1–4) is not included in the images."
+    }
   },
   {
     "id": "ansigt-2",
@@ -1953,7 +2434,10 @@
       "image": null,
       "caption": null
     },
-    "order": 67
+    "order": 67,
+    "en": {
+      "reason": "Page 20 (face massage steps 1–4) is not included in the images."
+    }
   },
   {
     "id": "ansigt-3",
@@ -1967,7 +2451,10 @@
       "image": null,
       "caption": null
     },
-    "order": 68
+    "order": 68,
+    "en": {
+      "reason": "Page 20 (face massage steps 1–4) is not included in the images."
+    }
   },
   {
     "id": "ansigt-4",
@@ -1981,7 +2468,10 @@
       "image": null,
       "caption": null
     },
-    "order": 69
+    "order": 69,
+    "en": {
+      "reason": "Page 20 (face massage steps 1–4) is not included in the images."
+    }
   },
   {
     "id": "ansigt-5",
@@ -1999,7 +2489,8 @@
       {
         "id": "temporalis",
         "basis": "afledt",
-        "note": "”tindingen”"
+        "note": "”tindingen”",
+        "noteEn": "“the temple”"
       }
     ],
     "precautions": [],
@@ -2011,7 +2502,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.01.jpg",
       "caption": "5. Saml fingre på toppen af hovedet, træk ned over tindingen mod ørene så fingrene spredes."
     },
-    "order": 70
+    "order": 70,
+    "en": {
+      "name": "Stroke from the crown down over the temples",
+      "description": "The fingers are gathered on the crown of the head and drawn down over the temples towards the ears, spreading as they go.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ansigt-6",
@@ -2030,12 +2528,14 @@
       {
         "id": "masseter",
         "basis": "afledt",
-        "note": "”tyggemuskulatur”"
+        "note": "”tyggemuskulatur”",
+        "noteEn": "“chewing muscles”"
       },
       {
         "id": "temporalis",
         "basis": "afledt",
-        "note": "”tindingerne”"
+        "note": "”tindingerne”",
+        "noteEn": "“the temples”"
       }
     ],
     "precautions": [],
@@ -2047,7 +2547,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.01.jpg",
       "caption": "6. Placer håndroden i tindingerne og fingrene i muskulaturen under kindbenene (tyggemuskulatur) 3x3."
     },
-    "order": 71
+    "order": 71,
+    "en": {
+      "name": "Circles in the chewing muscles",
+      "description": "The heel of the hand rests at the temples while the fingers work in the chewing muscles below the cheekbones (3 × 3).",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ansigt-7",
@@ -2071,7 +2578,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.01.jpg",
       "caption": "7. Placer fingrene på hver side af næseryggen og træk ned langs kindbenene mod øreflipperne."
     },
-    "order": 72
+    "order": 72,
+    "en": {
+      "name": "Stroke from the bridge of the nose along the cheekbones",
+      "description": "The fingers are placed on each side of the bridge of the nose and drawn along the cheekbones out towards the earlobes.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ansigt-8",
@@ -2090,7 +2604,8 @@
       {
         "id": "temporalis",
         "basis": "afledt",
-        "note": "”tindingerne”"
+        "note": "”tindingerne”",
+        "noteEn": "“the temples”"
       }
     ],
     "precautions": [],
@@ -2102,7 +2617,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.45.01.jpg",
       "caption": "8. Placer håndroden i tindingerene og fingrene i mundvigen 3x3."
     },
-    "order": 73
+    "order": 73,
+    "en": {
+      "name": "Circles at the corners of the mouth",
+      "description": "The heel of the hand rests at the temples while the fingers work at the corners of the mouth (3 × 3).",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ansigt-9",
@@ -2126,7 +2648,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.44.50.jpg",
       "caption": "9. Placér tommelfingre lige over hagen, træk tilbage op mod ørene."
     },
-    "order": 74
+    "order": 74,
+    "en": {
+      "name": "Stroke from the chin up towards the ears",
+      "description": "The thumbs are placed just above the chin and drawn back up towards the ears.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ansigt-10",
@@ -2144,7 +2673,8 @@
       {
         "id": "frontalis",
         "basis": "afledt",
-        "note": "”panden”"
+        "note": "”panden”",
+        "noteEn": "“the forehead”"
       }
     ],
     "precautions": [],
@@ -2156,7 +2686,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.44.50.jpg",
       "caption": "10. Placér håndroden ved hårgrænsen og træk ned over panden mod brynene."
     },
-    "order": 75
+    "order": 75,
+    "en": {
+      "name": "Stroke down over the forehead",
+      "description": "The heel of the hand is placed at the hairline and drawn down over the forehead towards the eyebrows.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ansigt-11",
@@ -2174,7 +2711,8 @@
       {
         "id": "frontalis",
         "basis": "afledt",
-        "note": "”panden”"
+        "note": "”panden”",
+        "noteEn": "“the forehead”"
       }
     ],
     "precautions": [],
@@ -2186,7 +2724,14 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.44.50.jpg",
       "caption": "11. Placér den ene håndrod ved hårgrænsen, og den anden over brynet. Træk i modsat retning."
     },
-    "order": 76
+    "order": 76,
+    "en": {
+      "name": "Opposing pull over the forehead",
+      "description": "One heel of the hand at the hairline and the other above the eyebrow – the hands pull in opposite directions.",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   },
   {
     "id": "ansigt-12",
@@ -2204,7 +2749,8 @@
       {
         "id": "temporalis",
         "basis": "afledt",
-        "note": "”tindingerne”"
+        "note": "”tindingerne”",
+        "noteEn": "“the temples”"
       }
     ],
     "precautions": [],
@@ -2216,6 +2762,13 @@
       "image": "ChatGPT-billede 4. nov. 2026, 22.44.50.jpg",
       "caption": "12. Læg håndroden i tindingerne, masser i cirkulære bevægelser 3x3."
     },
-    "order": 77
+    "order": 77,
+    "en": {
+      "name": "Circles at the temples",
+      "description": "The heel of the hand is placed at the temples and massages in circles (3 × 3).",
+      "position": null,
+      "precautions": [],
+      "reviewNotes": []
+    }
   }
 ]

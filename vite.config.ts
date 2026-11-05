@@ -14,6 +14,8 @@ const base = process.env.BASE_PATH || './';
 
 export default defineConfig({
   base,
+  // One small offline app (~145 kB gzip incl. all content in two languages), precached by the service worker.
+  build: { chunkSizeWarningLimit: 700 },
   plugins: [
     react(),
     VitePWA({

@@ -19,10 +19,12 @@ export interface QuizSession {
   answers: QuizAnswer[];
 }
 export interface Activity { id?: number; kind: 'technique' | 'muscle' | 'quiz'; refId: string; at: number }
+/** 'da' = vernacular name in the UI language (Danish or English), kept as 'da' for stored compatibility. */
 export type Terminology = 'da' | 'latin' | 'begge';
-export interface Prefs { terminology: Terminology; showDeep: boolean; atlasView: 'anterior' | 'posterior' }
+export type Language = 'da' | 'en';
+export interface Prefs { terminology: Terminology; showDeep: boolean; atlasView: 'anterior' | 'posterior'; language: Language }
 
-export const DEFAULT_PREFS: Prefs = { terminology: 'begge', showDeep: false, atlasView: 'anterior' };
+export const DEFAULT_PREFS: Prefs = { terminology: 'begge', showDeep: false, atlasView: 'anterior', language: 'da' };
 
 interface AtlasDB extends DBSchema {
   favorites: { key: string; value: Favorite };
@@ -194,7 +196,7 @@ export async function exportPersonalData(): Promise<PersonalExport> {
 }
 
 export async function importPersonalData(data: PersonalExport): Promise<void> {
-  if (data?.app !== 'MassageAtlas' || data.version !== 1) throw new Error('Filen er ikke en MassageAtlas-eksport.');
+  if (data?.app !== 'MassageAtlas' || data.version !== 1) throw new Error('NOT_EXPORT');
   const db = await getDb();
   const tx = db.transaction(['favorites', 'notes', 'quizSessions', 'prefs'], 'readwrite');
   for (const f of data.favorites ?? []) await tx.objectStore('favorites').put(f);

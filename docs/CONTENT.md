@@ -51,3 +51,8 @@ Der blev modtaget 20 billeder, ikke 21.
 - `support: "foto"` betyder, at håndstilling og retning er tydelige i fotoet. `"delvis"` betyder, at noget er tolket ud fra billedteksten, og så har grebet altid en note i `review`.
 - Klientens stilling (f.eks. bøjet knæ eller armen på ryggen) kan den forenklede figur ikke vise. Den står i stedet i `clientPose`.
 - Alle illustrationer kan gennemses samlet på siden `#/haandgreb`.
+
+## Engelsk version
+- Oversat i hånden fra de danske billedtekster (`scripts/translations_en.py`), ikke maskinoversat. Hver tekst er holdt op mod den ordrette billedtekst.
+- Billedteksten selv og de håndskrevne noter vises altid på dansk. På engelsk har håndskrevne noter en kort forklaring i parentes i håndgrebsteksterne.
+- Muskelnavne på tre sprog: se `docs/MUSCLE_TERMINOLOGY.md`.

@@ -44,6 +44,7 @@ export function pickDistractors(target: Muscle, view: View, rand: () => number =
       m.id !== target.id &&
       m.layer === 'superficial' &&
       m.nameDa !== target.nameDa &&
+      m.nameEn !== target.nameEn &&
       m.nameLatin !== target.nameLatin,
   );
   const inView = new Set(muscleIdsInView(view, 'superficial'));
@@ -79,8 +80,10 @@ export function buildQuestions(
   });
 }
 
-export function displayName(m: Pick<Muscle, 'nameDa' | 'nameLatin'>, t: Terminology): string {
-  if (t === 'da') return m.nameDa;
+/** Muscle name by terminology preference; 'da' means the vernacular name in the UI language. */
+export function displayName(m: Pick<Muscle, 'nameDa' | 'nameEn' | 'nameLatin'>, t: Terminology, lang: 'da' | 'en' = 'da'): string {
+  const vernacular = lang === 'en' ? m.nameEn : m.nameDa;
+  if (t === 'da') return vernacular;
   if (t === 'latin') return m.nameLatin;
-  return `${m.nameDa} (${m.nameLatin})`;
+  return `${vernacular} (${m.nameLatin})`;
 }

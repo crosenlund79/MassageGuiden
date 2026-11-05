@@ -7,6 +7,7 @@ export interface Muscle {
   id: string;
   nameDa: string;
   nameLatin: string;
+  nameEn: string;
   group: MuscleGroup;
   kind: 'muskel' | 'gruppe' | 'sene' | 'bindevæv';
   layer: 'superficial' | 'deep';
@@ -15,8 +16,14 @@ export interface Muscle {
   insertion: string;
   action: string;
   aliases: string[];
+  aliasesEn: string[];
+  /** 'gængs' = established Danish name; 'til-gennemsyn' = needs manual review */
+  daStatus: 'gængs' | 'til-gennemsyn';
+  daReason: string | null;
   danishNameUncertain: boolean;
   note: string | null;
+  partOf: string | null;
+  en: { origin: string; insertion: string; action: string; note: string | null };
   quizEligible: boolean;
   contentStatus: string;
 }
@@ -27,6 +34,7 @@ export interface TechniqueMuscleLink {
   id: string;
   basis: MuscleBasis;
   note?: string;
+  noteEn?: string;
 }
 
 export interface SourceRef {
@@ -55,6 +63,8 @@ export interface Technique {
   reviewNotes: string[];
   status: 'kilde' | 'til-gennemsyn';
   source: SourceRef;
+  /** English version, translated by hand from the Danish source caption. */
+  en: { name: string; description: string; position: string | null; precautions: string[]; reviewNotes: string[] };
 }
 
 export interface TechniqueGap {
@@ -66,6 +76,7 @@ export interface TechniqueGap {
   gap: true;
   reason: string;
   source: SourceRef;
+  en: { reason: string };
 }
 
 export type SequenceEntry = Technique | TechniqueGap;
@@ -73,41 +84,30 @@ export type SequenceEntry = Technique | TechniqueGap;
 export interface Program {
   id: string;
   name: string;
+  nameEn: string;
   sourceHeading: string | null;
   pages: string;
-  sequenceNotes: { afterStep: string; text: string }[];
+  sequenceNotes: { afterStep: string; text: string; textEn: string }[];
+}
+
+export interface MuscleGroupRecord {
+  id: string;
+  nameDa: string;
+  nameLatin: string;
+  nameEn: string;
+  parts: string[];
+  aliases: string[];
+  aliasesEn: string[];
 }
 
 export interface Region {
   id: string;
   name: string;
   short: string;
+  nameEn: string;
+  shortEn: string;
   program: string;
   view: View;
   /** Illustration frame in figure coordinates: [x, y, width, height]. */
   frame: [number, number, number, number];
 }
-
-export const GROUP_LABELS: Record<MuscleGroup, string> = {
-  'hoved-hals': 'Hoved og hals',
-  'skulder-ryg': 'Skulder og ryg',
-  'bryst-mave': 'Bryst og mave',
-  arm: 'Arm',
-  'hofte-ben': 'Hofte og ben',
-};
-
-export const TYPE_LABELS: Record<TechniqueType, string> = {
-  effleurage: 'Effleurage',
-  petrissage: 'Petrissage',
-  friktion: 'Friktion',
-  strygning: 'Strygning',
-  tryk: 'Tryk',
-  løft: 'Løft',
-};
-
-export const KIND_LABELS: Record<Muscle['kind'], string> = {
-  muskel: 'Muskel',
-  gruppe: 'Muskelgruppe',
-  sene: 'Sene',
-  bindevæv: 'Bindevævsbånd',
-};

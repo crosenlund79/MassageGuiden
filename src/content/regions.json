@@ -1,25 +1,145 @@
 {
   "programs": [
-    { "id": "ben", "name": "Benmassage", "sourceHeading": "Massage af bagside ben", "pages": "3–8",
-      "sequenceNotes": [] },
-    { "id": "ryg", "name": "Ryg-, nakke- og skuldermassage", "sourceHeading": "Ryg-, Nakke- og Skulder Massage", "pages": "10–15",
+    {
+      "id": "ben",
+      "name": "Benmassage",
+      "sourceHeading": "Massage af bagside ben",
+      "pages": "3–8",
+      "sequenceNotes": [],
+      "nameEn": "Leg massage"
+    },
+    {
+      "id": "ryg",
+      "name": "Ryg-, nakke- og skuldermassage",
+      "sourceHeading": "Ryg-, Nakke- og Skulder Massage",
+      "pages": "10–15",
       "sequenceNotes": [
-        { "afterStep": "11", "text": "Punkt 1–11 gentages på modsatte side." },
-        { "afterStep": "21", "text": "Punkt 15–21 gentages på modsatte side." }
-      ] },
-    { "id": "arm", "name": "Arm-, hånd- og brystmassage", "sourceHeading": "Arm- og hånd massage / Bryst massage", "pages": "16–19",
+        {
+          "afterStep": "11",
+          "text": "Punkt 1–11 gentages på modsatte side.",
+          "textEn": "Steps 1–11 are repeated on the opposite side."
+        },
+        {
+          "afterStep": "21",
+          "text": "Punkt 15–21 gentages på modsatte side.",
+          "textEn": "Steps 15–21 are repeated on the opposite side."
+        }
+      ],
+      "nameEn": "Back, neck and shoulder massage"
+    },
+    {
+      "id": "arm",
+      "name": "Arm-, hånd- og brystmassage",
+      "sourceHeading": "Arm- og hånd massage / Bryst massage",
+      "pages": "16–19",
       "sequenceNotes": [
-        { "afterStep": "13", "text": "Kilden fortsætter nummereringen (14–18) med brystmassage." }
-      ] },
-    { "id": "ansigt", "name": "Ansigtsmassage", "sourceHeading": null, "pages": "20–22",
-      "sequenceNotes": [] }
+        {
+          "afterStep": "13",
+          "text": "Kilden fortsætter nummereringen (14–18) med brystmassage.",
+          "textEn": "The source continues the numbering (14–18) with chest massage."
+        }
+      ],
+      "nameEn": "Arm, hand and chest massage"
+    },
+    {
+      "id": "ansigt",
+      "name": "Ansigtsmassage",
+      "sourceHeading": null,
+      "pages": "20–22",
+      "sequenceNotes": [],
+      "nameEn": "Face massage"
+    }
   ],
   "regions": [
-    { "id": "ben-bagside", "name": "Ben – bagside", "short": "Ben bag", "program": "ben", "view": "posterior", "frame": [96, 420, 208, 540] },
-    { "id": "ben-forside", "name": "Ben – forside", "short": "Ben for", "program": "ben", "view": "anterior", "frame": [96, 420, 208, 540] },
-    { "id": "ryg-nakke-skuldre", "name": "Ryg, nakke og skuldre", "short": "Ryg & nakke", "program": "ryg", "view": "posterior", "frame": [70, 70, 260, 470] },
-    { "id": "arm-haand", "name": "Arm og hånd", "short": "Arm & hånd", "program": "arm", "view": "anterior", "frame": [20, 150, 160, 470] },
-    { "id": "bryst", "name": "Bryst", "short": "Bryst", "program": "arm", "view": "anterior", "frame": [80, 130, 240, 200] },
-    { "id": "ansigt", "name": "Ansigt", "short": "Ansigt", "program": "ansigt", "view": "anterior", "frame": [130, 8, 140, 140] }
+    {
+      "id": "ben-bagside",
+      "name": "Ben – bagside",
+      "short": "Ben bag",
+      "program": "ben",
+      "view": "posterior",
+      "frame": [
+        96,
+        420,
+        208,
+        540
+      ],
+      "nameEn": "Leg – back",
+      "shortEn": "Leg back"
+    },
+    {
+      "id": "ben-forside",
+      "name": "Ben – forside",
+      "short": "Ben for",
+      "program": "ben",
+      "view": "anterior",
+      "frame": [
+        96,
+        420,
+        208,
+        540
+      ],
+      "nameEn": "Leg – front",
+      "shortEn": "Leg front"
+    },
+    {
+      "id": "ryg-nakke-skuldre",
+      "name": "Ryg, nakke og skuldre",
+      "short": "Ryg & nakke",
+      "program": "ryg",
+      "view": "posterior",
+      "frame": [
+        70,
+        70,
+        260,
+        470
+      ],
+      "nameEn": "Back, neck and shoulders",
+      "shortEn": "Back & neck"
+    },
+    {
+      "id": "arm-haand",
+      "name": "Arm og hånd",
+      "short": "Arm & hånd",
+      "program": "arm",
+      "view": "anterior",
+      "frame": [
+        20,
+        150,
+        160,
+        470
+      ],
+      "nameEn": "Arm and hand",
+      "shortEn": "Arm & hand"
+    },
+    {
+      "id": "bryst",
+      "name": "Bryst",
+      "short": "Bryst",
+      "program": "arm",
+      "view": "anterior",
+      "frame": [
+        80,
+        130,
+        240,
+        200
+      ],
+      "nameEn": "Chest",
+      "shortEn": "Chest"
+    },
+    {
+      "id": "ansigt",
+      "name": "Ansigt",
+      "short": "Ansigt",
+      "program": "ansigt",
+      "view": "anterior",
+      "frame": [
+        130,
+        8,
+        140,
+        140
+      ],
+      "nameEn": "Face",
+      "shortEn": "Face"
+    }
   ]
 }

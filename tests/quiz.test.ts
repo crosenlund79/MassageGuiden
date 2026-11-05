@@ -51,6 +51,7 @@ describe('quiz engine', () => {
     const m = getMuscle('trapezius')!;
     expect(displayName(m, 'da')).toBe('Kappemusklen');
     expect(displayName(m, 'latin')).toBe('M. trapezius');
+    expect(displayName(m, 'da', 'en')).toBe('Trapezius');
     expect(displayName(m, 'begge')).toBe('Kappemusklen (M. trapezius)');
   });
 });

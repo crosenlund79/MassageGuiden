@@ -29,12 +29,20 @@ npm test           # enhedstests (indhold, quizmotor, IndexedDB)
 npm run build && npm run e2e   # browsertest mod produktionsbuildet (kræver Playwright/Chromium)
 ```
 
+## Sprog (dansk / engelsk)
+- Dansk er standard. Sprogvælgeren (DA/EN) ligger i topbaren på mobil og i sidebjælken på computer. Valget gemmes i IndexedDB sammen med de øvrige indstillinger.
+- Alle UI-tekster ligger samlet i `src/i18n/strings.ts`. Engelsk har nøjagtig samme nøgler som dansk, og det håndhæves af TypeScript og testene.
+- Indhold (greb, håndgreb, muskler, regioner) oversættes i `scripts/translations_en.py` og bygges ind i JSON-filerne. Byggescriptet stopper, hvis en oversættelse mangler eller ikke passer til den danske struktur.
+- Hæftets originale billedtekster og håndskrevne noter vises altid på dansk som kildecitat. Dine egne noter vises, som du har skrevet dem.
+- Muskelnavne og status er samlet i `docs/MUSCLE_TERMINOLOGY.md`.
+
 ## Struktur
 ```
 src/content/     referenceindhold (JSON): greb, muskler, regioner, kilde
 src/domain/      typer, opslag og søgning – fælles for alle funktioner
 src/anatomy/     2D-figurens geometri (figure2d.ts) og den interaktive SVG (AtlasFigure.tsx)
 src/quiz/        quizmotor (ren logik)
+src/i18n/        sprog: UI-tekster (strings.ts), indholdsopslag (localize.ts), sprogvalg
 src/storage/     IndexedDB: favoritter, noter, quizhistorik, aktivitet, indstillinger
 src/pages/       skærme: Forside, Massagegreb, Muskelatlas, Quiz, Favoritter, Om
 scripts/         indholdsgeneratorer, ikoner og e2e-test

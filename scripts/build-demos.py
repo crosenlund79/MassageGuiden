@@ -448,6 +448,18 @@ D('ansigt-12', ant(FACE, ['temporalis']), [
     [H('R', 'heel', 164, 68, 170), H('L', 'heel', 236, 68, 190)], [C(164, 68, 9), C(236, 68, 9, ccw=True)])],
   therapist='Ved hovedenden.')
 
+import sys
+sys.path.insert(0, os.path.dirname(__file__))
+from translations_en import DEMO as DEMO_EN
+for d in DEMOS:
+    e = DEMO_EN[d['techniqueId']]
+    assert len(e['frames']) == len(d['frames']), d['techniqueId'] + ' frames'
+    assert ('therapist' in e) == ('therapist' in d), d['techniqueId'] + ' therapist'
+    assert ('clientPose' in e) == ('clientPose' in d), d['techniqueId'] + ' clientPose'
+    assert len(e.get('review', [])) == len(d['review']), d['techniqueId'] + ' review'
+    d['en'] = {'frames': e['frames'], 'therapist': e.get('therapist'), 'clientPose': e.get('clientPose'), 'review': e.get('review', [])}
+assert set(DEMO_EN) == {d['techniqueId'] for d in DEMOS}
+
 out = os.path.join(os.path.dirname(__file__), '..', 'src', 'content', 'demonstrations.json')
 json.dump(DEMOS, open(out, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print(len(DEMOS), 'demonstrations,', sum(len(d['frames']) for d in DEMOS), 'frames,',

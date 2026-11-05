@@ -2,7 +2,8 @@
   {
     "id": "frontalis",
     "nameDa": "Pandemusklen",
-    "nameLatin": "M. frontalis",
+    "nameLatin": "M. occipitofrontalis (venter frontalis)",
+    "nameEn": "Frontalis",
     "group": "hoved-hals",
     "kind": "muskel",
     "layer": "superficial",
@@ -12,12 +13,25 @@
     "origin": "Galea aponeurotica (hovedets senehjelm).",
     "insertion": "Huden ved øjenbrynene.",
     "action": "Løfter øjenbrynene og rynker panden.",
+    "en": {
+      "origin": "Galea aponeurotica (epicranial aponeurosis).",
+      "insertion": "Skin of the eyebrows.",
+      "action": "Raises the eyebrows and wrinkles the forehead.",
+      "note": "Frontal belly of the occipitofrontalis."
+    },
     "aliases": [
-      "venter frontalis",
+      "m. frontalis",
       "m. occipitofrontalis"
     ],
+    "aliasesEn": [
+      "frontal belly of occipitofrontalis",
+      "occipitofrontalis"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": "Forreste del af m. occipitofrontalis.",
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
@@ -25,6 +39,7 @@
     "id": "temporalis",
     "nameDa": "Tindingemusklen",
     "nameLatin": "M. temporalis",
+    "nameEn": "Temporalis",
     "group": "hoved-hals",
     "kind": "muskel",
     "layer": "superficial",
@@ -33,12 +48,24 @@
     ],
     "origin": "Fossa temporalis på kraniets side.",
     "insertion": "Processus coronoideus på underkæben.",
-    "action": "Lukker kæben (løfter mandiblen) og trækker den tilbage.",
+    "action": "Lukker kæben (løfter underkæben) og trækker den tilbage.",
+    "en": {
+      "origin": "Temporal fossa on the side of the skull.",
+      "insertion": "Coronoid process of the mandible.",
+      "action": "Closes the jaw (elevates the mandible) and retracts it.",
+      "note": null
+    },
     "aliases": [
       "tindingen"
     ],
+    "aliasesEn": [
+      "temple"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
@@ -46,6 +73,7 @@
     "id": "masseter",
     "nameDa": "Tyggemusklen",
     "nameLatin": "M. masseter",
+    "nameEn": "Masseter",
     "group": "hoved-hals",
     "kind": "muskel",
     "layer": "superficial",
@@ -55,12 +83,24 @@
     "origin": "Arcus zygomaticus (kindbensbuen).",
     "insertion": "Ydersiden af underkæbens vinkel og gren.",
     "action": "Lukker kæben.",
+    "en": {
+      "origin": "Zygomatic arch.",
+      "insertion": "Lateral surface of the angle and ramus of the mandible.",
+      "action": "Closes the jaw.",
+      "note": null
+    },
     "aliases": [
       "tyggemuskulatur",
-      "store tyggemuskel"
+      "den store tyggemuskel"
     ],
+    "aliasesEn": [
+      "chewing muscle"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
@@ -68,27 +108,41 @@
     "id": "sternocleidomastoideus",
     "nameDa": "Kopnikkeren",
     "nameLatin": "M. sternocleidomastoideus",
+    "nameEn": "Sternocleidomastoid",
     "group": "hoved-hals",
     "kind": "muskel",
     "layer": "superficial",
     "views": [
       "anterior"
     ],
-    "origin": "Manubrium sterni og den mediale del af clavicula.",
+    "origin": "Manubrium sterni og den mediale del af kravebenet.",
     "insertion": "Processus mastoideus bag øret.",
     "action": "Ensidigt: bøjer hovedet til samme side og drejer det til modsat side. Begge sider: bøjer halsen.",
+    "en": {
+      "origin": "Manubrium of the sternum and medial part of the clavicle.",
+      "insertion": "Mastoid process behind the ear.",
+      "action": "One side: tilts the head to the same side and turns it to the opposite side. Both sides: flex the neck.",
+      "note": null
+    },
     "aliases": [
       "SCM"
     ],
+    "aliasesEn": [
+      "SCM"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "suboccipitales",
-    "nameDa": "Suboccipitale muskler",
+    "nameDa": "De suboccipitale muskler",
     "nameLatin": "Mm. suboccipitales",
+    "nameEn": "Suboccipital muscles",
     "group": "hoved-hals",
     "kind": "gruppe",
     "layer": "deep",
@@ -98,12 +152,25 @@
     "origin": "Atlas (C1) og axis (C2).",
     "insertion": "Nakkebenet (os occipitale) og atlas.",
     "action": "Strækker og drejer hovedet; finjusterer hovedets stilling.",
+    "en": {
+      "origin": "Atlas (C1) and axis (C2).",
+      "insertion": "Occipital bone and atlas.",
+      "action": "Extend and rotate the head; fine-tune head position.",
+      "note": "Deep group (including rectus capitis posterior and obliquus capitis muscles) below the base of the skull."
+    },
     "aliases": [
       "kraniekanten",
-      "suboccipital muskulatur"
+      "suboccipital muskulatur",
+      "de korte nakkemuskler"
     ],
+    "aliasesEn": [
+      "suboccipitals"
+    ],
+    "daStatus": "til-gennemsyn",
+    "daReason": "Dansk praksis bruger det latinsk afledte navn. ”De korte nakkemuskler” forekommer også, men er ikke verificeret som fast betegnelse.",
     "danishNameUncertain": true,
     "note": "Dybt liggende gruppe (bl.a. mm. recti capitis posteriores og mm. obliqui capitis) under kraniekanten.",
+    "partOf": null,
     "quizEligible": false,
     "contentStatus": "standard-til-gennemsyn"
   },
@@ -111,6 +178,7 @@
     "id": "levator-scapulae",
     "nameDa": "Skulderbladsløfteren",
     "nameLatin": "M. levator scapulae",
+    "nameEn": "Levator scapulae",
     "group": "hoved-hals",
     "kind": "muskel",
     "layer": "deep",
@@ -120,9 +188,19 @@
     "origin": "Processus transversi på C1–C4.",
     "insertion": "Angulus superior scapulae (skulderbladets øvre vinkel).",
     "action": "Løfter skulderbladet og bøjer halsen til samme side.",
+    "en": {
+      "origin": "Transverse processes of C1–C4.",
+      "insertion": "Superior angle of the scapula.",
+      "action": "Elevates the scapula and bends the neck to the same side.",
+      "note": "Lies largely beneath the trapezius."
+    },
     "aliases": [],
+    "aliasesEn": [],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": "Ligger for en stor del under m. trapezius.",
+    "partOf": null,
     "quizEligible": false,
     "contentStatus": "standard-til-gennemsyn"
   },
@@ -130,6 +208,7 @@
     "id": "trapezius",
     "nameDa": "Kappemusklen",
     "nameLatin": "M. trapezius",
+    "nameEn": "Trapezius",
     "group": "skulder-ryg",
     "kind": "muskel",
     "layer": "superficial",
@@ -138,14 +217,26 @@
       "posterior"
     ],
     "origin": "Protuberantia occipitalis externa, lig. nuchae og processus spinosi C7–T12.",
-    "insertion": "Laterale tredjedel af clavicula, acromion og spina scapulae.",
-    "action": "Øvre del løfter skulderbladet; midterste trækker det mod rygsøjlen; nedre sænker det. Roterer skulderbladet opad.",
+    "insertion": "Laterale tredjedel af kravebenet, acromion og spina scapulae.",
+    "action": "Øvre del løfter skulderbladet; midterste del trækker det ind mod rygsøjlen; nedre del sænker det. Roterer skulderbladet opad.",
+    "en": {
+      "origin": "External occipital protuberance, nuchal ligament and spinous processes of C7–T12.",
+      "insertion": "Lateral third of the clavicle, acromion and spine of the scapula.",
+      "action": "Upper part elevates the scapula; middle part retracts it; lower part depresses it. Rotates the scapula upward.",
+      "note": null
+    },
     "aliases": [
       "øvre trapezius",
       "nakkemuskler"
     ],
+    "aliasesEn": [
+      "upper trapezius"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
@@ -153,6 +244,7 @@
     "id": "deltoideus",
     "nameDa": "Deltamusklen",
     "nameLatin": "M. deltoideus",
+    "nameEn": "Deltoid",
     "group": "skulder-ryg",
     "kind": "muskel",
     "layer": "superficial",
@@ -160,21 +252,34 @@
       "anterior",
       "posterior"
     ],
-    "origin": "Laterale tredjedel af clavicula, acromion og spina scapulae.",
-    "insertion": "Tuberositas deltoidea på humerus.",
-    "action": "Abducerer armen i skulderleddet; forreste del bøjer, bageste del strækker.",
+    "origin": "Laterale tredjedel af kravebenet, acromion og spina scapulae.",
+    "insertion": "Tuberositas deltoidea på overarmsknoglen.",
+    "action": "Fører armen ud fra kroppen (abduktion); forreste del bøjer, bageste del strækker i skulderleddet.",
+    "en": {
+      "origin": "Lateral third of the clavicle, acromion and spine of the scapula.",
+      "insertion": "Deltoid tuberosity of the humerus.",
+      "action": "Abducts the arm; the anterior part flexes and the posterior part extends the shoulder.",
+      "note": null
+    },
     "aliases": [
       "deltoidues"
     ],
+    "aliasesEn": [
+      "deltoideus"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "infraspinatus",
-    "nameDa": "Underkamsmusklen",
+    "nameDa": "Infraspinatus",
     "nameLatin": "M. infraspinatus",
+    "nameEn": "Infraspinatus",
     "group": "skulder-ryg",
     "kind": "muskel",
     "layer": "superficial",
@@ -182,18 +287,31 @@
       "posterior"
     ],
     "origin": "Fossa infraspinata på skulderbladet.",
-    "insertion": "Tuberculum majus på humerus.",
+    "insertion": "Tuberculum majus på overarmsknoglen.",
     "action": "Udadroterer armen; stabiliserer skulderleddet (rotatormanchetten).",
-    "aliases": [],
+    "en": {
+      "origin": "Infraspinous fossa of the scapula.",
+      "insertion": "Greater tubercle of the humerus.",
+      "action": "Laterally rotates the arm; stabilises the shoulder joint (rotator cuff).",
+      "note": null
+    },
+    "aliases": [
+      "underkamsmusklen"
+    ],
+    "aliasesEn": [],
+    "daStatus": "til-gennemsyn",
+    "daReason": "Intet etableret dansk navn kunne verificeres; dansk praksis bruger ”infraspinatus”. Tidligere version brugte ”Underkamsmusklen” – ikke verificeret.",
     "danishNameUncertain": true,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "teres-major",
-    "nameDa": "Store rundmuskel",
+    "nameDa": "Den store rundmuskel",
     "nameLatin": "M. teres major",
+    "nameEn": "Teres major",
     "group": "skulder-ryg",
     "kind": "muskel",
     "layer": "superficial",
@@ -201,30 +319,53 @@
       "posterior"
     ],
     "origin": "Angulus inferior scapulae (skulderbladets nedre vinkel).",
-    "insertion": "Crista tuberculi minoris på humerus.",
-    "action": "Indadroterer, adducerer og strækker armen.",
+    "insertion": "Crista tuberculi minoris på overarmsknoglen.",
+    "action": "Indadroterer, fører armen ind mod kroppen og strækker den.",
+    "en": {
+      "origin": "Inferior angle of the scapula.",
+      "insertion": "Crest of the lesser tubercle of the humerus.",
+      "action": "Medially rotates, adducts and extends the arm.",
+      "note": null
+    },
     "aliases": [],
-    "danishNameUncertain": false,
+    "aliasesEn": [],
+    "daStatus": "til-gennemsyn",
+    "daReason": "”Den store rundmuskel” er en direkte oversættelse, der forekommer i dansk litteratur, men bør bekræftes.",
+    "danishNameUncertain": true,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "latissimus-dorsi",
-    "nameDa": "Brede rygmuskel",
+    "nameDa": "Den brede rygmuskel",
     "nameLatin": "M. latissimus dorsi",
+    "nameEn": "Latissimus dorsi",
     "group": "skulder-ryg",
     "kind": "muskel",
     "layer": "superficial",
     "views": [
       "posterior"
     ],
-    "origin": "Processus spinosi T7–L5 via fascia thoracolumbalis, crista iliaca og de nederste ribben.",
-    "insertion": "Crista tuberculi minoris på humerus.",
-    "action": "Strækker, adducerer og indadroterer armen.",
+    "origin": "Processus spinosi T7–L5 via fascia thoracolumbalis, hoftekammen og de nederste ribben.",
+    "insertion": "Crista tuberculi minoris på overarmsknoglen.",
+    "action": "Strækker armen, fører den ind mod kroppen og indadroterer den.",
+    "en": {
+      "origin": "Spinous processes of T7–L5 via the thoracolumbar fascia, iliac crest and lower ribs.",
+      "insertion": "Crest of the lesser tubercle of the humerus.",
+      "action": "Extends, adducts and medially rotates the arm.",
+      "note": null
+    },
     "aliases": [],
+    "aliasesEn": [
+      "lats"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
@@ -232,50 +373,79 @@
     "id": "erector-spinae",
     "nameDa": "Rygstrækkeren",
     "nameLatin": "M. erector spinae",
+    "nameEn": "Erector spinae",
     "group": "skulder-ryg",
     "kind": "gruppe",
     "layer": "superficial",
     "views": [
       "posterior"
     ],
-    "origin": "Os sacrum, crista iliaca og processus spinosi i lænden.",
+    "origin": "Korsbenet, hoftekammen og processus spinosi i lænden.",
     "insertion": "Ribben, ryghvirvler og kraniets basis.",
     "action": "Strækker rygsøjlen og bøjer den til siden.",
+    "en": {
+      "origin": "Sacrum, iliac crest and lumbar spinous processes.",
+      "insertion": "Ribs, vertebrae and the base of the skull.",
+      "action": "Extends the spine and bends it to the side.",
+      "note": "Muscle group (iliocostalis, longissimus, spinalis). In the lower back it lies beneath the thoracolumbar fascia."
+    },
     "aliases": [
       "rygstrækkeren",
       "lænden"
     ],
+    "aliasesEn": [
+      "paraspinal muscles",
+      "lower back"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": "Muskelgruppe (m. iliocostalis, m. longissimus, m. spinalis). I lænden ligger den under fascia thoracolumbalis.",
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "pectoralis-major",
-    "nameDa": "Store brystmuskel",
+    "nameDa": "Den store brystmuskel",
     "nameLatin": "M. pectoralis major",
+    "nameEn": "Pectoralis major",
     "group": "bryst-mave",
     "kind": "muskel",
     "layer": "superficial",
     "views": [
       "anterior"
     ],
-    "origin": "Mediale del af clavicula, sternum og ribbensbrusk 1–6.",
-    "insertion": "Crista tuberculi majoris på humerus.",
-    "action": "Adducerer og indadroterer armen; den øvre del bøjer i skulderleddet.",
+    "origin": "Mediale del af kravebenet, brystbenet og ribbensbrusk 1–6.",
+    "insertion": "Crista tuberculi majoris på overarmsknoglen.",
+    "action": "Fører armen ind mod kroppen og indadroterer den; den øvre del bøjer i skulderleddet.",
+    "en": {
+      "origin": "Medial part of the clavicle, sternum and costal cartilages 1–6.",
+      "insertion": "Crest of the greater tubercle of the humerus.",
+      "action": "Adducts and medially rotates the arm; the upper part flexes the shoulder.",
+      "note": null
+    },
     "aliases": [
       "brystmusklen",
       "brystmuskelen"
     ],
+    "aliasesEn": [
+      "pecs",
+      "chest muscle"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "pectoralis-minor",
-    "nameDa": "Lille brystmuskel",
+    "nameDa": "Den lille brystmuskel",
     "nameLatin": "M. pectoralis minor",
+    "nameEn": "Pectoralis minor",
     "group": "bryst-mave",
     "kind": "muskel",
     "layer": "deep",
@@ -285,16 +455,27 @@
     "origin": "3.–5. ribben.",
     "insertion": "Processus coracoideus på skulderbladet.",
     "action": "Trækker skulderbladet fremad og nedad.",
+    "en": {
+      "origin": "Ribs 3–5.",
+      "insertion": "Coracoid process of the scapula.",
+      "action": "Draws the scapula forward and downward.",
+      "note": "Lies beneath the pectoralis major."
+    },
     "aliases": [],
+    "aliasesEn": [],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": "Ligger under m. pectoralis major.",
+    "partOf": null,
     "quizEligible": false,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "serratus-anterior",
-    "nameDa": "Forreste savtakkede muskel",
+    "nameDa": "Den forreste savtakkede muskel",
     "nameLatin": "M. serratus anterior",
+    "nameEn": "Serratus anterior",
     "group": "bryst-mave",
     "kind": "muskel",
     "layer": "superficial",
@@ -304,35 +485,62 @@
     "origin": "Ydersiden af 1.–8./9. ribben.",
     "insertion": "Forsiden af skulderbladets mediale kant.",
     "action": "Trækker skulderbladet frem og roterer det opad; holder det ind mod brystkassen.",
-    "aliases": [],
-    "danishNameUncertain": false,
+    "en": {
+      "origin": "Outer surfaces of ribs 1–8/9.",
+      "insertion": "Anterior surface of the medial border of the scapula.",
+      "action": "Protracts and upwardly rotates the scapula; holds it against the chest wall.",
+      "note": null
+    },
+    "aliases": [
+      "savmusklen"
+    ],
+    "aliasesEn": [],
+    "daStatus": "til-gennemsyn",
+    "daReason": "”Den forreste savtakkede muskel” forekommer i dansk litteratur; kortformen ”savmusklen” bruges også. Bør bekræftes.",
+    "danishNameUncertain": true,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "rectus-abdominis",
-    "nameDa": "Lige bugmuskel",
+    "nameDa": "Den lige bugmuskel",
     "nameLatin": "M. rectus abdominis",
+    "nameEn": "Rectus abdominis",
     "group": "bryst-mave",
     "kind": "muskel",
     "layer": "superficial",
     "views": [
       "anterior"
     ],
-    "origin": "Os pubis (crista pubica og symfysen).",
+    "origin": "Skambenet (crista pubica og symfysen).",
     "insertion": "Processus xiphoideus og ribbensbrusk 5–7.",
     "action": "Bøjer overkroppen fremad.",
+    "en": {
+      "origin": "Pubic crest and pubic symphysis.",
+      "insertion": "Xiphoid process and costal cartilages 5–7.",
+      "action": "Flexes the trunk.",
+      "note": null
+    },
     "aliases": [],
+    "aliasesEn": [
+      "abs",
+      "six-pack"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "obliquus-externus",
-    "nameDa": "Ydre skrå bugmuskel",
+    "nameDa": "Den ydre skrå bugmuskel",
     "nameLatin": "M. obliquus externus abdominis",
+    "nameEn": "External oblique",
     "group": "bryst-mave",
     "kind": "muskel",
     "layer": "superficial",
@@ -340,73 +548,124 @@
       "anterior"
     ],
     "origin": "Ydersiden af 5.–12. ribben.",
-    "insertion": "Crista iliaca, lig. inguinale og linea alba.",
+    "insertion": "Hoftekammen, lyskebåndet og linea alba.",
     "action": "Bøjer og roterer overkroppen; bøjer til siden.",
+    "en": {
+      "origin": "Outer surfaces of ribs 5–12.",
+      "insertion": "Iliac crest, inguinal ligament and linea alba.",
+      "action": "Flexes and rotates the trunk; bends it to the side.",
+      "note": null
+    },
     "aliases": [],
+    "aliasesEn": [
+      "external abdominal oblique"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "biceps-brachii",
-    "nameDa": "Tohovedet overarmsmuskel",
+    "nameDa": "Den tohovedede overarmsmuskel",
     "nameLatin": "M. biceps brachii",
+    "nameEn": "Biceps brachii",
     "group": "arm",
     "kind": "muskel",
     "layer": "superficial",
     "views": [
       "anterior"
     ],
-    "origin": "Caput longum: tuberculum supraglenoidale. Caput breve: processus coracoideus.",
+    "origin": "Langt hoved: tuberculum supraglenoidale. Kort hoved: processus coracoideus.",
     "insertion": "Tuberositas radii og aponeurosis bicipitalis.",
-    "action": "Bøjer albuen og supinerer underarmen.",
+    "action": "Bøjer albuen og drejer underarmen udad (supination).",
+    "en": {
+      "origin": "Long head: supraglenoid tubercle. Short head: coracoid process.",
+      "insertion": "Radial tuberosity and bicipital aponeurosis.",
+      "action": "Flexes the elbow and supinates the forearm.",
+      "note": null
+    },
     "aliases": [
       "biceps"
     ],
+    "aliasesEn": [
+      "biceps"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "triceps-brachii",
-    "nameDa": "Trehovedet overarmsmuskel",
+    "nameDa": "Den trehovedede overarmsmuskel",
     "nameLatin": "M. triceps brachii",
+    "nameEn": "Triceps brachii",
     "group": "arm",
     "kind": "muskel",
     "layer": "superficial",
     "views": [
       "posterior"
     ],
-    "origin": "Caput longum: tuberculum infraglenoidale. Caput laterale og mediale: bagsiden af humerus.",
-    "insertion": "Olecranon på ulna.",
-    "action": "Strækker albuen; caput longum strækker og adducerer også i skulderleddet.",
+    "origin": "Langt hoved: tuberculum infraglenoidale. Ydre og indre hoved: bagsiden af overarmsknoglen.",
+    "insertion": "Olecranon på albuebenet.",
+    "action": "Strækker albuen; det lange hoved strækker også i skulderleddet og fører armen ind mod kroppen.",
+    "en": {
+      "origin": "Long head: infraglenoid tubercle. Lateral and medial heads: posterior humerus.",
+      "insertion": "Olecranon of the ulna.",
+      "action": "Extends the elbow; the long head also extends and adducts the shoulder.",
+      "note": null
+    },
     "aliases": [
       "triceps",
       "tricepsudspring"
     ],
+    "aliasesEn": [
+      "triceps"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "brachioradialis",
-    "nameDa": "Overarm-spolebensmusklen",
+    "nameDa": "Brachioradialis",
     "nameLatin": "M. brachioradialis",
+    "nameEn": "Brachioradialis",
     "group": "arm",
     "kind": "muskel",
     "layer": "superficial",
     "views": [
       "anterior"
     ],
-    "origin": "Crista supracondylaris lateralis på humerus.",
+    "origin": "Crista supracondylaris lateralis på overarmsknoglen.",
     "insertion": "Processus styloideus radii.",
     "action": "Bøjer albuen, især med underarmen i midtstilling.",
-    "aliases": [],
+    "en": {
+      "origin": "Lateral supracondylar ridge of the humerus.",
+      "insertion": "Styloid process of the radius.",
+      "action": "Flexes the elbow, especially with the forearm in mid-position.",
+      "note": null
+    },
+    "aliases": [
+      "overarm-spolebensmusklen"
+    ],
+    "aliasesEn": [],
+    "daStatus": "til-gennemsyn",
+    "daReason": "Intet etableret dansk navn kunne verificeres; dansk praksis bruger ”brachioradialis”. Tidligere version brugte ”Overarm-spolebensmusklen” – ikke verificeret.",
     "danishNameUncertain": true,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
@@ -414,6 +673,7 @@
     "id": "flexores-antebrachii",
     "nameDa": "Underarmens bøjemuskler",
     "nameLatin": "Mm. flexores antebrachii",
+    "nameEn": "Forearm flexors",
     "group": "arm",
     "kind": "gruppe",
     "layer": "superficial",
@@ -423,9 +683,23 @@
     "origin": "Hovedsageligt epicondylus medialis humeri (fælles bøjesene).",
     "insertion": "Håndrodsknogler, mellemhåndsknogler og fingre.",
     "action": "Bøjer håndled og fingre.",
-    "aliases": [],
+    "en": {
+      "origin": "Mainly the medial epicondyle of the humerus (common flexor tendon).",
+      "insertion": "Carpal bones, metacarpals and fingers.",
+      "action": "Flex the wrist and fingers.",
+      "note": "Superficial group on the front of the forearm (including flexor carpi radialis, palmaris longus, flexor carpi ulnaris)."
+    },
+    "aliases": [
+      "fleksorerne"
+    ],
+    "aliasesEn": [
+      "flexor group"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": "Overfladisk gruppe på underarmens inderside (bl.a. m. flexor carpi radialis, m. palmaris longus, m. flexor carpi ulnaris).",
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
@@ -433,6 +707,7 @@
     "id": "extensores-antebrachii",
     "nameDa": "Underarmens strækkemuskler",
     "nameLatin": "Mm. extensores antebrachii",
+    "nameEn": "Forearm extensors",
     "group": "arm",
     "kind": "gruppe",
     "layer": "superficial",
@@ -442,54 +717,91 @@
     "origin": "Hovedsageligt epicondylus lateralis humeri (fælles strækkesene).",
     "insertion": "Mellemhåndsknogler og fingre.",
     "action": "Strækker håndled og fingre.",
-    "aliases": [],
+    "en": {
+      "origin": "Mainly the lateral epicondyle of the humerus (common extensor tendon).",
+      "insertion": "Metacarpals and fingers.",
+      "action": "Extend the wrist and fingers.",
+      "note": "Superficial group on the back of the forearm (including extensor digitorum, extensor carpi radialis, extensor carpi ulnaris)."
+    },
+    "aliases": [
+      "ekstensorerne"
+    ],
+    "aliasesEn": [
+      "extensor group"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": "Overfladisk gruppe på underarmens bagside (bl.a. m. extensor digitorum, mm. extensores carpi radiales, m. extensor carpi ulnaris).",
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "gluteus-maximus",
-    "nameDa": "Store sædemuskel",
+    "nameDa": "Den store sædemuskel",
     "nameLatin": "M. gluteus maximus",
+    "nameEn": "Gluteus maximus",
     "group": "hofte-ben",
     "kind": "muskel",
     "layer": "superficial",
     "views": [
       "posterior"
     ],
-    "origin": "Bagsiden af os ilium, os sacrum og os coccygis.",
-    "insertion": "Tuberositas glutea på femur og tractus iliotibialis.",
+    "origin": "Bagsiden af hoftebenet, korsbenet og halebenet.",
+    "insertion": "Tuberositas glutea på lårbenet og tractus iliotibialis.",
     "action": "Strækker og udadroterer hoften.",
+    "en": {
+      "origin": "Posterior ilium, sacrum and coccyx.",
+      "insertion": "Gluteal tuberosity of the femur and iliotibial tract.",
+      "action": "Extends and laterally rotates the hip.",
+      "note": null
+    },
     "aliases": [],
+    "aliasesEn": [],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "gluteus-medius",
-    "nameDa": "Mellemste sædemuskel",
+    "nameDa": "Den mellemste sædemuskel",
     "nameLatin": "M. gluteus medius",
+    "nameEn": "Gluteus medius",
     "group": "hofte-ben",
     "kind": "muskel",
     "layer": "superficial",
     "views": [
       "posterior"
     ],
-    "origin": "Ydersiden af os ilium.",
-    "insertion": "Trochanter major på femur.",
-    "action": "Abducerer hoften og stabiliserer bækkenet ved gang.",
+    "origin": "Ydersiden af hoftebenet.",
+    "insertion": "Trochanter major på lårbenet.",
+    "action": "Fører benet ud fra kroppen (abduktion) og stabiliserer bækkenet ved gang.",
+    "en": {
+      "origin": "Outer surface of the ilium.",
+      "insertion": "Greater trochanter of the femur.",
+      "action": "Abducts the hip and stabilises the pelvis when walking.",
+      "note": "The upper lateral part is superficial; the rest is covered by the gluteus maximus."
+    },
     "aliases": [],
+    "aliasesEn": [],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": "Den øvre-laterale del ligger overfladisk; resten dækkes af m. gluteus maximus.",
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "tensor-fasciae-latae",
-    "nameDa": "Lårbindehindespænderen",
+    "nameDa": "Tensor fasciae latae",
     "nameLatin": "M. tensor fasciae latae",
+    "nameEn": "Tensor fasciae latae",
     "group": "hofte-ben",
     "kind": "muskel",
     "layer": "superficial",
@@ -498,12 +810,25 @@
     ],
     "origin": "Spina iliaca anterior superior.",
     "insertion": "Tractus iliotibialis.",
-    "action": "Bøjer, abducerer og indadroterer hoften; spænder tractus iliotibialis.",
+    "action": "Bøjer, fører benet ud og indadroterer hoften; spænder tractus iliotibialis.",
+    "en": {
+      "origin": "Anterior superior iliac spine.",
+      "insertion": "Iliotibial tract.",
+      "action": "Flexes, abducts and medially rotates the hip; tenses the iliotibial tract.",
+      "note": null
+    },
     "aliases": [
+      "TFL",
+      "lårbindehindespænderen"
+    ],
+    "aliasesEn": [
       "TFL"
     ],
+    "daStatus": "til-gennemsyn",
+    "daReason": "Intet etableret dansk navn kunne verificeres; dansk praksis bruger ”TFL”/”tensor fasciae latae”. Tidligere version brugte ”Lårbindehindespænderen” – ikke verificeret.",
     "danishNameUncertain": true,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
@@ -511,6 +836,7 @@
     "id": "tractus-iliotibialis",
     "nameDa": "IT-båndet",
     "nameLatin": "Tractus iliotibialis",
+    "nameEn": "Iliotibial tract (IT band)",
     "group": "hofte-ben",
     "kind": "bindevæv",
     "layer": "superficial",
@@ -518,15 +844,29 @@
       "anterior",
       "posterior"
     ],
-    "origin": "Forstærkning af fascia lata fra crista iliaca (modtager fibre fra m. tensor fasciae latae og m. gluteus maximus).",
+    "origin": "Forstærkning af fascia lata fra hoftekammen (modtager fibre fra m. tensor fasciae latae og m. gluteus maximus).",
     "insertion": "Condylus lateralis tibiae (Gerdys tuberkel).",
     "action": "Stabiliserer hofte og knæ på lårets yderside.",
+    "en": {
+      "origin": "Thickening of the fascia lata from the iliac crest (receives fibres from tensor fasciae latae and gluteus maximus).",
+      "insertion": "Lateral condyle of the tibia (Gerdy's tubercle).",
+      "action": "Stabilises the hip and knee on the outside of the thigh.",
+      "note": "Not a muscle but a thickened band of connective tissue."
+    },
     "aliases": [
       "tractus iliotibiales",
-      "IT-bånd"
+      "IT-bånd",
+      "iliotibialbåndet"
     ],
+    "aliasesEn": [
+      "IT band",
+      "iliotibial band"
+    ],
+    "daStatus": "til-gennemsyn",
+    "daReason": "”IT-båndet” er den almindelige danske betegnelse i praksis; en formel dansk anatomisk betegnelse er ikke verificeret.",
     "danishNameUncertain": true,
     "note": "Ikke en muskel, men et forstærket bindevævsbånd.",
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
@@ -534,6 +874,7 @@
     "id": "sartorius",
     "nameDa": "Skræddermusklen",
     "nameLatin": "M. sartorius",
+    "nameEn": "Sartorius",
     "group": "hofte-ben",
     "kind": "muskel",
     "layer": "superficial",
@@ -541,20 +882,33 @@
       "anterior"
     ],
     "origin": "Spina iliaca anterior superior.",
-    "insertion": "Mediale side af tibia (pes anserinus).",
-    "action": "Bøjer, abducerer og udadroterer hoften; bøjer knæet.",
+    "insertion": "Mediale side af skinnebenet (pes anserinus).",
+    "action": "Bøjer, fører ud og udadroterer hoften; bøjer knæet.",
+    "en": {
+      "origin": "Anterior superior iliac spine.",
+      "insertion": "Medial surface of the tibia (pes anserinus).",
+      "action": "Flexes, abducts and laterally rotates the hip; flexes the knee.",
+      "note": null
+    },
     "aliases": [
       "satorius"
     ],
+    "aliasesEn": [
+      "tailor's muscle"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "rectus-femoris",
-    "nameDa": "Lige lårmuskel",
+    "nameDa": "Den lige lårmuskel",
     "nameLatin": "M. rectus femoris",
+    "nameEn": "Rectus femoris",
     "group": "hofte-ben",
     "kind": "muskel",
     "layer": "superficial",
@@ -562,20 +916,34 @@
       "anterior"
     ],
     "origin": "Spina iliaca anterior inferior.",
-    "insertion": "Via patella og lig. patellae til tuberositas tibiae.",
+    "insertion": "Via knæskallen og lig. patellae til tuberositas tibiae.",
     "action": "Strækker knæet og bøjer hoften.",
+    "en": {
+      "origin": "Anterior inferior iliac spine.",
+      "insertion": "Via the patella and patellar ligament to the tibial tuberosity.",
+      "action": "Extends the knee and flexes the hip.",
+      "note": null
+    },
     "aliases": [
+      "quadriceps",
+      "den firehovedede lårmuskel"
+    ],
+    "aliasesEn": [
       "quadriceps"
     ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": null,
+    "partOf": "quadriceps-femoris",
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "vastus-lateralis",
-    "nameDa": "Ydre brede lårmuskel",
+    "nameDa": "Den ydre brede lårmuskel",
     "nameLatin": "M. vastus lateralis",
+    "nameEn": "Vastus lateralis",
     "group": "hofte-ben",
     "kind": "muskel",
     "layer": "superficial",
@@ -583,20 +951,34 @@
       "anterior"
     ],
     "origin": "Trochanter major og laterale læbe af linea aspera.",
-    "insertion": "Via quadricepssenen og patella til tuberositas tibiae.",
+    "insertion": "Via quadricepssenen og knæskallen til tuberositas tibiae.",
     "action": "Strækker knæet.",
+    "en": {
+      "origin": "Greater trochanter and lateral lip of the linea aspera.",
+      "insertion": "Via the quadriceps tendon and patella to the tibial tuberosity.",
+      "action": "Extends the knee.",
+      "note": null
+    },
     "aliases": [
+      "quadriceps",
+      "den firehovedede lårmuskel"
+    ],
+    "aliasesEn": [
       "quadriceps"
     ],
-    "danishNameUncertain": false,
+    "daStatus": "til-gennemsyn",
+    "daReason": "Oversættelsen af ”vastus” er ikke ensartet i dansk litteratur (”brede”/”store”). Bør bekræftes.",
+    "danishNameUncertain": true,
     "note": null,
+    "partOf": "quadriceps-femoris",
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "vastus-medialis",
-    "nameDa": "Indre brede lårmuskel",
+    "nameDa": "Den indre brede lårmuskel",
     "nameLatin": "M. vastus medialis",
+    "nameEn": "Vastus medialis",
     "group": "hofte-ben",
     "kind": "muskel",
     "layer": "superficial",
@@ -604,81 +986,140 @@
       "anterior"
     ],
     "origin": "Mediale læbe af linea aspera.",
-    "insertion": "Via quadricepssenen og patella til tuberositas tibiae.",
+    "insertion": "Via quadricepssenen og knæskallen til tuberositas tibiae.",
     "action": "Strækker knæet.",
+    "en": {
+      "origin": "Medial lip of the linea aspera.",
+      "insertion": "Via the quadriceps tendon and patella to the tibial tuberosity.",
+      "action": "Extends the knee.",
+      "note": null
+    },
     "aliases": [
-      "quadriceps"
+      "quadriceps",
+      "den firehovedede lårmuskel"
     ],
-    "danishNameUncertain": false,
+    "aliasesEn": [
+      "quadriceps",
+      "VMO"
+    ],
+    "daStatus": "til-gennemsyn",
+    "daReason": "Oversættelsen af ”vastus” er ikke ensartet i dansk litteratur (”brede”/”store”). Bør bekræftes.",
+    "danishNameUncertain": true,
     "note": null,
+    "partOf": "quadriceps-femoris",
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "adductores",
     "nameDa": "Lårets adduktorer",
-    "nameLatin": "Mm. adductores",
+    "nameLatin": "Mm. adductores femoris",
+    "nameEn": "Hip adductors",
     "group": "hofte-ben",
     "kind": "gruppe",
     "layer": "superficial",
     "views": [
       "anterior"
     ],
-    "origin": "Os pubis og ramus ossis ischii (m. adductor magnus også tuber ischiadicum).",
-    "insertion": "Linea aspera på femur (m. adductor magnus også tuberculum adductorium).",
+    "origin": "Skambenet og sædebenets gren (m. adductor magnus også tuber ischiadicum).",
+    "insertion": "Linea aspera på lårbenet (m. adductor magnus også tuberculum adductorium).",
     "action": "Fører låret ind mod midtlinjen (adduktion).",
-    "aliases": [],
+    "en": {
+      "origin": "Pubis and ischial ramus (adductor magnus also from the ischial tuberosity).",
+      "insertion": "Linea aspera of the femur (adductor magnus also the adductor tubercle).",
+      "action": "Adduct the thigh (draw it towards the midline).",
+      "note": "Group: including adductor longus, adductor brevis and adductor magnus. The atlas shows the superficial part on the inner thigh."
+    },
+    "aliases": [
+      "adduktorerne",
+      "indadførerne"
+    ],
+    "aliasesEn": [
+      "adductors",
+      "groin muscles"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": "Gruppe: bl.a. m. adductor longus, m. adductor brevis og m. adductor magnus. I atlasset vises den overfladiske del på lårets inderside.",
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "gracilis",
-    "nameDa": "Den slanke muskel",
+    "nameDa": "Den slanke lårmuskel",
     "nameLatin": "M. gracilis",
+    "nameEn": "Gracilis",
     "group": "hofte-ben",
     "kind": "muskel",
     "layer": "superficial",
     "views": [
       "anterior"
     ],
-    "origin": "Ramus inferior ossis pubis.",
-    "insertion": "Mediale side af tibia (pes anserinus).",
-    "action": "Adducerer hoften og bøjer knæet.",
-    "aliases": [],
-    "danishNameUncertain": false,
+    "origin": "Skambenets nedre gren.",
+    "insertion": "Mediale side af skinnebenet (pes anserinus).",
+    "action": "Fører låret ind mod kroppen og bøjer knæet.",
+    "en": {
+      "origin": "Inferior pubic ramus.",
+      "insertion": "Medial surface of the tibia (pes anserinus).",
+      "action": "Adducts the hip and flexes the knee.",
+      "note": null
+    },
+    "aliases": [
+      "den slanke muskel"
+    ],
+    "aliasesEn": [],
+    "daStatus": "til-gennemsyn",
+    "daReason": "Både ”den slanke muskel” og ”den slanke lårmuskel” forekommer; bør bekræftes.",
+    "danishNameUncertain": true,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "biceps-femoris",
-    "nameDa": "Tohovedet lårmuskel",
+    "nameDa": "Den tohovedede lårmuskel",
     "nameLatin": "M. biceps femoris",
+    "nameEn": "Biceps femoris",
     "group": "hofte-ben",
     "kind": "muskel",
     "layer": "superficial",
     "views": [
       "posterior"
     ],
-    "origin": "Caput longum: tuber ischiadicum. Caput breve: linea aspera.",
-    "insertion": "Caput fibulae.",
-    "action": "Bøjer knæet; caput longum strækker også hoften.",
+    "origin": "Langt hoved: tuber ischiadicum. Kort hoved: linea aspera.",
+    "insertion": "Lægbenets hoved (caput fibulae).",
+    "action": "Bøjer knæet; det lange hoved strækker også hoften.",
+    "en": {
+      "origin": "Long head: ischial tuberosity. Short head: linea aspera.",
+      "insertion": "Head of the fibula.",
+      "action": "Flexes the knee; the long head also extends the hip.",
+      "note": null
+    },
     "aliases": [
       "haserne",
       "hasemuskler",
       "hamstrings"
     ],
+    "aliasesEn": [
+      "hamstrings",
+      "lateral hamstring"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "semitendinosus",
-    "nameDa": "Halvsenede muskel",
+    "nameDa": "Den halvsenede muskel",
     "nameLatin": "M. semitendinosus",
+    "nameEn": "Semitendinosus",
     "group": "hofte-ben",
     "kind": "muskel",
     "layer": "superficial",
@@ -686,22 +1127,36 @@
       "posterior"
     ],
     "origin": "Tuber ischiadicum.",
-    "insertion": "Mediale side af tibia (pes anserinus).",
+    "insertion": "Mediale side af skinnebenet (pes anserinus).",
     "action": "Bøjer knæet og strækker hoften.",
+    "en": {
+      "origin": "Ischial tuberosity.",
+      "insertion": "Medial surface of the tibia (pes anserinus).",
+      "action": "Flexes the knee and extends the hip.",
+      "note": null
+    },
     "aliases": [
       "haserne",
       "hasemuskler",
       "hamstrings"
     ],
+    "aliasesEn": [
+      "hamstrings",
+      "medial hamstring"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "semimembranosus",
-    "nameDa": "Halvhindede muskel",
+    "nameDa": "Den halvhindede muskel",
     "nameLatin": "M. semimembranosus",
+    "nameEn": "Semimembranosus",
     "group": "hofte-ben",
     "kind": "muskel",
     "layer": "superficial",
@@ -709,22 +1164,36 @@
       "posterior"
     ],
     "origin": "Tuber ischiadicum.",
-    "insertion": "Bagsiden af condylus medialis tibiae.",
+    "insertion": "Bagsiden af skinnebenets indre knold (condylus medialis tibiae).",
     "action": "Bøjer knæet og strækker hoften.",
+    "en": {
+      "origin": "Ischial tuberosity.",
+      "insertion": "Posterior medial condyle of the tibia.",
+      "action": "Flexes the knee and extends the hip.",
+      "note": "Lies partly beneath the semitendinosus; visible medially in the lower thigh."
+    },
     "aliases": [
       "haserne",
       "hasemuskler",
       "hamstrings"
     ],
+    "aliasesEn": [
+      "hamstrings",
+      "medial hamstring"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": "Ligger delvist under m. semitendinosus; synlig medialt i den nedre del af låret.",
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "gastrocnemius",
-    "nameDa": "Tvillingelægmusklen",
+    "nameDa": "Den tohovedede lægmuskel",
     "nameLatin": "M. gastrocnemius",
+    "nameEn": "Gastrocnemius",
     "group": "hofte-ben",
     "kind": "muskel",
     "layer": "superficial",
@@ -732,22 +1201,36 @@
       "anterior",
       "posterior"
     ],
-    "origin": "Condylus medialis og lateralis femoris.",
-    "insertion": "Tuber calcanei via akillessenen.",
-    "action": "Plantarfleksion af foden; bøjer knæet.",
+    "origin": "Lårbenets indre og ydre knold (condylus medialis og lateralis femoris).",
+    "insertion": "Hælbenet (tuber calcanei) via akillessenen.",
+    "action": "Strækker foden i ankelleddet (plantarfleksion) og bøjer knæet.",
+    "en": {
+      "origin": "Medial and lateral condyles of the femur.",
+      "insertion": "Calcaneal tuberosity via the Achilles tendon.",
+      "action": "Plantar-flexes the foot and flexes the knee.",
+      "note": "Has two heads from the femur. Together with the soleus (one head) it makes up the triceps surae."
+    },
     "aliases": [
       "lægmusklen",
-      "gastronecmius"
+      "gastronecmius",
+      "tvillingelægmusklen"
     ],
+    "aliasesEn": [
+      "calf muscle"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
-    "note": null,
+    "note": "Har to hoveder fra lårbenet. Sammen med m. soleus (1 hoved) udgør den m. triceps surae.",
+    "partOf": "triceps-surae",
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "soleus",
-    "nameDa": "Fladfiskemusklen",
+    "nameDa": "Flyndermusklen",
     "nameLatin": "M. soleus",
+    "nameEn": "Soleus",
     "group": "hofte-ben",
     "kind": "muskel",
     "layer": "superficial",
@@ -755,14 +1238,26 @@
       "anterior",
       "posterior"
     ],
-    "origin": "Bagsiden af caput fibulae og øvre del af tibia (linea musculi solei).",
-    "insertion": "Tuber calcanei via akillessenen.",
-    "action": "Plantarfleksion af foden.",
+    "origin": "Bagsiden af lægbenets hoved og øvre del af skinnebenet (linea musculi solei).",
+    "insertion": "Hælbenet (tuber calcanei) via akillessenen.",
+    "action": "Strækker foden i ankelleddet (plantarfleksion).",
+    "en": {
+      "origin": "Posterior head of the fibula and upper tibia (soleal line).",
+      "insertion": "Calcaneal tuberosity via the Achilles tendon.",
+      "action": "Plantar-flexes the foot.",
+      "note": "Lies beneath the gastrocnemius. Together with it (two heads) it makes up the triceps surae."
+    },
     "aliases": [
       "lægmusklen"
     ],
+    "aliasesEn": [
+      "calf muscle"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
-    "note": null,
+    "note": "Ligger under m. gastrocnemius. Sammen med den (2 hoveder) udgør den m. triceps surae.",
+    "partOf": "triceps-surae",
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
@@ -770,6 +1265,7 @@
     "id": "tendo-calcaneus",
     "nameDa": "Akillessenen",
     "nameLatin": "Tendo calcaneus",
+    "nameEn": "Achilles tendon (calcaneal tendon)",
     "group": "hofte-ben",
     "kind": "sene",
     "layer": "superficial",
@@ -777,56 +1273,96 @@
       "posterior"
     ],
     "origin": "Fælles sene fra m. gastrocnemius og m. soleus.",
-    "insertion": "Tuber calcanei (hælbenet).",
+    "insertion": "Hælbenet (tuber calcanei).",
     "action": "Overfører kraften fra lægmusklerne til hælen.",
+    "en": {
+      "origin": "Common tendon of the gastrocnemius and soleus.",
+      "insertion": "Calcaneal tuberosity (heel bone).",
+      "action": "Transmits the force of the calf muscles to the heel.",
+      "note": null
+    },
     "aliases": [
       "achillessene",
       "achillessenen",
-      "akillessene"
+      "akillessene",
+      "hælsenen"
     ],
+    "aliasesEn": [
+      "Achilles",
+      "heel cord"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "tibialis-anterior",
-    "nameDa": "Forreste skinnebensmuskel",
+    "nameDa": "Den forreste skinnebensmuskel",
     "nameLatin": "M. tibialis anterior",
+    "nameEn": "Tibialis anterior",
     "group": "hofte-ben",
     "kind": "muskel",
     "layer": "superficial",
     "views": [
       "anterior"
     ],
-    "origin": "Laterale flade af tibia og membrana interossea.",
+    "origin": "Skinnebenets laterale flade og membrana interossea.",
     "insertion": "Os cuneiforme mediale og basis af 1. mellemfodsknogle.",
-    "action": "Dorsalflekterer og supinerer foden.",
+    "action": "Løfter foden (dorsalfleksion) og drejer fodsålen indad (supination).",
+    "en": {
+      "origin": "Lateral surface of the tibia and interosseous membrane.",
+      "insertion": "Medial cuneiform and base of the 1st metatarsal.",
+      "action": "Dorsiflexes and inverts the foot.",
+      "note": null
+    },
     "aliases": [],
+    "aliasesEn": [
+      "shin muscle"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   },
   {
     "id": "fibularis-longus",
-    "nameDa": "Lange lægbensmuskel",
+    "nameDa": "Den lange lægbensmuskel",
     "nameLatin": "M. fibularis longus",
+    "nameEn": "Fibularis (peroneus) longus",
     "group": "hofte-ben",
     "kind": "muskel",
     "layer": "superficial",
     "views": [
       "anterior"
     ],
-    "origin": "Caput fibulae og øvre del af fibulas yderside.",
-    "insertion": "Os cuneiforme mediale og basis af 1. mellemfodsknogle (fodsålen).",
-    "action": "Plantarflekterer og pronerer foden.",
+    "origin": "Lægbenets hoved og øvre del af lægbenets yderside.",
+    "insertion": "Os cuneiforme mediale og basis af 1. mellemfodsknogle (under fodsålen).",
+    "action": "Strækker foden (plantarfleksion) og drejer fodsålen udad (pronation).",
+    "en": {
+      "origin": "Head and upper lateral surface of the fibula.",
+      "insertion": "Medial cuneiform and base of the 1st metatarsal (sole of the foot).",
+      "action": "Plantar-flexes and everts the foot.",
+      "note": null
+    },
     "aliases": [
       "m. peroneus longus",
       "peroneus"
     ],
+    "aliasesEn": [
+      "peroneus longus"
+    ],
+    "daStatus": "gængs",
+    "daReason": null,
     "danishNameUncertain": false,
     "note": null,
+    "partOf": null,
     "quizEligible": true,
     "contentStatus": "standard-til-gennemsyn"
   }
